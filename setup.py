@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="$ESS_HEAB",
+    name="openfisca_nsw_ess_heab",
     version="0.0.1",
     author="Department of Planning Industry and Environment - NSW Government",
     author_email = 'liam.mccann@environment.nsw.gov.au',
@@ -16,10 +16,10 @@ setup(
     description="An OpenFisca extension that adds some variables to an already-existing tax and benefit system",
     keywords = 'benefit microsimulation social tax',
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
-    url = "https://github.com/Openfisca-NSW/$ESS_HEAB",
+    url = "https://github.com/Openfisca-NSW/openfisca_nsw_ess_heab",
     include_package_data = True,  # Will read MANIFEST.in
     data_files = [
-        ("share/openfisca/$ESS_HEAB", ["CHANGELOG.md", "LICENSE", "README.md"]),
+        ("share/openfisca/openfisca_nsw_ess_heab", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
         'OpenFisca_nsw_base'
