@@ -11,6 +11,7 @@ class installation_date(Variable):
     label = 'The Implementation Date is the date that the End-User Equipment' \
             ' is installed. As prescribed by Clause 9.9.1.'
 
+
 class energy_saver(Variable):
     value_type = str
     entity = Building
@@ -21,11 +22,13 @@ class energy_saver(Variable):
         purchaser = buildings('purchaser', period)
         return purchaser
 
+
 class purchaser(Variable):
     value_type = str
     entity = Building
     definition_period = ETERNITY
     label = "The Purchaser of the site, as defined in Clause 10.1."
+
 
 class purchaser_is_eligible(Variable):
     value_type = bool
@@ -39,3 +42,32 @@ class purchaser_is_eligible(Variable):
         purchaser_is_owner = buildings('purchaser_is_owner', period)
         purchaser_is_occupier = buildings('purchaser_is_occupier', period)
         purchaser_is_operator = buildings('purchaser_is_operator', period)
+        return purchaser_is_ACP * ((not(purchaser_is_owner)) + (not(purchaser_is_occupier)) + (not(purchaser_is_operator)))
+
+
+class purchaser_is_ACP(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Asks whether the Purchaser is the ACP.'
+
+
+class purchaser_is_owner(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Asks whether the Purchaser is the owner.'
+
+
+class purchaser_is_occupier(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Asks whether the Purchaser is the occupier.'
+
+
+class purchaser_is_operator(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Asks whether the Purchaser is the operator.'
