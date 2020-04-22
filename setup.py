@@ -2,10 +2,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="$EXT_NAME",
+    name="$ESS_HEAB",
     version="0.0.1",
-    author="Department of Customer Service - NSW Government",
-    author_email = 'sara.falamaki@customerservice.nsw.gov.au',
+    author="Department of Planning Industry and Environment - NSW Government",
+    author_email = 'liam.mccann@environment.nsw.gov.au',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "License :: OSI Approved :: GNU Affero General Public License v3",
@@ -19,7 +19,7 @@ setup(
     url = "https://github.com/Openfisca-NSW/$EXT_NAME",
     include_package_data = True,  # Will read MANIFEST.in
     data_files = [
-        ("share/openfisca/$EXT_NAME", ["CHANGELOG.md", "LICENSE", "README.md"]),
+        ("share/openfisca/$ESS_HEAB", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
         'OpenFisca_nsw_base'
