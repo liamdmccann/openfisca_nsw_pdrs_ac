@@ -16,7 +16,7 @@ class complies_with_GEMS_determination(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'Asks whether the EUE complies with the Greenhouse and Energy' \
-            ' Minimum Standards (Air Conditioners up to 65kW) Determination 2019.'  # figure out what it means to be compliant and then input those are
+            ' Minimum Standards (Air Conditioners up to 65kW) Determination 2019.'  # no need to figure out what compliant means - this is IPART's responsibility
 
 
 class AEER_is_20_percent_greater_than_baseline(Variable):
@@ -27,6 +27,13 @@ class AEER_is_20_percent_greater_than_baseline(Variable):
             ' greater than the Baseline Cooling AEER, as required in' \
             ' Equipment Requirement 2 of Activity Definition F4.'
 
+    def formula(buildings, period, parameters):
+        product_AEER = buildings('AEER', period)
+        product_class = buildings('product_class', period)
+        baseline_AEER = parameters(period).F4.MEPS_values[product_class]
+        return ((product_AEER - baseline_AEER) / ((product_AEER + baseline_AEER) / 2)
+                * 100) > 20
+
 
 class ACOP_is_20_percent_greater_than_baseline(Variable):
     value_type = bool
@@ -35,6 +42,13 @@ class ACOP_is_20_percent_greater_than_baseline(Variable):
     label = 'asks whether the ACOP of the relevant AC is at least 20 percent' \
             ' greater than the Baseline Heating ACOP, as required in' \
             ' Equipment Requirement 2 of Activity Definition F4.'
+
+    def formula(buildings, period, parameters):
+        product_ACOP = buildings('ACOP', period)
+        product_class = buildings('product_class', period)
+        baseline_ACOP = parameters(period).F4.MEPS_values[product_class]
+        return ((product_ACOP - baseline_ACOP) / ((product_ACOP + baseline_ACOP) / 2)
+                * 100) > 20
 
 
 class AEER(Variable):
@@ -46,9 +60,9 @@ class AEER(Variable):
 
     def formula(buildings, period, parameters):
         cooling_capacity = buildings('cooling_capacity', period)
-        power_input = buildings('power_input', period)
+        power_input = buildings('cooling_power_input', period)
         Pia = buildings('weighted_average_inactive_power_consumption', period)
-        return (cooling_capacity / 2000) / (power_input * 2000) + (Pia * 6.76)
+        return (cooling_capacity * 2000) / ((power_input * 2000) + (Pia * 6.76))
 
 
 class ACOP(Variable):
@@ -60,9 +74,9 @@ class ACOP(Variable):
 
     def formula(buildings, period, parameters):
         heating_capacity = buildings('heating_capacity', period)
-        power_input = buildings('power_input', period)
+        power_input = buildings('heating_power_input', period)
         Pia = buildings('weighted_average_inactive_power_consumption', period)
-        return (heating_capacity / 2000) / (power_input * 2000) + (Pia * 6.76)
+        return (heating_capacity * 2000) / ((power_input * 2000) + (Pia * 6.76))
 
 
 class cooling_capacity_is_eligible(Variable):
@@ -103,7 +117,14 @@ class heating_capacity(Variable):
     label = 'Asks for the heating capacity of the relevant AC in kW.'
 
 
-class power_input(Variable):
+class cooling_power_input(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Asks for the power input of the relevant AC in kW.'
+
+
+class heating_power_input(Variable):
     value_type = float
     entity = Building
     definition_period = ETERNITY
@@ -116,45 +137,3 @@ class weighted_average_inactive_power_consumption(Variable):
     definition_period = ETERNITY
     label = 'Asks for the Weighted Average Inactive Power Consumption of the' \
             ' relevant AC, measured in W, as defined in AS 3823.4.1:2014.'  # note, sourced from EnergyAE report. need to double source this formula.
-
-    def formula(buildings, period, parameters):
-        power_inactive_mode_at_5C = buildings('inactive_power_measured_at_5C', period)
-        power_inactive_mode_at_10C = buildings('inactive_power_measured_at_10C', period)
-        power_inactive_mode_at_15C = buildings('inactive_power_measured_at_15C', period)
-        power_inactive_mode_at_20C = buildings('inactive_power_measured_at_20C', period)
-        return (0.05 * power_inactive_mode_at_5C
-                + 0.13 * power_inactive_mode_at_10C
-                + 0.27 * power_inactive_mode_at_15C
-                + 0.55 * power_inactive_mode_at_20C)
-
-
-class inactive_power_measured_at_5C(Variable):
-    value_type = float
-    entity = Building
-    definition_period = ETERNITY
-    label = 'Returns the power measured in inactive mode, in W, at 5 degrees' \
-            ' Celsius.'  # please check the unit
-
-
-class inactive_power_measured_at_10C(Variable):
-    value_type = float
-    entity = Building
-    definition_period = ETERNITY
-    label = 'Returns the power measured in inactive mode, in W, at 10 degrees' \
-            ' Celsius.'  # please check the unit
-
-
-class inactive_power_measured_at_15C(Variable):
-    value_type = float
-    entity = Building
-    definition_period = ETERNITY
-    label = 'Returns the power measured in inactive mode, in W, at 15 degrees' \
-            ' Celsius.'  # please check the unit
-
-
-class inactive_power_measured_at_20C(Variable):
-    value_type = float
-    entity = Building
-    definition_period = ETERNITY
-    label = 'Returns the power measured in inactive mode, in W, at 20 degrees' \
-            ' Celsius.'  # please check the unit

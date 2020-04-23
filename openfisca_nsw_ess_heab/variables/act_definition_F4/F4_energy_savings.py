@@ -4,7 +4,7 @@ from openfisca_core.model_api import *
 from openfisca_nsw_base.entities import *
 
 
-class deemed_equipment_electricity_savings(Variable):
+class F4_deemed_equipment_electricity_savings(Variable):
     value_type = float
     entity = Building
     definition_period = ETERNITY

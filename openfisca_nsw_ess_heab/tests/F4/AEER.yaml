@@ -1,0 +1,2695 @@
+- name: test AEER for FUJITSU GENERALAJY144LELAH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 15.228
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 45.0
+    heating_capacity: 45.0
+    cooling_power_input: 15.228
+    heating_power_input: 12.078
+    weighted_average_inactive_power_consumption: 67.07
+  output:
+    AEER: 2.9117
+- name: test AEER for FUJITSU GENERALAJT144GBLH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 14.888
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 45.0
+    heating_capacity: 48.5
+    cooling_power_input: 14.888
+    heating_power_input: 14.468
+    weighted_average_inactive_power_consumption: 128.168
+  output:
+    AEER: 2.9371
+- name: test AEER for FUJITSU GENERALAJY144LALBH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 13.418
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 45.0
+    heating_capacity: 50.0
+    cooling_power_input: 13.418
+    heating_power_input: 14.038
+    weighted_average_inactive_power_consumption: 66.268
+  output:
+    AEER: 3.2986
+- name: test AEER for FUJITSU GENERALAJT126GALH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 13.37
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 40.0
+    heating_capacity: 45.0
+    cooling_power_input: 13.37
+    heating_power_input: 12.68
+    weighted_average_inactive_power_consumption: 110.186
+  output:
+    AEER: 2.9107
+- name: test AEER for FUJITSU GENERALAJY126LELAH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 12.374
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 40.0
+    heating_capacity: 40.0
+    cooling_power_input: 12.374
+    heating_power_input: 9.964
+    weighted_average_inactive_power_consumption: 67.07
+  output:
+    AEER: 3.1744
+- name: test AEER for FUJITSU GENERALAJY126LALBH, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 11.317
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 40.0
+    heating_capacity: 45.0
+    cooling_power_input: 11.317
+    heating_power_input: 11.527
+    weighted_average_inactive_power_consumption: 64.268
+  output:
+    AEER: 3.4679
+- name: test AEER for FUJITSU GENERALAJY108LELAH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 10.66
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 33.5
+    heating_capacity: 33.5
+    cooling_power_input: 10.66
+    heating_power_input: 8.42
+    weighted_average_inactive_power_consumption: 62.3378
+  output:
+    AEER: 3.0817
+- name: test AEER for FUJITSU GENERALAJT108GALH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 10.36
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 33.5
+    heating_capacity: 37.5
+    cooling_power_input: 10.36
+    heating_power_input: 9.89
+    weighted_average_inactive_power_consumption: 110.186
+  output:
+    AEER: 3.1214
+- name: test AEER for FUJITSU GENERALAJY108LALBH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 9.266
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 33.5
+    heating_capacity: 37.5
+    cooling_power_input: 9.266
+    heating_power_input: 8.956
+    weighted_average_inactive_power_consumption: 62.2745
+  output:
+    AEER: 3.5351
+- name: test AEER for FUJITSU GENERALAJY090LELAH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 8.764
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 28.0
+    heating_capacity: 28.0
+    cooling_power_input: 8.764
+    heating_power_input: 6.784
+    weighted_average_inactive_power_consumption: 56.5943
+  output:
+    AEER: 3.1266
+- name: test AEER for FUJITSU GENERALAJTA90GALH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 8.64
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 28.0
+    heating_capacity: 31.5
+    cooling_power_input: 8.64
+    heating_power_input: 8.69
+    weighted_average_inactive_power_consumption: 110.186
+  output:
+    AEER: 3.1068
+- name: test AEER for FUJITSU GENERALAJY090LALBH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 7.535
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 28.0
+    heating_capacity: 31.5
+    cooling_power_input: 7.535
+    heating_power_input: 7.505
+    weighted_average_inactive_power_consumption: 60.4467
+  output:
+    AEER: 3.6179
+- name: test AEER for GREEGMV-224WL/C-X, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 7.0
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.4
+    heating_capacity: 25.0
+    cooling_power_input: 7.0
+    heating_power_input: 6.5
+    weighted_average_inactive_power_consumption: 32.937
+  output:
+    AEER: 3.1499
+- name: test AEER for FUJITSU GENERALAJY072LELAH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 6.46
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.4
+    heating_capacity: 22.4
+    cooling_power_input: 6.46
+    heating_power_input: 4.81
+    weighted_average_inactive_power_consumption: 56.5943
+  output:
+    AEER: 3.3678
+- name: test AEER for FUJITSU GENERALAJTA72GALH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 6.36
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.4
+    heating_capacity: 25.0
+    cooling_power_input: 6.36
+    heating_power_input: 6.24
+    weighted_average_inactive_power_consumption: 110.186
+  output:
+    AEER: 3.3272
+- name: test AEER for FUJITSU GENERALAJY072LALBH, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 5.404
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.4
+    heating_capacity: 25.0
+    cooling_power_input: 5.404
+    heating_power_input: 5.374
+    weighted_average_inactive_power_consumption: 57.186
+  output:
+    AEER: 4.0019
+- name: test AEER for FUJITSU GENERALAJT054LCLAH/AUXD18GALH/AUXA34GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 4.7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 15.1
+    heating_capacity: 16.5
+    cooling_power_input: 4.7
+    heating_power_input: 4.23
+    weighted_average_inactive_power_consumption: 34.2209
+  output:
+    AEER: 3.1356
+- name: test AEER for DaikinFDMA140AV1A / RZAV140CV1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 4.468
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 4.468
+    heating_power_input: 5.147
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.1001
+- name: test AEER for DaikinFDMA140AV1A / RZAV140CY1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 4.468
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 4.468
+    heating_power_input: 5.147
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.1001
+- name: test AEER for FUJITSU GENERALAJT045LCLAH/AUXD18GALH/AUXA30GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 4.33
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 4.33
+    heating_power_input: 4.03
+    weighted_average_inactive_power_consumption: 34.0301
+  output:
+    AEER: 3.1496
+- name: test AEER for FUJITSU GENERALAJY054LBLAH/AUXA24GALH/AUXA30GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 4.29
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 15.5
+    heating_capacity: 18.0
+    cooling_power_input: 4.29
+    heating_power_input: 4.37
+    weighted_average_inactive_power_consumption: 38.356
+  output:
+    AEER: 3.5071
+- name: test AEER for LGARUN060GSS0, GEMS 2019 Registered AC in Product nan with cooling power input of 3.97
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 15.5
+    heating_capacity: 18.0
+    cooling_power_input: 3.97
+    heating_power_input: 3.589
+    weighted_average_inactive_power_consumption: 25.0
+  output:
+    AEER: 3.8229
+- name: test AEER for DaikinFDMA125AV1A / RZAV125CV1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 3.763
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 3.763
+    heating_power_input: 4.233
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.28
+- name: test AEER for DaikinFDMA125AV1A / RZAV125CY1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 3.763
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 3.763
+    heating_power_input: 4.233
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.28
+- name: test AEER for FUJITSU GENERALAJY045LBLAH/AUXA24GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 3.68
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 3.68
+    heating_power_input: 3.66
+    weighted_average_inactive_power_consumption: 39.4642
+  output:
+    AEER: 3.6713
+- name: test AEER for FUJITSU GENERALAOTG45LBLA6, GEMS 2019 Registered AC in Product nan with cooling power input of 3.57
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 13.5
+    cooling_power_input: 3.57
+    heating_power_input: 3.37
+    weighted_average_inactive_power_consumption: 10.54
+  output:
+    AEER: 3.4668
+- name: test AEER for FUJITSU GENERALAJT040LCLAH/AUXD18GALH/AUXD24GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 3.53
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.1
+    heating_capacity: 13.6
+    cooling_power_input: 3.53
+    heating_power_input: 3.18
+    weighted_average_inactive_power_consumption: 34.2377
+  output:
+    AEER: 3.319
+- name: test AEER for LGARUN050GSS0, GEMS 2019 Registered AC in Product nan with cooling power input of 3.484
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 3.484
+    heating_power_input: 3.624
+    weighted_average_inactive_power_consumption: 25.0
+  output:
+    AEER: 3.9232
+- name: test AEER for LGARUN040GSS0, GEMS 2019 Registered AC in Product nan with cooling power input of 3.052
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.1
+    heating_capacity: 12.5
+    cooling_power_input: 3.052
+    heating_power_input: 3.012
+    weighted_average_inactive_power_consumption: 25.0
+  output:
+    AEER: 3.8578
+- name: test AEER for FUJITSU GENERALAJY040LBLAH/AUXA18GALH/AUXA24GALH, GEMS 2019 Registered AC in Product nan with cooling power input of 3.01
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.1
+    heating_capacity: 13.6
+    cooling_power_input: 3.01
+    heating_power_input: 2.91
+    weighted_average_inactive_power_consumption: 39.4987
+  output:
+    AEER: 3.8492
+- name: test AEER for DaikinFDMA100AV1A / RZAV100CV1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 2.793
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 2.793
+    heating_power_input: 2.923
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.52
+- name: test AEER for DaikinFDMA100AV1A / RZAV100CY1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 2.793
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 2.793
+    heating_power_input: 2.923
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.52
+- name: test AEER for TEMPERZONECWP90RELSY, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 2.578
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.904
+    heating_capacity: 8.913
+    cooling_power_input: 2.578
+    heating_power_input: 2.386
+    weighted_average_inactive_power_consumption: 15.0
+  output:
+    AEER: 3.7676
+- name: test AEER for FUJITSU GENERALAOTG36LBLA5, GEMS 2019 Registered AC in Product nan with cooling power input of 2.44
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 12.0
+    cooling_power_input: 2.44
+    heating_power_input: 2.79
+    weighted_average_inactive_power_consumption: 9.83
+  output:
+    AEER: 4.0433
+- name: test AEER for DaikinFDMA85AV1A / RZAV85CV1, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 2.287
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.5
+    heating_capacity: 10.0
+    cooling_power_input: 2.287
+    heating_power_input: 2.484
+    weighted_average_inactive_power_consumption: 14.18
+  output:
+    AEER: 3.6404
+- name: test AEER for DaikinFDMA71AV1A / RZAV71CV1, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 2.25
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 2.25
+    heating_power_input: 2.46
+    weighted_average_inactive_power_consumption: 14.055
+  output:
+    AEER: 3.0903
+- name: test AEER for FUJITSU GENERALAOTG30LBTA4, GEMS 2019 Registered AC in Product nan with cooling power input of 2.22
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 9.6
+    cooling_power_input: 2.22
+    heating_power_input: 2.4
+    weighted_average_inactive_power_consumption: 12.755
+  output:
+    AEER: 3.535
+- name: test AEER for FUJITSU GENERALAOTG24LAT3, GEMS 2019 Registered AC in Product nan with cooling power input of 1.94
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.8
+    heating_capacity: 8.0
+    cooling_power_input: 1.94
+    heating_power_input: 2.0
+    weighted_average_inactive_power_consumption: 11.6245
+  output:
+    AEER: 3.4356
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESSCM80ZS-W / SRK20ZSXA-W, GEMS 2019 Registered AC in Product nan with cooling power input of 1.7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 9.3
+    cooling_power_input: 1.7
+    heating_power_input: 1.95
+    weighted_average_inactive_power_consumption: 6.949
+  output:
+    AEER: 4.6418
+- name: test AEER for FUJITSU GENERALAOTG22KMTC/ASTG22KMTC, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 1.58
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 7.2
+    cooling_power_input: 1.58
+    heating_power_input: 1.7
+    weighted_average_inactive_power_consumption: 50.0
+  output:
+    AEER: 3.1056
+- name: test AEER for GREEGWH21QE-K6DNA1A/O / GWH21QE-K6DNC8A/I, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 1.506
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.1
+    heating_capacity: 7.3
+    cooling_power_input: 1.506
+    heating_power_input: 1.802
+    weighted_average_inactive_power_consumption: 15.796
+  output:
+    AEER: 3.1411
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESSCM71ZS-W / SRK20ZSXA-W, GEMS 2019 Registered AC in Product nan with cooling power input of 1.42
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.6
+    cooling_power_input: 1.42
+    heating_power_input: 1.75
+    weighted_average_inactive_power_consumption: 6.949
+  output:
+    AEER: 4.9186
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESSCM60ZS-W / SRK20ZSXA-W, GEMS 2019 Registered AC in Product nan with cooling power input of 1.32
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 6.8
+    cooling_power_input: 1.32
+    heating_power_input: 1.4
+    weighted_average_inactive_power_consumption: 4.6174
+  output:
+    AEER: 4.4923
+- name: test AEER for ToshibaRAS-18BAV-A1 / RAS-18BKV-A1, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 1.18
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 5.7
+    cooling_power_input: 1.18
+    heating_power_input: 1.32
+    weighted_average_inactive_power_consumption: 50.0
+  output:
+    AEER: 3.0055
+- name: test AEER for FUJITSU GENERALAOTG18KMTC/ASTG18KMTC, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 1.16
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 6.0
+    cooling_power_input: 1.16
+    heating_power_input: 1.28
+    weighted_average_inactive_power_consumption: 50.0
+  output:
+    AEER: 3.1056
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESSCM50ZS-W / SRK20ZSXA-W, GEMS 2019 Registered AC in Product nan with cooling power input of 1.02
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 6.0
+    cooling_power_input: 1.02
+    heating_power_input: 1.16
+    weighted_average_inactive_power_consumption: 4.6174
+  output:
+    AEER: 4.8281
+- name: test AEER for FUJITSU GENERALAOTG12KUCA/ASTG12KUCA, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.88
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.3
+    cooling_power_input: 0.88
+    heating_power_input: 1.06
+    weighted_average_inactive_power_consumption: 50.0
+  output:
+    AEER: 3.0055
+- name: test AEER for LENNOXLNINVC025V4/LNINVE025V4, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.57
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.0
+    cooling_power_input: 0.57
+    heating_power_input: 0.72
+    weighted_average_inactive_power_consumption: 33.0
+  output:
+    AEER: 2.9517
+- name: test AEER for ACTRON AIRCAY620T / EVY620T, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0205
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 60.8
+    heating_capacity: 62.47
+    cooling_power_input: 0.0205
+    heating_power_input: 0.0201499999999999
+    weighted_average_inactive_power_consumption: 4.5442
+  output:
+    AEER: 3.7823
+- name: test AEER for TEMPERZONEOPA550RKTB, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0183
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 53.33
+    heating_capacity: 51.36
+    cooling_power_input: 0.0183
+    heating_power_input: 0.01588
+    weighted_average_inactive_power_consumption: 3.0369
+  output:
+    AEER: 3.6961
+- name: test AEER for ACTRON AIRPKY540T, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01757
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 51.85
+    heating_capacity: 53.2
+    cooling_power_input: 0.01757
+    heating_power_input: 0.016202
+    weighted_average_inactive_power_consumption: 3.9
+  output:
+    AEER: 3.7788
+- name: test AEER for LENNOXKHA240S4B, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01738
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 58.06
+    heating_capacity: 54.23
+    cooling_power_input: 0.01738
+    heating_power_input: 0.01455
+    weighted_average_inactive_power_consumption: 3.1182
+  output:
+    AEER: 4.2141
+- name: test AEER for DUNNAIRPRIH 25-45S, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0156
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 46.0
+    heating_capacity: 49.2
+    cooling_power_input: 0.0156
+    heating_power_input: 0.0156
+    weighted_average_inactive_power_consumption: 4.8425
+  output:
+    AEER: 4.192
+- name: test AEER for ACTRON AIRCAY470T / EVY470T, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0154
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 45.77
+    heating_capacity: 47.37
+    cooling_power_input: 0.0154
+    heating_power_input: 0.014157
+    weighted_average_inactive_power_consumption: 2.948
+  output:
+    AEER: 5.556
+- name: test AEER for TEMPERZONEOPA465RKTB, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01505
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 44.55
+    heating_capacity: 43.52
+    cooling_power_input: 0.01505
+    heating_power_input: 0.01255
+    weighted_average_inactive_power_consumption: 3.0369
+  output:
+    AEER: 3.6961
+- name: test AEER for SPECIALIZED ENGINEERINGAPC045VA3B, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01384
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 43.65
+    heating_capacity: 43.53
+    cooling_power_input: 0.01384
+    heating_power_input: 0.01174
+    weighted_average_inactive_power_consumption: 3.4357
+  output:
+    AEER: 4.7928
+- name: test AEER for LENNOXKHA180S4B, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01383
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 45.28
+    heating_capacity: 43.35
+    cooling_power_input: 0.01383
+    heating_power_input: 0.01192
+    weighted_average_inactive_power_consumption: 3.1182
+  output:
+    AEER: 4.2141
+- name: test AEER for DiamondRT040, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.01253
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 39.3
+    heating_capacity: 0.0
+    cooling_power_input: 0.01253
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.9569
+- name: test AEER for TEMPERZONEHWP445RKT, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0124
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 42.22
+    heating_capacity: 42.2
+    cooling_power_input: 0.0124
+    heating_power_input: 0.0116
+    weighted_average_inactive_power_consumption: 4.0
+  output:
+    AEER: 4.2843
+- name: test AEER for TEMPERZONEHWP445CEKT, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0124
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 42.22
+    heating_capacity: 0.0
+    cooling_power_input: 0.0124
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 3.525
+  output:
+    AEER: 3.5824
+- name: test AEER for DiamondWV048, GEMS 2019 Registered AC in Product Class 12 with cooling power input of 0.0121
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 49.14
+    heating_capacity: 0.0
+    cooling_power_input: 0.0121
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 4.724
+  output:
+    AEER: 3.5329
+- name: test AEER for SPECIALIZED ENGINEERINGAPC040VA3B, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.01171
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 38.61
+    heating_capacity: 40.1
+    cooling_power_input: 0.01171
+    heating_power_input: 0.0111
+    weighted_average_inactive_power_consumption: 3.4357
+  output:
+    AEER: 4.7928
+- name: test AEER for SPECIALIZED ENGINEERINGAPH040VA3B, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.01171
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 38.61
+    heating_capacity: 40.1
+    cooling_power_input: 0.01171
+    heating_power_input: 0.0111
+    weighted_average_inactive_power_consumption: 3.4357
+  output:
+    AEER: 4.7928
+- name: test AEER for TEMPERZONEOPA370RKTB, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.0115199999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 36.84
+    heating_capacity: 35.88
+    cooling_power_input: 0.0115199999999999
+    heating_power_input: 0.01042
+    weighted_average_inactive_power_consumption: 3.0369
+  output:
+    AEER: 3.6961
+- name: test AEER for LENNOXKHA150S4B, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.01067
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 36.23
+    heating_capacity: 35.25
+    cooling_power_input: 0.01067
+    heating_power_input: 0.01005
+    weighted_average_inactive_power_consumption: 3.1182
+  output:
+    AEER: 4.2141
+- name: test AEER for TEMPERZONEISD351LYX/OSA351RLTFV, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.01027
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 33.75
+    heating_capacity: 34.96
+    cooling_power_input: 0.01027
+    heating_power_input: 0.00974
+    weighted_average_inactive_power_consumption: 7.9487
+  output:
+    AEER: 3.0812
+- name: test AEER for DUNNAIRPHS/PHSE 30, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00960999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 30.6
+    heating_capacity: 30.6
+    cooling_power_input: 0.00960999999999999
+    heating_power_input: 0.0095
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 3.6711
+- name: test AEER for TEMPERZONEISD294KYX/OSA294RKTGV, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00883
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 27.54
+    heating_capacity: 28.24
+    cooling_power_input: 0.00883
+    heating_power_input: 0.00815
+    weighted_average_inactive_power_consumption: 4.03
+  output:
+    AEER: 4.8392
+- name: test AEER for ACTRON AIRPCG290U, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00845
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 28.3
+    heating_capacity: 28.6
+    cooling_power_input: 0.00845
+    heating_power_input: 0.00797
+    weighted_average_inactive_power_consumption: 3.2604
+  output:
+    AEER: 3.8357
+- name: test AEER for TEMPERZONEHWP290RKT, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00771
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 29.47
+    heating_capacity: 28.0
+    cooling_power_input: 0.00771
+    heating_power_input: 0.00679
+    weighted_average_inactive_power_consumption: 4.0
+  output:
+    AEER: 4.2843
+- name: test AEER for ACTRON AIRPCA260U, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.007658
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 24.0
+    heating_capacity: 25.5
+    cooling_power_input: 0.007658
+    heating_power_input: 0.00754
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 4.2228
+- name: test AEER for BraemarU3521A, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00735
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 24.0
+    heating_capacity: 0.0
+    cooling_power_input: 0.00735
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 6.5999
+  output:
+    AEER: 3.2291
+- name: test AEER for ACTRON AIRSRD233C / SRM231E, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00675999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 23.0
+    heating_capacity: 23.5
+    cooling_power_input: 0.00675999999999999
+    heating_power_input: 0.00691
+    weighted_average_inactive_power_consumption: 2.0
+  output:
+    AEER: 3.2986
+- name: test AEER for ACTRON AIRSRD233C / SRV231E, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00675999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 23.0
+    heating_capacity: 23.5
+    cooling_power_input: 0.00675999999999999
+    heating_power_input: 0.00691
+    weighted_average_inactive_power_consumption: 2.0
+  output:
+    AEER: 3.2986
+- name: test AEER for ACTRON AIRCRA230T / EAA230S & EFA230S, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00658999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.35
+    heating_capacity: 23.0
+    cooling_power_input: 0.00658999999999999
+    heating_power_input: 0.00615
+    weighted_average_inactive_power_consumption: 8.86
+  output:
+    AEER: 3.1848
+- name: test AEER for Specialized EngineeringASHE024VN3A/ASHC024HN3A, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00643
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 24.0
+    heating_capacity: 23.8
+    cooling_power_input: 0.00643
+    heating_power_input: 0.0065
+    weighted_average_inactive_power_consumption: 2.941
+  output:
+    AEER: 4.667
+- name: test AEER for LENNOXKHA092S4B, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00635
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 22.97
+    heating_capacity: 22.6
+    cooling_power_input: 0.00635
+    heating_power_input: 0.00563
+    weighted_average_inactive_power_consumption: 3.3295
+  output:
+    AEER: 4.2105
+- name: test AEER for PANASONICS-200PE2R5B/U-200PE2R8A, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00612
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 20.0
+    heating_capacity: 22.4
+    cooling_power_input: 0.00612
+    heating_power_input: 0.0059
+    weighted_average_inactive_power_consumption: 2.8138
+  output:
+    AEER: 3.8389
+- name: test AEER for DAIKINFDYQN180LB / RZQ180L, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00588
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 18.0
+    heating_capacity: 20.0
+    cooling_power_input: 0.00588
+    heating_power_input: 0.00615
+    weighted_average_inactive_power_consumption: 2.925
+  output:
+    AEER: 6.2522
+- name: test AEER for ACTRON AIRCRA200T / EVA200S, GEMS 2019 Registered AC in Product Class 11 with cooling power input of 0.00586
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 19.06
+    heating_capacity: 19.34
+    cooling_power_input: 0.00586
+    heating_power_input: 0.00523
+    weighted_average_inactive_power_consumption: 8.69
+  output:
+    AEER: 3.1854
+- name: test AEER for PANASONICS-180PE2R5B/U-180PE2R8A, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00563
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 18.0
+    heating_capacity: 20.0
+    cooling_power_input: 0.00563
+    heating_power_input: 0.00565
+    weighted_average_inactive_power_consumption: 2.8138
+  output:
+    AEER: 3.8389
+- name: test AEER for LENNOXTSA060S41-3/CH33-62D-2F-3, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00507
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 17.04
+    heating_capacity: 0.0
+    cooling_power_input: 0.00507
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 3.7493
+- name: test AEER for ToshibaRAV-SM2244DTP-E / RAV-SM2244AT8-A1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00505
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 16.8
+    heating_capacity: 22.4
+    cooling_power_input: 0.00505
+    heating_power_input: 0.00591
+    weighted_average_inactive_power_consumption: 8.952
+  output:
+    AEER: 4.1253
+- name: test AEER for ACTRON AIRSRA173C / SRG171E, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00504
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 16.99
+    heating_capacity: 17.92
+    cooling_power_input: 0.00504
+    heating_power_input: 0.00458
+    weighted_average_inactive_power_consumption: 0.8695
+  output:
+    AEER: 3.7281
+- name: test AEER for MITSUBISHI ELECTRICPEA-RP170WJA / PUHZ-RP170VKA2, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 16.0
+    heating_capacity: 20.0
+    cooling_power_input: 0.005
+    heating_power_input: 0.006
+    weighted_average_inactive_power_consumption: 4.9698
+  output:
+    AEER: 3.7219
+- name: test AEER for LENNOXLED160V7 / LCD160V7, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 16.0
+    heating_capacity: 18.0
+    cooling_power_input: 0.005
+    heating_power_input: 0.005
+    weighted_average_inactive_power_consumption: 16.227
+  output:
+    AEER: 3.2259
+- name: test AEER for DAIKINFDYQT160L / RZQS160AV, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00492
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 16.0
+    heating_capacity: 18.0
+    cooling_power_input: 0.00492
+    heating_power_input: 0.00471999999999999
+    weighted_average_inactive_power_consumption: 3.847
+  output:
+    AEER: 4.8733
+- name: test AEER for DiamondWV018, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00486
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 18.82
+    heating_capacity: 0.0
+    cooling_power_input: 0.00486
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 10.4035
+  output:
+    AEER: 3.5891
+- name: test AEER for BrivisDINLU15Z7/ DONSC15Z7, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0047
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 15.0
+    heating_capacity: 0.0
+    cooling_power_input: 0.0047
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 4.661
+  output:
+    AEER: 3.9073
+- name: test AEER for ACTRON AIRCRA150S / EVA150S, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00456
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.97
+    heating_capacity: 15.12
+    cooling_power_input: 0.00456
+    heating_power_input: 0.00416
+    weighted_average_inactive_power_consumption: 9.13
+  output:
+    AEER: 3.1881
+- name: test AEER for PANASONICS-140PE1R5B/U-140PZ2R5, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00444
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 14.0
+    cooling_power_input: 0.00444
+    heating_power_input: 0.00383
+    weighted_average_inactive_power_consumption: 5.54
+  output:
+    AEER: 3.4292
+- name: test AEER for ACTRON AIRCRA150T / EVA150S, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00443
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.68
+    heating_capacity: 15.0
+    cooling_power_input: 0.00443
+    heating_power_input: 0.00395
+    weighted_average_inactive_power_consumption: 4.7492
+  output:
+    AEER: 3.1882
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDUM140AVNXVF, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0044
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.0044
+    heating_power_input: 0.00454
+    weighted_average_inactive_power_consumption: 15.967
+  output:
+    AEER: 3.1717
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDUM140VH / FDCA140VNX, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0044
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.0044
+    heating_power_input: 0.00454
+    weighted_average_inactive_power_consumption: 45.0
+  output:
+    AEER: 3.1708
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDUM140VNXVF, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0044
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.0044
+    heating_power_input: 0.00454
+    weighted_average_inactive_power_consumption: 9.2526
+  output:
+    AEER: 3.1701
+- name: test AEER for PANASONICS-140PT2E5B/U-140PZ2R5, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00432
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.6
+    heating_capacity: 14.0
+    cooling_power_input: 0.00432
+    heating_power_input: 0.00378
+    weighted_average_inactive_power_consumption: 5.54
+  output:
+    AEER: 3.4292
+- name: test AEER for PANASONICS-140PF1E5B/U-140PE1R8A, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00431
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.00431
+    heating_power_input: 0.00444
+    weighted_average_inactive_power_consumption: 0.8695
+  output:
+    AEER: 3.4086
+- name: test AEER for LENNOXLEC140V7 / LCD140V7, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.0043
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.0043
+    heating_power_input: 0.0045
+    weighted_average_inactive_power_consumption: 5.394
+  output:
+    AEER: 3.2295
+- name: test AEER for LENNOXLED140V6/LCD140V6, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00425
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.8
+    cooling_power_input: 0.00425
+    heating_power_input: 0.0043
+    weighted_average_inactive_power_consumption: 3.0028
+  output:
+    AEER: 3.5872
+- name: test AEER for ToshibaRAV-SM1608CTP-E / RAV-SP1604AT8-A1, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00424
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.9
+    heating_capacity: 16.0
+    cooling_power_input: 0.00424
+    heating_power_input: 0.00431
+    weighted_average_inactive_power_consumption: 6.5
+  output:
+    AEER: 3.7357
+- name: test AEER for Haier1UH140P1ERK / ADH140H1ERG, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00415
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.3
+    heating_capacity: 15.5
+    cooling_power_input: 0.00415
+    heating_power_input: 0.00429
+    weighted_average_inactive_power_consumption: 5.5501
+  output:
+    AEER: 3.1817
+- name: test AEER for DAIKINFHA140BV / RZAV140CY, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00413
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.00413
+    heating_power_input: 0.00475999999999999
+    weighted_average_inactive_power_consumption: 8.71
+  output:
+    AEER: 3.2699
+- name: test AEER for HaierAD140S2SM5FA / 1UH140P1ERK, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00411
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.0
+    heating_capacity: 15.0
+    cooling_power_input: 0.00411
+    heating_power_input: 0.00429
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.1801
+- name: test AEER for ACTRON AIRURC-140AS / CRE-140AS, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00408
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.75
+    heating_capacity: 15.3
+    cooling_power_input: 0.00408
+    heating_power_input: 0.00441
+    weighted_average_inactive_power_consumption: 3.843
+  output:
+    AEER: 4.0092
+- name: test AEER for Carrier42TSC135 / 38TSC135, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00407
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.5
+    heating_capacity: 14.6
+    cooling_power_input: 0.00407
+    heating_power_input: 0.00443
+    weighted_average_inactive_power_consumption: 4.9281
+  output:
+    AEER: 3.8932
+- name: test AEER for YorkYLQWYH014KAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00405
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 14.8
+    heating_capacity: 15.5
+    cooling_power_input: 0.00405
+    heating_power_input: 0.00434
+    weighted_average_inactive_power_consumption: 0.5345
+  output:
+    AEER: 4.717
+- name: test AEER for HITACHIRCI-6.0FSN3/RAS-6HVNC1, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00399
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.00399
+    heating_power_input: 0.0045
+    weighted_average_inactive_power_consumption: 7.648
+  output:
+    AEER: 3.2753
+- name: test AEER for MITSUBISHI ELECTRICPLA-RP140BA / PUHZ-RP140YKA2, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00397
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 13.0
+    heating_capacity: 16.0
+    cooling_power_input: 0.00397
+    heating_power_input: 0.00443
+    weighted_average_inactive_power_consumption: 5.0125
+  output:
+    AEER: 3.7356
+- name: test AEER for ToshibaRAV-SM1408CTP-E / RAV-SP1404AT8-A1, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00372
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.00372
+    heating_power_input: 0.00356
+    weighted_average_inactive_power_consumption: 6.5
+  output:
+    AEER: 3.7357
+- name: test AEER for GREEGUHD42NS3GO/GFH42S3G1I, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0037
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.0
+    heating_capacity: 13.8
+    cooling_power_input: 0.0037
+    heating_power_input: 0.004
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.1995
+- name: test AEER for GREEGUHD42NS3GO/GFH42S3GI, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0037
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.0
+    heating_capacity: 13.8
+    cooling_power_input: 0.0037
+    heating_power_input: 0.004
+    weighted_average_inactive_power_consumption: 5.4814
+  output:
+    AEER: 3.1993
+- name: test AEER for DAIKINFDYQT125L / RZQS125AY, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00368
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 15.0
+    cooling_power_input: 0.00368
+    heating_power_input: 0.00379
+    weighted_average_inactive_power_consumption: 3.843
+  output:
+    AEER: 4.8734
+- name: test AEER for Carrier42TSC125 / 38TSC125, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00368
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.1
+    cooling_power_input: 0.00368
+    heating_power_input: 0.00401999999999999
+    weighted_average_inactive_power_consumption: 4.9281
+  output:
+    AEER: 3.8932
+- name: test AEER for HaierADH125M1ERG / 1UH125P1ERG, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00367
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 13.7
+    cooling_power_input: 0.00367
+    heating_power_input: 0.00391
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 4.2473
+- name: test AEER for MITSUBISHI ELECTRICPCA-RP125KAQ / PUHZ-RP125YKA2, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00366
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.0
+    heating_capacity: 14.0
+    cooling_power_input: 0.00366
+    heating_power_input: 0.00387999999999999
+    weighted_average_inactive_power_consumption: 4.3
+  output:
+    AEER: 3.7339
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDUM125VF/FDC125VSX, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0036
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.0036
+    heating_power_input: 0.0039
+    weighted_average_inactive_power_consumption: 4.3
+  output:
+    AEER: 3.7588
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDUM125VH / FDC125VSX, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0036
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.0036
+    heating_power_input: 0.0039
+    weighted_average_inactive_power_consumption: 4.3
+  output:
+    AEER: 3.7588
+- name: test AEER for DAIKINFBA125BV / RZAS125BV, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00356
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.00356
+    heating_power_input: 0.00358
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 4.0481
+- name: test AEER for GREEGKH42S3GI/GUHD42NS3GO, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.0035
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 11.5
+    heating_capacity: 13.8
+    cooling_power_input: 0.0035
+    heating_power_input: 0.0042
+    weighted_average_inactive_power_consumption: 4.0
+  output:
+    AEER: 4.2843
+- name: test AEER for LENNOXLNMT114V4 / LNINVE025V4 / LNINVE035V4, GEMS 2019 Registered AC in Product Class 10 with cooling power input of 0.0035
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 11.4
+    heating_capacity: 12.0
+    cooling_power_input: 0.0035
+    heating_power_input: 0.00325
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 3.2288
+- name: test AEER for MITSUBISHI ELECTRICPEA-M125HAA/PUZ-ZM125VKA-A, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.0035
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.0035
+    heating_power_input: 0.0034
+    weighted_average_inactive_power_consumption: 4.7337
+  output:
+    AEER: 3.199
+- name: test AEER for PANASONICS-125PU2E5A/U-125PE1R5A, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00337
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.5
+    heating_capacity: 14.0
+    cooling_power_input: 0.00337
+    heating_power_input: 0.00304
+    weighted_average_inactive_power_consumption: 3.6
+  output:
+    AEER: 3.7897
+- name: test AEER for YORKYMGJZH036BAMAAG1, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00325
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.4
+    heating_capacity: 11.2
+    cooling_power_input: 0.00325
+    heating_power_input: 0.00315
+    weighted_average_inactive_power_consumption: 3.525
+  output:
+    AEER: 4.3786
+- name: test AEER for FUJITSU GENERALARTG36LHTA, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00318
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.5
+    heating_capacity: 12.1
+    cooling_power_input: 0.00318
+    heating_power_input: 0.0033
+    weighted_average_inactive_power_consumption: 4.3
+  output:
+    AEER: 4.2568
+- name: test AEER for DUNNAIRWPR12-HBd, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00318
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 11.6
+    heating_capacity: 12.4
+    cooling_power_input: 0.00318
+    heating_power_input: 0.00331
+    weighted_average_inactive_power_consumption: 10.4035
+  output:
+    AEER: 3.7401
+- name: test AEER for Carrier42SHDV105 / 38SHDV105, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00315
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.5
+    heating_capacity: 10.35
+    cooling_power_input: 0.00315
+    heating_power_input: 0.0028
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 3.7458
+- name: test AEER for DAIKINFAA100BV / RZAV100CV, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00311
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00311
+    heating_power_input: 0.00348
+    weighted_average_inactive_power_consumption: 2.2
+  output:
+    AEER: 3.2844
+- name: test AEER for DAIKINFAA100BV / RZAV100CY, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00311
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00311
+    heating_power_input: 0.00348
+    weighted_average_inactive_power_consumption: 2.2
+  output:
+    AEER: 3.2844
+- name: test AEER for ACTRON AIRSRG091E, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00308
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.918
+    heating_capacity: 10.62
+    cooling_power_input: 0.00308
+    heating_power_input: 0.00296
+    weighted_average_inactive_power_consumption: 3.2098
+  output:
+    AEER: 3.5693
+- name: test AEER for MITSUBISHI ELECTRICPLA-M100EA-A/PUZ-ZM100YKA-A, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00306
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00306
+    heating_power_input: 0.00304999999999999
+    weighted_average_inactive_power_consumption: 5.4814
+  output:
+    AEER: 3.2344
+- name: test AEER for LENNOXLED100V6/LCD100V6, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00304999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 10.5
+    cooling_power_input: 0.00304999999999999
+    heating_power_input: 0.00318
+    weighted_average_inactive_power_consumption: 3.0028
+  output:
+    AEER: 3.5872
+- name: test AEER for YorkYLQWYC012KAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00302
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.3
+    heating_capacity: 12.7
+    cooling_power_input: 0.00302
+    heating_power_input: 0.00328
+    weighted_average_inactive_power_consumption: 3.267
+  output:
+    AEER: 4.7501
+- name: test AEER for YorkYLQWYH012KAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00302
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.3
+    heating_capacity: 12.7
+    cooling_power_input: 0.00302
+    heating_power_input: 0.00328
+    weighted_average_inactive_power_consumption: 3.267
+  output:
+    AEER: 4.7501
+- name: test AEER for YorkYLQWYx012KAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00302
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 12.3
+    heating_capacity: 12.7
+    cooling_power_input: 0.00302
+    heating_power_input: 0.00328
+    weighted_average_inactive_power_consumption: 4.8225
+  output:
+    AEER: 4.7501
+- name: test AEER for Carrier42TSC100 / 38TSC100, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.003
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.9
+    heating_capacity: 10.5
+    cooling_power_input: 0.003
+    heating_power_input: 0.0029
+    weighted_average_inactive_power_consumption: 4.9281
+  output:
+    AEER: 3.8932
+- name: test AEER for MITSUBISHI ELECTRICPKA-RP100KAL/PUHZ-RP100YKA2, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.0029
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.0029
+    heating_power_input: 0.0031
+    weighted_average_inactive_power_consumption: 6.5
+  output:
+    AEER: 3.7357
+- name: test AEER for ToshibaRAS-34BKVS-A / RAS-34BAVS-A, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00287999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.2
+    heating_capacity: 9.8
+    cooling_power_input: 0.00287999999999999
+    heating_power_input: 0.00275
+    weighted_average_inactive_power_consumption: 3.6
+  output:
+    AEER: 3.7897
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESFDE100VH / FDCA100VN, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00285
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00285
+    heating_power_input: 0.0029
+    weighted_average_inactive_power_consumption: 10.1935
+  output:
+    AEER: 4.098
+- name: test AEER for Carrier42SHDV095 / 38SHDV095, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00283999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.5
+    heating_capacity: 10.0
+    cooling_power_input: 0.00283999999999999
+    heating_power_input: 0.00265
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 3.7458
+- name: test AEER for DAIKINFTXV95L / RXV95L, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00279
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.4
+    heating_capacity: 10.3
+    cooling_power_input: 0.00279
+    heating_power_input: 0.00307
+    weighted_average_inactive_power_consumption: 5.29
+  output:
+    AEER: 3.2036
+- name: test AEER for PANASONICS-100PF1E5B/U-100PZ2R5, GEMS 2019 Registered AC in Product Class 7 with cooling power input of 0.00273
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 10.0
+    cooling_power_input: 0.00273
+    heating_power_input: 0.00232
+    weighted_average_inactive_power_consumption: 3.46
+  output:
+    AEER: 3.431
+- name: test AEER for GREEGWH32QF-K6DNA1D/I / GWH32QF-K6DNB2D/O, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00267
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.4
+    heating_capacity: 10.3
+    cooling_power_input: 0.00267
+    heating_power_input: 0.00304999999999999
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 3.7458
+- name: test AEER for DAIKINFCA100CV / RZAC100CY, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00267
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00267
+    heating_power_input: 0.00274
+    weighted_average_inactive_power_consumption: 9.54
+  output:
+    AEER: 3.2664
+- name: test AEER for MITSUBISHI ELECTRICPCA-RP100KAQ / PUHZ-RP100YKA2, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00263
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 11.2
+    cooling_power_input: 0.00263
+    heating_power_input: 0.00302
+    weighted_average_inactive_power_consumption: 4.3
+  output:
+    AEER: 3.7339
+- name: test AEER for PANASONICS-100PU2E5B/U-100PZ2R5, GEMS 2019 Registered AC in Product Class 5 with cooling power input of 0.00262
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 10.0
+    heating_capacity: 10.0
+    cooling_power_input: 0.00262
+    heating_power_input: 0.00202999999999999
+    weighted_average_inactive_power_consumption: 5.5074
+  output:
+    AEER: 3.4343
+- name: test AEER for Carrier42SHDS090 / 38SHDS090, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00261
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.8
+    heating_capacity: 10.1
+    cooling_power_input: 0.00261
+    heating_power_input: 0.00261
+    weighted_average_inactive_power_consumption: 0.5345
+  output:
+    AEER: 3.9246
+- name: test AEER for YorkYLQWYx009KAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00258
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.3
+    heating_capacity: 10.2
+    cooling_power_input: 0.00258
+    heating_power_input: 0.00265
+    weighted_average_inactive_power_consumption: 3.267
+  output:
+    AEER: 4.7501
+- name: test AEER for BrivisDINLR09Z71 / DONSR09Z71, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00258
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.53
+    heating_capacity: 9.18
+    cooling_power_input: 0.00258
+    heating_power_input: 0.00266
+    weighted_average_inactive_power_consumption: 5.9
+  output:
+    AEER: 3.3194
+- name: test AEER for SAMSUNG ELECTRONICSAC090TXAPKG/AC090TNHDKG, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00258
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.5
+    heating_capacity: 10.0
+    cooling_power_input: 0.00258
+    heating_power_input: 0.0027
+    weighted_average_inactive_power_consumption: 8.1064
+  output:
+    AEER: 3.1621
+- name: test AEER for Carrier42QHB090N8 / 38QHB090N8, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00256
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.0
+    heating_capacity: 9.7
+    cooling_power_input: 0.00256
+    heating_power_input: 0.0027
+    weighted_average_inactive_power_consumption: 1.7
+  output:
+    AEER: 3.3006
+- name: test AEER for DAIKINFTKM85PA / RKM85PA, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00252
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.5
+    heating_capacity: 0.0
+    cooling_power_input: 0.00252
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 8.8637
+  output:
+    AEER: 3.2034
+- name: test AEER for DUNNAIRWPR9.5-HBd, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.0025
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.3
+    heating_capacity: 9.9
+    cooling_power_input: 0.0025
+    heating_power_input: 0.0026
+    weighted_average_inactive_power_consumption: 10.4035
+  output:
+    AEER: 3.7401
+- name: test AEER for MIDEAMNAB890O/MNABX90I, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.0025
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 9.0
+    heating_capacity: 10.0
+    cooling_power_input: 0.0025
+    heating_power_input: 0.00285999999999999
+    weighted_average_inactive_power_consumption: 7.0445
+  output:
+    AEER: 3.2832
+- name: test AEER for DAIKINFTXV85L / RXV85L, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00249
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.5
+    heating_capacity: 9.0
+    cooling_power_input: 0.00249
+    heating_power_input: 0.00241
+    weighted_average_inactive_power_consumption: 8.69
+  output:
+    AEER: 3.2039
+- name: test AEER for GREEGWH28ME-K3DNC1H/I(DRED) / GWH28ME-K3DNA4H/O(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00246
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.4
+    cooling_power_input: 0.00246
+    heating_power_input: 0.00254999999999999
+    weighted_average_inactive_power_consumption: 5.238
+  output:
+    AEER: 3.3131
+- name: test AEER for GREEGWH28ME-K3DNF3H/I(DRED) / GWH28ME-K3DNA4H/O(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00246
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.4
+    cooling_power_input: 0.00246
+    heating_power_input: 0.00254999999999999
+    weighted_average_inactive_power_consumption: 1.1
+  output:
+    AEER: 3.3081
+- name: test AEER for GREEGWH28ME-K3DNF4H/I(DRED) / GWH28ME-K3DNA4H/O(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00246
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.4
+    cooling_power_input: 0.00246
+    heating_power_input: 0.00254999999999999
+    weighted_average_inactive_power_consumption: 1.1
+  output:
+    AEER: 3.3081
+- name: test AEER for GREEGWH28ME-K3DNF5H/I(DRED) / GWH28ME-K3DNA4H/O(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00246
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.4
+    cooling_power_input: 0.00246
+    heating_power_input: 0.00254999999999999
+    weighted_average_inactive_power_consumption: 1.1
+  output:
+    AEER: 3.3081
+- name: test AEER for ToshibaRAS-30BKVS-A / RAS-30BAVS-A, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00245
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.4
+    cooling_power_input: 0.00245
+    heating_power_input: 0.0025
+    weighted_average_inactive_power_consumption: 3.6
+  output:
+    AEER: 3.7897
+- name: test AEER for HITACHIRAS-S80YHA/RAC-S80YHA, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00245
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 9.0
+    cooling_power_input: 0.00245
+    heating_power_input: 0.00237
+    weighted_average_inactive_power_consumption: 6.7045
+  output:
+    AEER: 3.3928
+- name: test AEER for DAIKINFTXM85PA / RXM85PA, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00245
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.5
+    heating_capacity: 9.0
+    cooling_power_input: 0.00245
+    heating_power_input: 0.00242
+    weighted_average_inactive_power_consumption: 3.5595
+  output:
+    AEER: 3.211
+- name: test AEER for ACTRON AIRWRC-080AS / WRE-080AS, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.0023
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.15
+    cooling_power_input: 0.0023
+    heating_power_input: 0.00237
+    weighted_average_inactive_power_consumption: 5.69
+  output:
+    AEER: 4.0348
+- name: test AEER for TECOTWS80HVEM/TSO80HVEM, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.0023
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.3
+    cooling_power_input: 0.0023
+    heating_power_input: 0.00235
+    weighted_average_inactive_power_consumption: 2.863
+  output:
+    AEER: 3.9631
+- name: test AEER for KELVINATORKSV80HRG, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00228
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 9.0
+    cooling_power_input: 0.00228
+    heating_power_input: 0.00256
+    weighted_average_inactive_power_consumption: 2.863
+  output:
+    AEER: 3.9631
+- name: test AEER for DAIKINDTXF71T / DRXF71T, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00219
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 0.00219
+    heating_power_input: 0.00241
+    weighted_average_inactive_power_consumption: 1.8
+  output:
+    AEER: 3.2881
+- name: test AEER for GREEGWHD(24)NK3JO / GWH07QC-K3DNB2A/I / GWH09QC-K3DNB2A/I, GEMS 2019 Registered AC in Product Class 9 with cooling power input of 0.00218
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.3
+    heating_capacity: 8.8
+    cooling_power_input: 0.00218
+    heating_power_input: 0.0025
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 3.2954
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIES, LTD.SRK71ZMA-S / SRC71ZMA-S, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00216
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 0.00216
+    heating_power_input: 0.00214
+    weighted_average_inactive_power_consumption: 5.9
+  output:
+    AEER: 3.3194
+- name: test AEER for HITACHIRPI-3.0FSN2SQ/RAS-3HVNC, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00216
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 0.00216
+    heating_power_input: 0.00232
+    weighted_average_inactive_power_consumption: 0.67
+  output:
+    AEER: 3.2753
+- name: test AEER for TCLTAC-24CHSA/HD, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.3
+    cooling_power_input: 0.00215
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 2.69
+  output:
+    AEER: 4.0029
+- name: test AEER for TCLTAC-24CHSA/IA, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.3
+    cooling_power_input: 0.00215
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 4.002
+- name: test AEER for TCLTAC-24CHSA/JA, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.3
+    cooling_power_input: 0.00215
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 4.002
+- name: test AEER for TCLTAC-24CHSA/JC, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.3
+    cooling_power_input: 0.00215
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 5.4
+  output:
+    AEER: 4.002
+- name: test AEER for TCLTAC-24CHSA/SE, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.3
+    cooling_power_input: 0.00215
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 4.8225
+  output:
+    AEER: 3.9941
+- name: test AEER for GREEGWH24ME-K3DNA3A/O(DRED) / GWH24ME-K3DNA3A/I(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00214
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.00214
+    heating_power_input: 0.0023
+    weighted_average_inactive_power_consumption: 1.9
+  output:
+    AEER: 3.3032
+- name: test AEER for GREEGWH24ME-K3DNA3A/O(DRED) / GWH24ME-K3DNA4A/I(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00214
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.00214
+    heating_power_input: 0.0023
+    weighted_average_inactive_power_consumption: 1.9
+  output:
+    AEER: 3.3032
+- name: test AEER for GREEGWH24ME-K3DNA3A/O(DRED) / GWH24ME-K3DNA5A/I(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00214
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.00214
+    heating_power_input: 0.0023
+    weighted_average_inactive_power_consumption: 1.9
+  output:
+    AEER: 3.3032
+- name: test AEER for GREEGWH24ME-K3DNA3A/O(DRED) / GWH24ME-K3DNB3A/I(DRED), GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00214
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.00214
+    heating_power_input: 0.0023
+    weighted_average_inactive_power_consumption: 7.5871
+  output:
+    AEER: 3.302
+- name: test AEER for LENNOXLED070V6/LCD070V6, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00212
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.00212
+    heating_power_input: 0.00227
+    weighted_average_inactive_power_consumption: 3.0028
+  output:
+    AEER: 3.5872
+- name: test AEER for YORKYHKF28ZEAATCORX, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00211
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 8.0
+    heating_capacity: 8.2
+    cooling_power_input: 0.00211
+    heating_power_input: 0.00215
+    weighted_average_inactive_power_consumption: 1.6
+  output:
+    AEER: 3.1658
+- name: test AEER for RINNAIDONSR07Z72 / CIN070R, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.0021
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.5
+    cooling_power_input: 0.0021
+    heating_power_input: 0.00219
+    weighted_average_inactive_power_consumption: 7.2206
+  output:
+    AEER: 3.2212
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIES, LTD.SRK24YRA-S / SRC24YRA-S, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00204999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: nan
+    cooling_power_input: 0.00204999999999999
+    heating_power_input: nan
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 4.9498
+- name: test AEER for KELVINATORKSV71CRH, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00199
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 0.0
+    cooling_power_input: 0.00199
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 8.1102
+  output:
+    AEER: 3.3531
+- name: test AEER for Carrier42QHB070N8 / 38QHB070N8, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00198
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 7.8
+    cooling_power_input: 0.00198
+    heating_power_input: 0.00218
+    weighted_average_inactive_power_consumption: 1.7
+  output:
+    AEER: 3.3006
+- name: test AEER for HISENSEHSA71R, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00198
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 0.00198
+    heating_power_input: 0.00225
+    weighted_average_inactive_power_consumption: 45.0
+  output:
+    AEER: 3.1359
+- name: test AEER for MITSUBISHI ELECTRICPCA-RP71KAQ / PUHZ-RP71VHA5, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00196
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 8.0
+    cooling_power_input: 0.00196
+    heating_power_input: 0.00221
+    weighted_average_inactive_power_consumption: 10.1935
+  output:
+    AEER: 3.7058
+- name: test AEER for PANASONICS-71PU2E5B/U-71PZ2R5, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00192999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 7.1
+    cooling_power_input: 0.00192999999999999
+    heating_power_input: 0.00162
+    weighted_average_inactive_power_consumption: 6.4
+  output:
+    AEER: 3.464
+- name: test AEER for DAIKINDTXF60T / DRXF60T, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00185
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 6.5
+    cooling_power_input: 0.00185
+    heating_power_input: 0.00199
+    weighted_average_inactive_power_consumption: 1.8
+  output:
+    AEER: 3.2881
+- name: test AEER for MITSUBISHI ELECTRICMSY-GN71VF/MUY-GN71VF, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00184
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.1
+    heating_capacity: 0.0
+    cooling_power_input: 0.00184
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 2.692
+  output:
+    AEER: 3.5484
+- name: test AEER for KELVINATORKWH62HRE, GEMS 2019 Registered AC in Product Class 1 with cooling power input of 0.00181
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 5.5
+    cooling_power_input: 0.00181
+    heating_power_input: 0.00168999999999999
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 3.3744
+- name: test AEER for GREEGWH24QE-K6DNA1D/I / GWH24QE-K6DNA1D/O, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.0018
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 7.0
+    heating_capacity: 8.0
+    cooling_power_input: 0.0018
+    heating_power_input: 0.00208
+    weighted_average_inactive_power_consumption: 3.6
+  output:
+    AEER: 3.7897
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIES, LTD.SRK63ZMA-S / SRC63ZMA-S, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00176
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.3
+    heating_capacity: 7.1
+    cooling_power_input: 0.00176
+    heating_power_input: 0.00179
+    weighted_average_inactive_power_consumption: 5.9
+  output:
+    AEER: 3.3194
+- name: test AEER for TEMPERZONECWP0063RKSY, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00172
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.18
+    heating_capacity: 6.55
+    cooling_power_input: 0.00172
+    heating_power_input: 0.00149
+    weighted_average_inactive_power_consumption: 4.4929
+  output:
+    AEER: 3.3887
+- name: test AEER for DAIKINFBA60BAV / RZAV60CV, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00166999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 7.1
+    cooling_power_input: 0.00166999999999999
+    heating_power_input: 0.00171
+    weighted_average_inactive_power_consumption: 5.24
+  output:
+    AEER: 3.2818
+- name: test AEER for PanasonicCS-Z60TKR / CU-Z60TKR, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00158
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.0
+    heating_capacity: 7.2
+    cooling_power_input: 0.00158
+    heating_power_input: 0.00178
+    weighted_average_inactive_power_consumption: 2.973
+  output:
+    AEER: 3.5713
+- name: test AEER for GREEGWH21QE-K3DNB2A/O / GWH21QE-K3DN**A/I, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00155
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 6.2
+    heating_capacity: 7.1
+    cooling_power_input: 0.00155
+    heating_power_input: 0.00166999999999999
+    weighted_average_inactive_power_consumption: 2.0
+  output:
+    AEER: 3.2986
+- name: test AEER for DAIKINDTXF50T / DRXF50T, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00153
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 5.2
+    cooling_power_input: 0.00153
+    heating_power_input: 0.00159
+    weighted_average_inactive_power_consumption: 1.8
+  output:
+    AEER: 3.2881
+- name: test AEER for TECOTWS50CVGT/TSO50CVGT, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00151
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 0.0
+    cooling_power_input: 0.00151
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 16.227
+  output:
+    AEER: 3.1547
+- name: test AEER for BrivisDINLR05Z71 / DONSR05Z71, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00147
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.1
+    heating_capacity: 5.83
+    cooling_power_input: 0.00147
+    heating_power_input: 0.00157
+    weighted_average_inactive_power_consumption: 5.9
+  output:
+    AEER: 3.3194
+- name: test AEER for SAMSUNG ELECTRONICSAR18KSFTAWQN/AR18KSFTAWQX, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00145
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 6.0
+    cooling_power_input: 0.00145
+    heating_power_input: 0.00171
+    weighted_average_inactive_power_consumption: 4.0871
+  output:
+    AEER: 4.5141
+- name: test AEER for BrivisHINBR501M/ HONBR501, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00132
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.94
+    heating_capacity: 5.03
+    cooling_power_input: 0.00132
+    heating_power_input: 0.00132
+    weighted_average_inactive_power_consumption: 2.863
+  output:
+    AEER: 3.9631
+- name: test AEER for Carrier42QHB050N8 / 38QHB050N8, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00125
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.1
+    heating_capacity: 5.9
+    cooling_power_input: 0.00125
+    heating_power_input: 0.00155
+    weighted_average_inactive_power_consumption: 5.4078
+  output:
+    AEER: 3.3009
+- name: test AEER for KELVINATORKSV50HRG, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00124
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 6.0
+    cooling_power_input: 0.00124
+    heating_power_input: 0.00149
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.9569
+- name: test AEER for MITSUBISHI ELECTRICMSZ-AP42VGKD/MUZ-AP42VG, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00118999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.2
+    heating_capacity: 5.4
+    cooling_power_input: 0.00118999999999999
+    heating_power_input: 0.00142999999999999
+    weighted_average_inactive_power_consumption: 6.12
+  output:
+    AEER: 3.2616
+- name: test AEER for ScandiaSG010400003, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00118999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.1
+    heating_capacity: 5.1
+    cooling_power_input: 0.00118999999999999
+    heating_power_input: 0.00117999999999999
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.1801
+- name: test AEER for MITSUBISHI ELECTRICMSZ-GL50VGD/MUZ-GL50VGD, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00117
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.8
+    heating_capacity: 5.8
+    cooling_power_input: 0.00117
+    heating_power_input: 0.00137
+    weighted_average_inactive_power_consumption: 3.847
+  output:
+    AEER: 4.305
+- name: test AEER for GREEGWH18QE-K6DNB2D/I / GWH18QE-K6DNA1D/O, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00113
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.2
+    heating_capacity: 5.8
+    cooling_power_input: 0.00113
+    heating_power_input: 0.00134
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 3.7979
+- name: test AEER for PanasonicCS-Z50TKR / CU-Z50TKR, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00113
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 5.0
+    heating_capacity: 6.0
+    cooling_power_input: 0.00113
+    heating_power_input: 0.00131
+    weighted_average_inactive_power_consumption: 2.973
+  output:
+    AEER: 3.5713
+- name: test AEER for DUNNAIRWPR4-HBd, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00108
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.1
+    heating_capacity: 4.3
+    cooling_power_input: 0.00108
+    heating_power_input: 0.00105
+    weighted_average_inactive_power_consumption: 3.1172
+  output:
+    AEER: 3.7213
+- name: test AEER for DUNNAIRWSR 4, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00108
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.1
+    heating_capacity: 4.3
+    cooling_power_input: 0.00108
+    heating_power_input: 0.00105
+    weighted_average_inactive_power_consumption: 3.808
+  output:
+    AEER: 3.6157
+- name: test AEER for PanasonicCS-Z42TKR / CU-Z42TKR, GEMS 2019 Registered AC in Product Class 4 with cooling power input of 0.00107
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.2
+    heating_capacity: 5.1
+    cooling_power_input: 0.00107
+    heating_power_input: 0.00134
+    weighted_average_inactive_power_consumption: 2.973
+  output:
+    AEER: 3.5713
+- name: test AEER for YorkYLQWYH035WAKAA-X, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00102
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.6
+    heating_capacity: 3.82
+    cooling_power_input: 0.00102
+    heating_power_input: 0.00107
+    weighted_average_inactive_power_consumption: 4.661
+  output:
+    AEER: 4.7551
+- name: test AEER for YorkYBKS*005, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00102
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 4.2
+    heating_capacity: 5.4
+    cooling_power_input: 0.00102
+    heating_power_input: 0.001004
+    weighted_average_inactive_power_consumption: 9.18
+  output:
+    AEER: 3.3572
+- name: test AEER for HITACHIRAF-35NXA1 / RAC-35NXA1, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00094
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.2
+    cooling_power_input: 0.00094
+    heating_power_input: 0.00105
+    weighted_average_inactive_power_consumption: 10.4035
+  output:
+    AEER: 3.5891
+- name: test AEER for TEMPERZONEHWP36CEKS, GEMS 2019 Registered AC in Product Class 6 with cooling power input of 0.00091
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.39
+    heating_capacity: 0.0
+    cooling_power_input: 0.00091
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 4.0
+  output:
+    AEER: 4.2843
+- name: test AEER for TCLTAC-12VDI, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00087
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 3.5
+    cooling_power_input: 0.00087
+    heating_power_input: 0.00085
+    weighted_average_inactive_power_consumption: 5.69
+  output:
+    AEER: 3.4989
+- name: test AEER for MITSUBISHI ELECTRICMSZ-LN35VGB/MUZ-LN35VG, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00086
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.0
+    cooling_power_input: 0.00086
+    heating_power_input: 0.00082
+    weighted_average_inactive_power_consumption: 0.264
+  output:
+    AEER: 3.3271
+- name: test AEER for YorkYHKE12XEAATA-RX / YHKE12YEAATAO-X, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.000839999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.2
+    heating_capacity: 3.2
+    cooling_power_input: 0.000839999999999999
+    heating_power_input: 0.000839999999999999
+    weighted_average_inactive_power_consumption: 3.525
+  output:
+    AEER: 3.769
+- name: test AEER for TCLTAC-09CWA/F, GEMS 2019 Registered AC in Product Class 1 with cooling power input of 0.00083
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.7
+    heating_capacity: 0.0
+    cooling_power_input: 0.00083
+    heating_power_input: 0.0
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 3.1914
+- name: test AEER for KELVINATORKSD35HRG, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00082
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.0
+    cooling_power_input: 0.00082
+    heating_power_input: 0.00093
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.9569
+- name: test AEER for KELVINATORKSD35HRH, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00082
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.0
+    cooling_power_input: 0.00082
+    heating_power_input: 0.00093
+    weighted_average_inactive_power_consumption: 5.86
+  output:
+    AEER: 3.3574
+- name: test AEER for KELVINATORKSD35HWH, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00082
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.5
+    heating_capacity: 4.0
+    cooling_power_input: 0.00082
+    heating_power_input: 0.00093
+    weighted_average_inactive_power_consumption: 5.86
+  output:
+    AEER: 3.3574
+- name: test AEER for TCLTAC-12VBIO, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00081
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.2
+    heating_capacity: 3.2
+    cooling_power_input: 0.00081
+    heating_power_input: 0.00083
+    weighted_average_inactive_power_consumption: 7.7785
+  output:
+    AEER: 3.2775
+- name: test AEER for StirlingSTR-TCLAC12, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0007
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.3
+    heating_capacity: 3.3
+    cooling_power_input: 0.0007
+    heating_power_input: 0.00073
+    weighted_average_inactive_power_consumption: 2.8138
+  output:
+    AEER: 3.8389
+- name: test AEER for TCLTAC-12CHSD/JCI, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0007
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.35
+    heating_capacity: 3.4
+    cooling_power_input: 0.0007
+    heating_power_input: 0.000719999999999999
+    weighted_average_inactive_power_consumption: 5.89
+  output:
+    AEER: 3.2421
+- name: test AEER for ScandiaSG010400002, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0007
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 3.35
+    heating_capacity: 3.4
+    cooling_power_input: 0.0007
+    heating_power_input: 0.000719999999999999
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.1801
+- name: test AEER for TCLTAC-07CHWA/D, GEMS 2019 Registered AC in Product Class 1 with cooling power input of 0.00068
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.2
+    heating_capacity: 2.05
+    cooling_power_input: 0.00068
+    heating_power_input: 0.0006
+    weighted_average_inactive_power_consumption: 5.9
+  output:
+    AEER: 3.3194
+- name: test AEER for NexairAK-9000-NEX, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00067
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.5
+    cooling_power_input: 0.00067
+    heating_power_input: 0.00067
+    weighted_average_inactive_power_consumption: 4.0
+  output:
+    AEER: 4.2843
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIESSRK10YL-S / SRC10YL-S, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00067
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: nan
+    cooling_power_input: 0.00067
+    heating_power_input: nan
+    weighted_average_inactive_power_consumption: 6.7045
+  output:
+    AEER: 3.531
+- name: test AEER for AKAIAK-9000WIFI, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00065
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.8
+    cooling_power_input: 0.00065
+    heating_power_input: 0.00065
+    weighted_average_inactive_power_consumption: 3.4357
+  output:
+    AEER: 4.3736
+- name: test AEER for RINNAIRINV25RHDRC / RINV25RCMPC, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00065
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.8
+    cooling_power_input: 0.00065
+    heating_power_input: 0.00065
+    weighted_average_inactive_power_consumption: 7.6303
+  output:
+    AEER: 3.0866
+- name: test AEER for ToshibaRAV-SM304MUT-E / RAV-SM304ATP-A, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.000589999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.4
+    cooling_power_input: 0.000589999999999999
+    heating_power_input: 0.00076
+    weighted_average_inactive_power_consumption: 3.525
+  output:
+    AEER: 3.882
+- name: test AEER for TCLTAC-09V*I, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.000589999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.5
+    cooling_power_input: 0.000589999999999999
+    heating_power_input: 0.000589999999999999
+    weighted_average_inactive_power_consumption: 0.0
+  output:
+    AEER: 3.5
+- name: test AEER for DomainISR-26H, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.000589999999999999
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.5
+    cooling_power_input: 0.000589999999999999
+    heating_power_input: 0.000589999999999999
+    weighted_average_inactive_power_consumption: 6.4
+  output:
+    AEER: 3.464
+- name: test AEER for MITSUBISHI HEAVY INDUSTRIES, LTD.SRK/DXK** ZMP/Z5, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00055
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.0
+    heating_capacity: 2.7
+    cooling_power_input: 0.00055
+    heating_power_input: 0.000709999999999999
+    weighted_average_inactive_power_consumption: 3.3694
+  output:
+    AEER: 4.7949
+- name: test AEER for ClimatemasterTRC-09, GEMS 2019 Registered AC in Product Class 13 with cooling power input of 0.00055
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.22
+    heating_capacity: 2.93
+    cooling_power_input: 0.00055
+    heating_power_input: 0.00058
+    weighted_average_inactive_power_consumption: 1.2
+  output:
+    AEER: 3.521
+- name: test AEER for MIDEAMIS26, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00052
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.6
+    heating_capacity: 2.8
+    cooling_power_input: 0.00052
+    heating_power_input: 0.00057
+    weighted_average_inactive_power_consumption: 0.8695
+  output:
+    AEER: 4.2995
+- name: test AEER for KELVINATORKSD25HRG, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00052
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.2
+    cooling_power_input: 0.00052
+    heating_power_input: 0.00067
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.9569
+- name: test AEER for KELVINATORKSV25HWH, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00052
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.2
+    cooling_power_input: 0.00052
+    heating_power_input: 0.00067
+    weighted_average_inactive_power_consumption: 9.1284
+  output:
+    AEER: 3.366
+- name: test AEER for MIDEAMNAB826O/MNABX26I, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00052
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.2
+    cooling_power_input: 0.00052
+    heating_power_input: 0.00067
+    weighted_average_inactive_power_consumption: 2.2
+  output:
+    AEER: 3.2844
+- name: test AEER for TCLTAC-09CHSD/HCI, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.6
+    cooling_power_input: 0.0005
+    heating_power_input: 0.00051
+    weighted_average_inactive_power_consumption: 7.6913
+  output:
+    AEER: 3.2479
+- name: test AEER for TCLTAC-09CHSD/IAI, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.6
+    cooling_power_input: 0.0005
+    heating_power_input: 0.00051
+    weighted_average_inactive_power_consumption: 15.815
+  output:
+    AEER: 3.2473
+- name: test AEER for ScandiaSG010400001, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.0005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 2.6
+    cooling_power_input: 0.0005
+    heating_power_input: 0.00051
+    weighted_average_inactive_power_consumption: 5.0
+  output:
+    AEER: 3.1801
+- name: test AEER for DAIKINFTXM25R / RXM25R, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00049
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.3
+    cooling_power_input: 0.00049
+    heating_power_input: 0.00068
+    weighted_average_inactive_power_consumption: 1.8
+  output:
+    AEER: 3.7127
+- name: test AEER for MITSUBISHI ELECTRICMSZ-LN25VGV/MUZ-LN25VG, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00049
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.2
+    cooling_power_input: 0.00049
+    heating_power_input: 0.000589999999999999
+    weighted_average_inactive_power_consumption: 0.264
+  output:
+    AEER: 3.3271
+- name: test AEER for MITSUBISHI ELECTRICMSZ-LN25VGB/MUZ-LN25VGHZ, GEMS 2019 Registered AC in Product Class 3 with cooling power input of 0.00049
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    cooling_capacity: 2.5
+    heating_capacity: 3.2
+    cooling_power_input: 0.00049
+    heating_power_input: 0.000589999999999999
+    weighted_average_inactive_power_consumption: 1.7
+  output:
+    AEER: 3.3006

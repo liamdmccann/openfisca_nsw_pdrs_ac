@@ -1,9 +1,0 @@
-- name: test Pia for Product Class 1.
-  period: 2020
-  input:
-    inactive_power_measured_at_5C: 200
-    inactive_power_measured_at_10C: 400
-    inactive_power_measured_at_15C: 240
-    inactive_power_measured_at_20C: 1000
-  output:
-    weighted_average_inactive_power_consumption: 200
