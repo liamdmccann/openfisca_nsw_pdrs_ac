@@ -1,0 +1,12 @@
+- name: test ACOP for Product Class 1.
+  period: 2020
+  input:
+    cooling_capacity: 20
+    heating_capacity: 100
+    power_input: 2
+    inactive_power_measured_at_5C: 200
+    inactive_power_measured_at_10C: 400
+    inactive_power_measured_at_15C: 240
+    inactive_power_measured_at_20C: 1000
+  output:
+    ACOP: 200

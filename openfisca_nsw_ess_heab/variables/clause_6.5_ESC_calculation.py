@@ -13,7 +13,7 @@ class number_of_certificates(Variable):
             ' As defined in Clause 6.5 of the ESS Rule 2009.'
 
     def formula(buildings, period, parameters):
-        elec_savings = buildings('electricity_savings', period)
+        elec_savings = buildings('deemed_equipment_electricity_savings', period)
         elec_cert_conversion_factor = parameters(period).energy_savings_scheme.electricity_certificate_conversion_factor
         gas_savings = buildings('gas_savings', period)
         gas_cert_conversion_factor = parameters(period).energy_savings_scheme.gas_certificate_conversion_factor

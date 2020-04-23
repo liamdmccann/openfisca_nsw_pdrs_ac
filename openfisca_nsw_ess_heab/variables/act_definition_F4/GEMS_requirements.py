@@ -3,6 +3,7 @@ from openfisca_core.model_api import *
 # Import the Entities specifically defined for this tax and benefit system
 from openfisca_nsw_base.entities import *
 
+
 class GEMS_MEPS_requirement(Variable):
     value_type = bool
     entity = Building
@@ -14,13 +15,12 @@ class GEMS_MEPS_requirement(Variable):
 
     def formula(buildings, period, parameters):
         product_class = buildings('product_class', period)
-        MEPS_value = parameters(period).F4_MEPS_values[product_class]
+        MEPS_value = parameters(period).F4.MEPS_values[product_class]
         cooling_capacity = buildings('cooling_capacity', period)
         heating_capacity = buildings('heating_capacity', period)
-        return where((cooling_capacity == 0)
-                    , (heating_capacity > MEPS_value)
-                    , (cooling_capacity > MEPS_value)
-                    )
+        return where((cooling_capacity == 0),
+                    (heating_capacity > MEPS_value),
+                    (cooling_capacity > MEPS_value))
 
 
 class ACProductClass(Enum):
@@ -35,20 +35,20 @@ class ACProductClass(Enum):
                         ' if heating only, a standard heating capacity of' \
                         ' under 65kW.'
     product_class_three = 'AC is an air to air unitary air conditioner, which' \
-                        ' is wall mounted, unitary, and single ducted, and' \
-                        ' which has a standard cooling full capacity, or' \
-                        ' if heating only, a standard heating capacity of' \
-                        ' under 65kW.'
+                          ' is wall mounted, unitary, and single ducted, and' \
+                          ' which has a standard cooling full capacity, or' \
+                          ' if heating only, a standard heating capacity of' \
+                          ' under 65kW.'
     product_class_four = 'AC is an air to air unitary air conditioner, which' \
-                        ' is portable, unitary, and single ducted, and' \
-                        ' which has a standard cooling full capacity, or' \
-                        ' if heating only, a standard heating capacity of' \
-                        ' under 10kW.'
+                         ' is portable, unitary, and single ducted, and' \
+                         ' which has a standard cooling full capacity, or' \
+                         ' if heating only, a standard heating capacity of' \
+                         ' under 10kW.'
     product_class_five = 'AC is an air to air unitary air conditioner, which' \
-                        ' is ducted or non-ducted, which is not wall mounted' \
-                        ' or portable, and which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of under 10kW.'
+                         ' is ducted or non-ducted, which is not wall mounted' \
+                         ' or portable, and which has a standard cooling full' \
+                         ' capacity, or if heating only, a standard heating' \
+                         ' capacity of under 10kW.'
     product_class_six = 'AC is an air to air unitary air conditioner, which' \
                         ' is ducted or non-ducted, which is not wall mounted' \
                         ' or portable, and which has a standard cooling full' \
@@ -56,90 +56,90 @@ class ACProductClass(Enum):
                         ' capacity of over or equal to 10kW, and under or' \
                         ' equal to 39kW.'
     product_class_seven = 'AC is an air to air unitary air conditioner, which' \
-                        ' is ducted or non-ducted, which is not wall mounted' \
-                        ' or portable, and which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of over 39kW, and under or equal to 65kW.'
+                          ' is ducted or non-ducted, which is not wall mounted' \
+                          ' or portable, and which has a standard cooling full' \
+                          ' capacity, or if heating only, a standard heating' \
+                          ' capacity of over 39kW, and under or equal to 65kW.'
     product_class_eight = 'AC is an air to air single-split air conditioner,' \
-                        ' which is non-ducted, and which has a standard' \
-                        ' cooling full capacity, or if heating only, a' \
-                        ' standard heating capacity of under 4kW.'
+                          ' which is non-ducted, and which has a standard' \
+                          ' cooling full capacity, or if heating only, a' \
+                          ' standard heating capacity of under 4kW.'
     product_class_nine = 'AC is an air to air single-split air conditioner,' \
-                        ' which is non-ducted, and which has a standard' \
-                        ' cooling full capacity, or if heating only, a' \
-                        ' standard heating capacity of over or equal to 4kW,' \
-                        ' and under 10kW.'
+                         ' which is non-ducted, and which has a standard' \
+                         ' cooling full capacity, or if heating only, a' \
+                         ' standard heating capacity of over or equal to 4kW,' \
+                         ' and under 10kW.'
     product_class_ten = 'AC is an air to air single-split air conditioner,' \
                         ' which is ducted, and which has a standard' \
                         ' cooling full capacity, or if heating only, a' \
                         ' standard heating capacity of under 10kW.'
     product_class_eleven = 'AC is an air to air single-split air conditioner,' \
-                        ' which is ducted or non-ducted, and which has a' \
-                        ' standard cooling full capacity, or if heating only,' \
-                        ' a standard heating capacity of equal or over 10kW,' \
-                        ' and under or equal to 39kW.'
+                           ' which is ducted or non-ducted, and which has a' \
+                           ' standard cooling full capacity, or if heating only,' \
+                           ' a standard heating capacity of equal or over 10kW,' \
+                           ' and under or equal to 39kW.'
     product_class_twelve = 'AC is an air to air single-split air conditioner,' \
-                        ' which is ducted or non-ducted, and which has a' \
-                        ' standard cooling full capacity, or if heating only,' \
-                        ' a standard heating capacity of over 39kW,' \
-                        ' and under or equal to 65kW.'
+                           ' which is ducted or non-ducted, and which has a' \
+                           ' standard cooling full capacity, or if heating only,' \
+                           ' a standard heating capacity of over 39kW,' \
+                           ' and under or equal to 65kW.'
     product_class_thirteen = 'AC is an air to air single-split outdoor air' \
-                        ' conditioner which is supplied or offered for supply' \
-                        ' to create a non-ducted system, which is not offered' \
-                        ' as part of a single-split system and which has a' \
-                        ' standard cooling full capacity, or if heating only' \
-                        ' a standard heating capacity of under 4kW.'
+                             ' conditioner which is supplied or offered for supply' \
+                             ' to create a non-ducted system, which is not offered' \
+                             ' as part of a single-split system and which has a' \
+                             ' standard cooling full capacity, or if heating only' \
+                             ' a standard heating capacity of under 4kW.'
     product_class_fourteen = 'AC is an air to air single-split outdoor air' \
-                        ' conditioner which is supplied or offered for supply' \
-                        ' to create a non-ducted system, which is not offered' \
-                        ' as part of a single-split system and which has a' \
-                        ' standard cooling full capacity, or if heating only' \
-                        ' a standard heating capacity of equal or over 4kW.' \
-                        ' and under 10kW.'
+                             ' conditioner which is supplied or offered for supply' \
+                             ' to create a non-ducted system, which is not offered' \
+                             ' as part of a single-split system and which has a' \
+                             ' standard cooling full capacity, or if heating only' \
+                             ' a standard heating capacity of equal or over 4kW.' \
+                             ' and under 10kW.'
     product_class_fifteen = 'AC is an air to air single-split outdoor air' \
-                        ' conditioner which is supplied or offered for supply' \
-                        ' to create a ducted system, which is not offered' \
-                        ' as part of a single-split system and which has a' \
-                        ' standard cooling full capacity, or if heating only' \
-                        ' a standard heating capacity of under 10kW.'
+                            ' conditioner which is supplied or offered for supply' \
+                            ' to create a ducted system, which is not offered' \
+                            ' as part of a single-split system and which has a' \
+                            ' standard cooling full capacity, or if heating only' \
+                            ' a standard heating capacity of under 10kW.'
     product_class_sixteen = 'AC is an air to air single-split outdoor air' \
-                        ' conditioner which is supplied or offered for supply' \
-                        ' to create a ducted or non-ducted system, which is' \
-                        ' not offered as part of a single-split system and' \
-                        ' which has a standard cooling full capacity, or' \
-                        ' if heating only a standard heating capacity of' \
-                        ' over or equal to 10kW, and under or equal to 39kW.'
+                            ' conditioner which is supplied or offered for supply' \
+                            ' to create a ducted or non-ducted system, which is' \
+                            ' not offered as part of a single-split system and' \
+                            ' which has a standard cooling full capacity, or' \
+                            ' if heating only a standard heating capacity of' \
+                            ' over or equal to 10kW, and under or equal to 39kW.'
     product_class_seventeen = 'AC is an air to air single-split outdoor air' \
-                        ' conditioner which is supplied or offered for supply' \
-                        ' to create a ducted or non-ducted system, which is' \
-                        ' not offered as part of a single-split system and' \
-                        ' which has a standard cooling full capacity, or' \
-                        ' if heating only a standard heating capacity of' \
-                        ' over 39kW, and under or equal to 65kW.'
+                              ' conditioner which is supplied or offered for supply' \
+                              ' to create a ducted or non-ducted system, which is' \
+                              ' not offered as part of a single-split system and' \
+                              ' which has a standard cooling full capacity, or' \
+                              ' if heating only a standard heating capacity of' \
+                              ' over 39kW, and under or equal to 65kW.'
     product_class_eighteen = 'AC is an air to air multi-split outdoor air' \
-                        ' conditioner which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of under 4kW.'
+                             ' conditioner which has a standard cooling full' \
+                             ' capacity, or if heating only, a standard heating' \
+                             ' capacity of under 4kW.'
     product_class_nineteen = 'AC is an air to air multi-split outdoor air' \
-                        ' conditioner which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of over or equal to 4kW, and under 10kW.'
+                             ' conditioner which has a standard cooling full' \
+                             ' capacity, or if heating only, a standard heating' \
+                             ' capacity of over or equal to 4kW, and under 10kW.'
     product_class_twenty = 'AC is an air to air multi-split outdoor air' \
-                        ' conditioner which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of over or equal to 10kW, and under 39kW.'
+                           ' conditioner which has a standard cooling full' \
+                           ' capacity, or if heating only, a standard heating' \
+                           ' capacity of over or equal to 10kW, and under 39kW.'
     product_class_twenty_one = 'AC is an air to air multi-split outdoor air' \
-                        ' conditioner which has a standard cooling full' \
-                        ' capacity, or if heating only, a standard heating' \
-                        ' capacity of over or equal to 39kW, and under or' \
-                        ' equal to 65kW.'
+                               ' conditioner which has a standard cooling full' \
+                               ' capacity, or if heating only, a standard heating' \
+                               ' capacity of over or equal to 39kW, and under or' \
+                               ' equal to 65kW.'
     product_class_twenty_two = 'AC is an water to air air conditioner which' \
-                        ' has a standard cooling full capacity, or if heating' \
-                        ' only, a standard heating capacity of under 39kW.'
+                               ' has a standard cooling full capacity, or if heating' \
+                               ' only, a standard heating capacity of under 39kW.'
     product_class_twenty_three = 'AC is an water to air air conditioner which' \
-                        ' has a standard cooling full capacity, or if heating' \
-                        ' only, a standard heating capacity of over or' \
-                        ' equal to 39kW, and under or equal to 65kW.'
+                                 ' has a standard cooling full capacity, or if heating' \
+                                 ' only, a standard heating capacity of over or' \
+                                 ' equal to 39kW, and under or equal to 65kW.'
 
 
 class product_class(Variable):

@@ -1,0 +1,13 @@
+- name: test AEER for KWCF16D1S (GEMS 2019 registered AC in product class 1)
+  period: 2020
+  input:
+    cooling_capacity: 1.6
+    heating_capacity: 0
+    power_input: 0.00048
+    inactive_power_measured_at_5C: 1
+    inactive_power_measured_at_10C: 1
+    inactive_power_measured_at_15C: 1
+    inactive_power_measured_at_20C: 1
+    product_class: product_class_one
+  output:
+    deemed_equipment_electricity_savings: 2
