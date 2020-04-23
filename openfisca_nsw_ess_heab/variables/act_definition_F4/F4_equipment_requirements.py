@@ -44,11 +44,35 @@ class ACOP_is_20_percent_greater_than_baseline(Variable):
             ' Equipment Requirement 2 of Activity Definition F4.'
 
     def formula(buildings, period, parameters):
+        heating_capacity = buildings('heating_capacity', period)
         product_ACOP = buildings('ACOP', period)
         product_class = buildings('product_class', period)
         baseline_ACOP = parameters(period).F4.MEPS_values[product_class]
-        return ((product_ACOP - baseline_ACOP) / ((product_ACOP + baseline_ACOP) / 2)
-                * 100) > 20
+        condition_does_not_have_heating_capacity = (heating_capacity == 0)
+        return where(condition_does_not_have_heating_capacity, True,
+                ((product_ACOP - baseline_ACOP) / ((product_ACOP + baseline_ACOP) / 2)
+                * 100) > 20)
+
+
+class F4_is_eligible_to_create_energy_savings(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'combines all of the above Equipment and Installation requirements' \
+            ' to determine whether a GEMS registered product is eligible to' \
+            ' create ESCs.'
+
+    def formula(buildings, period, parameters):
+        registered_in_GEMS = buildings('EUE_is_registered_in_GEMS', period)
+        complies_with_GEMS = buildings('complies_with_GEMS_determination', period)
+        AEER_20_pc_greater_than_baseline = buildings('AEER_is_20_percent_greater_than_baseline', period)
+        ACOP_20_pc_greater_than_baseline = buildings('ACOP_is_20_percent_greater_than_baseline', period)
+        cooling_capacity_under_or_equal_to_65kW = buildings('cooling_capacity_is_eligible', period)
+        heating_capacity_under_or_equal_to_65kW = buildings('heating_capacity_is_eligible', period)
+        is_not_residential = buildings('installation_requirements_are_met', period)
+        return (registered_in_GEMS * complies_with_GEMS * AEER_20_pc_greater_than_baseline
+        * ACOP_20_pc_greater_than_baseline * cooling_capacity_under_or_equal_to_65kW
+        * heating_capacity_under_or_equal_to_65kW * is_not_residential)
 
 
 class AEER(Variable):
