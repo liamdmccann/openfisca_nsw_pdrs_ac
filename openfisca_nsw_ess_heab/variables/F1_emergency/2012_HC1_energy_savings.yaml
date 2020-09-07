@@ -1,0 +1,150 @@
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LAGUNA
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 16.35
+    total_display_area: 1.47
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -14.012943936000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KAMI SM 2500mm
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.08
+    total_display_area: 1.96
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8732971519999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KAMI SM 3750mm
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.85
+    total_display_area: 2.94
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.7550241279999946
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KAMI SM 1875mm
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.16
+    total_display_area: 1.47
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -7.613939136000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. OPAL 1400mm
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.3
+    total_display_area: 1.4
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.8648883200000035
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DZF-1213
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.13
+    total_display_area: 1.22
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.2206592000000045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DZF-1513
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.64
+    total_display_area: 1.48
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -6.019155200000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VPR725-4
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.75
+    total_display_area: 1.93
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -16.304897984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VPR725-6
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 28.45
+    total_display_area: 2.902
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -16.48044693759999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VPR725-3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.92
+    total_display_area: 1.435
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -13.560338527999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VPR725-2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.58
+    total_display_area: 0.965
+    product_type: hc_1_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.751442592
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTC9
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.52
+    total_display_area: 1.03
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.079108799999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTC12
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.05
+    total_display_area: 1.253
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -7.011147040000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTC15
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.59
+    total_display_area: 1.476
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.972404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTC18
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 17.66
+    total_display_area: 1.692
+    product_type: hc_1_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.578053760000003

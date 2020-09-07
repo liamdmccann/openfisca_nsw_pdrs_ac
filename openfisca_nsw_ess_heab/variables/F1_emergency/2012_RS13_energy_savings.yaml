@@ -1,0 +1,100 @@
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SALO G4 BT 375 23050
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 21.4479
+    total_display_area: 3.2142
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 54.444643774080006
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AURORA 2000 HG EOL ECO F/B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.72
+    total_display_area: 2.06
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 32.048202944
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AURORA ECO TG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.72
+    total_display_area: 2.06
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 32.048202944
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCN34-
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 27.337
+    total_display_area: 2.29
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.5626970560000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCN38-
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 27.337
+    total_display_area: 2.29
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.5626970560000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 2546L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 36.0
+    total_display_area: 3.75
+    product_type: rs_13_glass_door
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 31.447164000000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TVQ-EXCCLFVSD(E)M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.55
+    total_display_area: 1.92
+    product_type: rs_13_glass_sided
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.834241407999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VRX1800/380
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.11
+    total_display_area: 0.36
+    product_type: rs_13_glass_door
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.873752064
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VRX1200/380
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.36
+    total_display_area: 0.225
+    product_type: rs_13_glass_door
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.224365840000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VRX1500/380
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.97
+    total_display_area: 0.315
+    product_type: rs_13_glass_door
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.643185456000001

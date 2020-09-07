@@ -1,0 +1,71 @@
+description: Baseline efficiencies for Table F1.1.
+reference: Activity Definition F1 of Energy Savings Scheme Rule (Amendment
+    No. 2) 2009.
+IRH:
+  values:
+    2020-01-01:
+      value: 8
+IFH:
+  values:
+    2020-01-01:
+      value: 8
+SRH:
+  values:
+    2020-01-01:
+      value: 8
+SFH:
+  values:
+    2020-01-01:
+      value: 8
+IFH_5:
+  values:
+    2020-01-01:
+      value: 8
+GSC:
+  values:
+    2020-01-01:
+      value: 8
+ISC:
+  values:
+    2020-01-01:
+      value: 8
+IRV:
+  values:
+    2020-01-01:
+      value: 8
+IFV:
+  values:
+    2020-01-01:
+      value: 8
+SRV:
+  values:
+    2020-01-01:
+      value: 8
+SFV:
+  values:
+    2020-01-01:
+      value: 8
+IRV_4:
+  values:
+    2020-01-01:
+      value: 8
+RRH:
+  values:
+    2020-01-01:
+      value: 12
+RFH:
+  values:
+    2020-01-01:
+      value: 12
+RRV:
+  values:
+    2020-01-01:
+      value: 12
+RRV_2:
+  values:
+    2020-01-01:
+      value: 12
+RFV:
+  values:
+    2020-01-01:
+      value: 12

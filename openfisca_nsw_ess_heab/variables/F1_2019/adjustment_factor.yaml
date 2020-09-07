@@ -1,0 +1,81 @@
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.2
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SFH
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.1
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: heavy_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: light_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.2
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SFH
+    duty_class: light_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.1
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: heavy_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.15
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: heavy_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.15
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: light_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.2
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+    duty_class: normal_duty
+    is_low_sales_volume_product: True
+    is_oversize_product: False
+  output:
+    adjustment_factor: 1.1875

@@ -1,0 +1,78 @@
+- name: test electricity savings for RB-FMOFC ECO LED Unbr. - 2012 GEMS Registry.
+    Product class 7. Product type VC1 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_1_m2
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 5.815
+    total_display_area: 0.617
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.645
+- name: test ESCs for RB-FMOFC ECO LED Unbr. - 2012 GEMS Registry.
+    Product class 7. Product type VC1 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_1_m2
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 5.815
+    total_display_area: 0.617
+  output:
+    F1_emergency_ESCs: 9
+- name: test electricity savings for FOD-36VG - 2012 GEMS Registry. Product class 7.
+    Product type VC2 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_2_m1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 26.22
+    total_display_area: 1.56
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.818
+- name: test ESCs for FOD-36VG - 2012 GEMS Registry. Product class 7.
+    Product type VC2 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_2_m1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 26.22
+    total_display_area: 1.56
+  output:
+    F1_emergency_ESCs: -5
+- name: test electricity savings for IJB 1.25m - 2012 GEMS Registry. Product class 7.
+    Product type VC2 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_2_m1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 21.8
+    total_display_area: 1.791
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 19.875
+- name: test ESCs for IJB 1.25m - 2012 GEMS Registry. Product class 7.
+    Product type VC2 (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vc_2_m1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 21.8
+    total_display_area: 1.791
+  output:
+    F1_emergency_ESCs: 21

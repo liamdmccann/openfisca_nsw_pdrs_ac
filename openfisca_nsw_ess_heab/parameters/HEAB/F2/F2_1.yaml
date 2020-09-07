@@ -1,0 +1,45 @@
+description: Table F2.1 - baseline IPLV values.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.
+EEI:
+  air_cooled:
+    350_to_499_kWR:
+      values:
+        2021-04-01:
+          value: 4.6
+    500_to_699_kWR:
+      values:
+        2021-04-01:
+          value: 4.7
+    700_to_999_kWR:
+      values:
+        2021-04-01:
+          value: 4.7
+    1000_to_1499_kWR:
+      values:
+        2021-04-01:
+          value: 4.7
+    greater_than_1500_kWR:
+      values:
+        2021-04-01:
+          value: 5.1
+  water_cooled:
+    350_to_499_kWR:
+      values:
+        2021-04-01:
+          value: 9.0
+    500_to_699_kWR:
+      values:
+        2021-04-01:
+          value: 8.6
+    700_to_999_kWR:
+      values:
+        2021-04-01:
+          value: 9.7
+    1000_to_1499_kWR:
+      values:
+        2021-04-01:
+          value: 9.0
+    greater_than_1500_kWR:
+      values:
+        2021-04-01:
+          value: 9.9

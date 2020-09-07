@@ -1,0 +1,78 @@
+- name: test electricity savings for CSD13-4 2020 GEMS Registry.
+    Product class 14.
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 26.183
+    total_display_area: 2.793
+  output:
+    F1_2019_deemed_equipment_electricity_savings: 56.744
+- name: test ESCs for CSD13-4 2020 GEMS Registry.
+    Product class 14.
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 26.183
+    total_display_area: 2.793
+  output:
+    F1_2019_ESCs: 60
+- name: test electricity savings for VELDEN 130/125 250 23050 2012 GEMS Registry.
+    Product class 14. Product type RS10 - Low (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 44.0581
+    total_display_area: 3.607
+  output:
+    F1_2019_deemed_equipment_electricity_savings: 28.38
+- name: test ESCs for CSD13-4 2020 GEMS Registry for VELDEN 130/125 250 23050 2012 GEMS Registry.
+    Product class 14. Product type RS10 - Low (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 44.0581
+    total_display_area: 3.607
+  output:
+    F1_2019_ESCs: 30
+- name: test electricity savings for MPD116-2 2020 GEMS Registry.
+    Product class 14.
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 17.056
+    total_display_area: 4.008
+  output:
+    F1_2019_deemed_equipment_electricity_savings: 171.35
+- name: test ESCs for MPD116-2 2020 GEMS Registry.
+    Product class 14.
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_class: RRV
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 17.056
+    total_display_area: 4.008
+  output:
+    F1_2019_ESCs: 181

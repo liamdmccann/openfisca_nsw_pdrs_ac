@@ -1,0 +1,102 @@
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IRH
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IFH
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRH
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SFH
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IFH_5
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: GSC
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: ISC
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IRV
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IFV
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SRV
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: SFV
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: IRV_4
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: RRH
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: RFH
+  output:
+    is_chiller: False
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: RRV
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: RRV_2
+  output:
+    is_chiller: True
+- name: Test 2019 GEMS RDC products for whether they are RDCs.
+  period: 2020
+  input:
+    product_class: RFV
+  output:
+    is_chiller: False

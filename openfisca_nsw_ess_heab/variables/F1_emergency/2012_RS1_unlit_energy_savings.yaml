@@ -1,0 +1,111 @@
+
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rock L 20 LF P 375
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 51.33
+    total_display_area: 7.11
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 23.903350944000007
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rock L 20 P 375
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 51.33
+    total_display_area: 7.11
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 23.903350944000007
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rock L 20 LF P 250
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 34.25
+    total_display_area: 4.74
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.847909696
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rock L 20 P 250
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 34.25
+    total_display_area: 4.74
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.847909696
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. IJ 2.5m
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.96
+    total_display_area: 3.983
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -7.66212159680002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rock L 22 LFG HP 375
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 47.54
+    total_display_area: 7.8
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 51.852392319999964
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.18
+    total_display_area: 4.84
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.57617113599999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDG-1.25-H3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.18
+    total_display_area: 4.84
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.57617113599999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDG-1.875-H3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.18
+    total_display_area: 4.84
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.57617113599999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDG-2.5-H3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.18
+    total_display_area: 4.84
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.57617113599999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDG-3.75-H3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 35.18
+    total_display_area: 4.84
+    product_type: rs_1_unlit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.57617113599999

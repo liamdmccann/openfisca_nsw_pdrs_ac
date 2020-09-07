@@ -1,0 +1,5550 @@
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FKvsl 5413
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.558
+    total_display_area: 0.885
+    product_type: vc4_a_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 14.324712799999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FKvsl 4113
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.853
+    total_display_area: 0.7449
+    product_type: vc4_a_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.552491158399999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FKvsl 3613
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.79
+    total_display_area: 0.6721
+    product_type: vc4_a_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.1056669536
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GREEN MC AIR GD 250 LS6
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 3.05
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.20891728000001136
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GREEN MC AIR GD 375 LS6
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 31.9
+    total_display_area: 4.56
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.312257023999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GD 375 L6 (*) (*)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.0
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 80.96348128
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GD 375 L6 LAPS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.0
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 80.96348128
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GD 375 L6 LTG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.0
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 80.96348128
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO GD 375 L6 LTG SLED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.0
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 80.96348128
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO HYB GD 375 L6 (*) (*)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 23.96
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 69.39267807999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO HYB GD 375 L6 LAPS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 23.96
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 69.39267807999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO HYB GD 375 L6 LTG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 23.96
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 69.39267807999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VENTO HYB GD 375 L6 LTG SLED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 23.96
+    total_display_area: 5.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 69.39267807999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AFF001
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.27
+    total_display_area: 0.25
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.374817599999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AFF022
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.355
+    total_display_area: 0.383
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.974103391999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AFF333
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.853
+    total_display_area: 0.575
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.116931039999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M1103
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.0
+    total_display_area: 4.84
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 45.32131673599999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M1102
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 21.0
+    total_display_area: 3.23
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 17.63407939199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M1101
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.7
+    total_display_area: 1.82
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.558552128000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M1103T
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.235
+    total_display_area: 1.81
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 17.282280223999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTR160
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.59
+    total_display_area: 0.923
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.748629151999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTR100
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.29
+    total_display_area: 0.679
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.631524895999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTR120
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.37
+    total_display_area: 0.797
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.898360928
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 1D-DC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 1D/DC-S-QT
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CH-1MC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Display Chiller
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B15-2D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.65
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.212110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B2D/C5
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.65
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.212110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B2D/C5/7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.65
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.212110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Refrigerated Barline
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.65
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.212110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B18-3D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.2
+    total_display_area: 0.68
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -13.452519679999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B2D/C6
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.2
+    total_display_area: 0.68
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -13.452519679999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B2D/C6/7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.2
+    total_display_area: 0.68
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -13.452519679999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Refrigerated Barline
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.2
+    total_display_area: 0.68
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -13.452519679999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B21-3D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.8
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -15.860181760000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B3D/C7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.8
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -15.860181760000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. B3D/C7/7
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.8
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -15.860181760000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Refrigerated Barline
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.8
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -15.860181760000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3D-DC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3D/DC-S-QT
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CH-3MC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Display Chiller
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 2D-DC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.2
+    total_display_area: 1.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -19.343110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 2D/DC-S-QT
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.2
+    total_display_area: 1.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -19.343110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CH-2MC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.2
+    total_display_area: 1.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -19.343110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Display Chiller
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.2
+    total_display_area: 1.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -19.343110400000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 1040160
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.906
+    total_display_area: 0.713
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.873351391999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 1040120
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.342
+    total_display_area: 0.593
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.120199392
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3735012
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.04
+    total_display_area: 0.6204
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.319442563840001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. enZo 660L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.04
+    total_display_area: 0.6204
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.319442563840001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM0660L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.04
+    total_display_area: 0.6204
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.319442563840001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. PREM660
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.04
+    total_display_area: 0.6204
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.319442563840001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3735014
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.71
+    total_display_area: 1.02
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.384286720000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. enZo 1000L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.71
+    total_display_area: 1.02
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.384286720000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.71
+    total_display_area: 1.02
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.384286720000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. USS300DTK (GM0300)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.69
+    total_display_area: 0.36
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.9443645439999986
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. USS374DTK (GM0374)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.04
+    total_display_area: 0.402
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.9488643007999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. USS220DTK (GM0220)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.08
+    total_display_area: 0.26
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.6408312960000013
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM0875LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.7
+    total_display_area: 0.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.379254720000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. USS980DIKL  (GM0875LS)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.7
+    total_display_area: 0.7
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.379254720000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736245
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GD0500LF
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.8
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.106748064000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736247
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GD1500LF
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.6
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.886101120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LBCAS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LCAS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LCASB
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LCASW
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736063
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.27
+    total_display_area: 0.25
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.374817599999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BB0120GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.27
+    total_display_area: 0.25
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.374817599999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736058
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.82
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6749635200000009
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736064
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.82
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6749635200000009
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BB0200GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.82
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6749635200000009
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BB0200GDS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.82
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6749635200000009
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736059
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.07
+    total_display_area: 0.575
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.4390456000000045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736065
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.07
+    total_display_area: 0.575
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.4390456000000045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BB0330GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.07
+    total_display_area: 0.575
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.4390456000000045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BB0330GDS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.07
+    total_display_area: 0.575
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.4390456000000045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. MED0220GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.53
+    total_display_area: 0.47
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.850495679999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. MED0374GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.37
+    total_display_area: 0.73
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 13.765165119999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736212
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.26
+    total_display_area: 0.351
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.266641823999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. UBC0140GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.26
+    total_display_area: 0.351
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.266641823999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736252
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.42
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.234404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736253
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.42
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.234404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LBECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.42
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.234404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.42
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.234404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GM1000LWECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.42
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.234404480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736309
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.574
+    total_display_area: 1.719
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.465309462400003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1200C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.574
+    total_display_area: 1.719
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.465309462400003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1200C*
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.574
+    total_display_area: 1.719
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.465309462400003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736308
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.875
+    total_display_area: 1.384
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.315448384000007
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T0900C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.875
+    total_display_area: 1.384
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.315448384000007
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736310
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.159
+    total_display_area: 2.05
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.1213139199999973
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1500C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.159
+    total_display_area: 2.05
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.1213139199999973
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1500C*
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.159
+    total_display_area: 2.05
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.1213139199999973
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. 3736311
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.2
+    total_display_area: 2.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.155673599999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1800C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.2
+    total_display_area: 2.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.155673599999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FD4T1800C*
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.2
+    total_display_area: 2.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.155673599999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. IG 2.50
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.06
+    total_display_area: 4.0
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 77.19712639999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. C10C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.2
+    total_display_area: 1.62
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.581658048
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. C600
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.32
+    total_display_area: 0.72
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.862074879999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. L700R1AG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.626
+    total_display_area: 0.515
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.60803056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. P3100RBG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.257
+    total_display_area: 0.354
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.405324544
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. P4100RBG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.947
+    total_display_area: 0.471
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8165576639999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. cds1200cake
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.69
+    total_display_area: 1.863
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -11.970200444800009
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CCE605
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.87
+    total_display_area: 0.545
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.2169796800000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CCE1130
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CCE1130F
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CCE1130S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SS-P1000WB
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC66
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.22
+    total_display_area: 0.148
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.6299659519999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC20
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.926
+    total_display_area: 0.0796
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.44962504960000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EU-328HC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.71
+    total_display_area: 0.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8101836799999984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EU-1000
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.49
+    total_display_area: 0.94
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.008874240000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EU-450DG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.98
+    total_display_area: 0.63
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -14.226828480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EU-1150
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.66
+    total_display_area: 1.17
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.778962879999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EU-208HC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.2
+    total_display_area: 0.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9869055999999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DC400P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.87
+    total_display_area: 0.545
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.2169796800000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC1500
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.182
+    total_display_area: 2.51
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.169796799999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC1200
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.818
+    total_display_area: 2.074
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.485591615999988
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC900
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.51
+    total_display_area: 1.633
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.652205792
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC902
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.887
+    total_display_area: 1.399
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9965479359999974
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC1202
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.27
+    total_display_area: 1.794
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.7428105024000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDC1502
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 16.602
+    total_display_area: 2.147
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.9983261087999944
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DC1000P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DC1200P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DC600P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DC800P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.6
+    total_display_area: 1.0
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.551648000000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD235
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.46
+    total_display_area: 1.82
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 35.629892479999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD235L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.46
+    total_display_area: 1.82
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 35.629892479999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD58
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD58 LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD58L LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD78
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD78L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD78 LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD78L LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD98
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD98 LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CTD98L LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.463395519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG900LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.843
+    total_display_area: 1.935
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 17.316758880000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1200LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.681
+    total_display_area: 2.427
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 16.45914614079999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1500LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 16.75
+    total_display_area: 2.919
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 33.789959456
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGTR160LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.063
+    total_display_area: 1.071
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.639349343999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGTR120LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.222
+    total_display_area: 0.896
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7328112383999974
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1.5A-900LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.875
+    total_display_area: 1.384
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.315448384000007
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1.5A-1200LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.574
+    total_display_area: 1.719
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.465309462400003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1.5A-1500LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.159
+    total_display_area: 2.055
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.2630270399999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FGDG1.5A-1800LS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.203
+    total_display_area: 2.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.146907839999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FV280
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.7
+    total_display_area: 0.335
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.618186416000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Halo HR350
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.431
+    total_display_area: 0.51
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.4476923839999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HSR1000
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.515
+    total_display_area: 0.809
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.9509659840000024
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HUB2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.318
+    total_display_area: 0.407
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.762437407999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HUB3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.422
+    total_display_area: 0.61
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.290190399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HBC98
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.7
+    total_display_area: 0.23
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.5515395199999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HUB210
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.355
+    total_display_area: 0.383
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.974103391999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HUS C500
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.74
+    total_display_area: 0.95
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.231751999999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HUS C800
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.74
+    total_display_area: 0.95
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.231751999999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Husky Refrigerators
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.74
+    total_display_area: 0.95
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.231751999999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BMH30
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.24
+    total_display_area: 0.99
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.822964895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BMH20
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.4293
+    total_display_area: 0.71
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.343953727999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BMH45
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.03
+    total_display_area: 1.48
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.576398591999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BMH36
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.74
+    total_display_area: 1.2
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.497863679999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HSL300
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.61
+    total_display_area: 0.37
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.4992371520000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Branded Cooler Small
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.661
+    total_display_area: 0.069
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024251935999999925
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Branded Cooler Small - VC206566004
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.661
+    total_display_area: 0.069
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024251935999999925
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. * Cooler Small
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.661
+    total_display_area: 0.069
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024251935999999925
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Style Cooler Small
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.661
+    total_display_area: 0.069
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024251935999999925
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Style Cooler Small - VC206550004
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.661
+    total_display_area: 0.069
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024251935999999925
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Branded Cooler Medium
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.852
+    total_display_area: 0.126
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.081694784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Branded Cooler Medium - VC206571004
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.852
+    total_display_area: 0.126
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.081694784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. * Cooler Medium
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.852
+    total_display_area: 0.126
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.081694784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Style Cooler Medium
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.852
+    total_display_area: 0.126
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.081694784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Style Cooler Medium - VC206565004
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.852
+    total_display_area: 0.126
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.081694784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rhombus Triple GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.429
+    total_display_area: 1.7682
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 31.33040407679999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rhombus Single GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.842
+    total_display_area: 0.736
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.556074624
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Rhombus Double GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.74
+    total_display_area: 1.2463
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 21.473511491199996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Back Bar Fridge
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.0
+    total_display_area: 0.5668
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.096167422719997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Novara 1215
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.801
+    total_display_area: 1.697
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 25.303535007999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC TOWER
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC TOWER LC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC VENICE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC VENICE JOEY
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC VENICE JOEY LC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC VENICE LC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Venice
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.0
+    total_display_area: 0.662
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.075137088
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ICS PACIFIC Siena
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.7
+    total_display_area: 0.78
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 14.21806272
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Como
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.66
+    total_display_area: 2.13
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 43.83172192
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-N14NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.956
+    total_display_area: 0.094
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.12914886400000006
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-10
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G**-10-*******
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-10-F31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-10
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-10-F231NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-10-F31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-10-FA31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.954
+    total_display_area: 0.34
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.605768256
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G**-9-*11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-B11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-N11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-S11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-W11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-211NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-A11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-N11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-P11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-S11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-W11NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.037
+    total_display_area: 0.338
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.627855872
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G**-11-*******
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-11-BC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-11-C31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-2SC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-AC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-BC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-C31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-PC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-SC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-WC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-11-ZC31NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.39
+    total_display_area: 0.297
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.202102908799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G**-9-*****
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-B91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-N91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G-9-S91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-291NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-A91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-B91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-N91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-P91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-S91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GCG-9-W91NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.56
+    total_display_area: 0.338
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.7080917952000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-0A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-2A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-*A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-AA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-BA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-NA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5-PA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-1.5- WA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.732
+    total_display_area: 0.09
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.06223689599999963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-0A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-2A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-*A1AI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-AA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-BA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-NA1AI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-PA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-2.5-WA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.642
+    total_display_area: 0.171
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9707160640000008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-0A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-2A1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-*A1AI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-AA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-BA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-NA1AI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-PA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GS-3-WA1NI
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.924
+    total_display_area: 0.228
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.876221171199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. VRD20 C BMAR 4PD 230V
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.73
+    total_display_area: 0.966
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.648108806399996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-2-H-SC-D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 17.027
+    total_display_area: 1.8863
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.6192917244800045
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-2-H-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.506
+    total_display_area: 1.8863
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.862731404480002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-2-H-SC-D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 15.17
+    total_display_area: 2.3055
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.058866107199995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-2-H-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 18.623
+    total_display_area: 2.3055
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9694763471999894
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-2-H-SC-P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 17.35
+    total_display_area: 2.3055
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 14.648607631999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-6-H-SC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 33.975
+    total_display_area: 6.2333
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 53.17228494431998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-5-H-SC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 28.3125
+    total_display_area: 5.1944
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 44.30982984575998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-4-H-SC-D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.65
+    total_display_area: 4.6109
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 46.58485136736
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-4-H-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 28.9
+    total_display_area: 4.6109
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 28.32285136736
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-4-H-SC-P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.75
+    total_display_area: 4.6109
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 58.367485001599995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-5-H-SC-D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 23.15
+    total_display_area: 4.7157
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 47.686929465279995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-5-H-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 32.15
+    total_display_area: 4.3057
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.362496601279997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-5-H-SC-P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 28.075
+    total_display_area: 4.3057
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 40.00193215679998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-4-D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.54
+    total_display_area: 3.4445
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.224075492799994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-3-H-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.809
+    total_display_area: 3.4582
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.085452657279996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-900-3-H-SC-P
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.987
+    total_display_area: 3.4582
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 30.848287276799997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. JCMMT-750-4-SC-M
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 25.92
+    total_display_area: 3.4445
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.504145892799984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC 468
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.6
+    total_display_area: 0.737
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.505506684799997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC700
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.73
+    total_display_area: 0.771
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.8085829216000018
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC1100
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.62
+    total_display_area: 1.35
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 16.59504464
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC4-78D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.47
+    total_display_area: 0.83
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.237888031999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AU1000
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.323
+    total_display_area: 1.153
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 14.203745311999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. AU650
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.261
+    total_display_area: 0.788
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.961766592
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC628
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.73
+    total_display_area: 0.771
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.8085829216000018
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC310
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.14
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.558725343999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC1000
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.59
+    total_display_area: 1.1145
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.0793634608
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KLC1380
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.0
+    total_display_area: 1.439
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.895580905600001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CG-26
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 22.65
+    total_display_area: 2.477
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.6028108192
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CG-19
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 17.04
+    total_display_area: 1.778
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -6.305912428799998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CG-14
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.22
+    total_display_area: 1.238
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.350672044800003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BCDv 4313
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.05
+    total_display_area: 0.65
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.5108496
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BCDv 4113
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.246
+    total_display_area: 0.545
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.96217776
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC98
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.818
+    total_display_area: 0.235
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.3484660799999988
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. NG5CHC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.518
+    total_display_area: 0.2612
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.9693644915199999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC900AT3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.656
+    total_display_area: 1.2351
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.713835382400001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC1800AT3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.618
+    total_display_area: 2.341
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 26.559376223999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDL
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.262
+    total_display_area: 0.856
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.0423031039999975
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RDR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.262
+    total_display_area: 0.856
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.0423031039999975
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Refrigerated Display Cabinets
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.262
+    total_display_area: 0.856
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.0423031039999975
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. NSK-430
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.87
+    total_display_area: 0.545
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.2169796800000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FMB30-Sn-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.52
+    total_display_area: 0.92
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.370954367999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. FMB20-Sn-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.12
+    total_display_area: 0.65
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.85839536
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EB45R-Sn-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.03
+    total_display_area: 1.48
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.576398591999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EB36R-Sn-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.74
+    total_display_area: 1.2
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.497863679999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. EB20R-Sn-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.43
+    total_display_area: 0.71
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.341908383999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ARGUS/BRIONI 2 DOORS XP H200 GI 250 23050
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.618
+    total_display_area: 2.8856
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3602355737599974
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ARGUS DOORS XP H200 GI 250 23050
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.618
+    total_display_area: 2.8856
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3602355737599974
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BRIONI 2 DOORS XP H200 GI 250 23050
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.618
+    total_display_area: 2.8856
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3602355737599974
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENGLE 2 Trop
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 21.75
+    total_display_area: 1.907
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -16.9132709472
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. PHOENIX 2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 32.62
+    total_display_area: 3.049
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -20.7452521504
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB109-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.775
+    total_display_area: 0.058
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6206158080000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. MR20
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.775
+    total_display_area: 0.058
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6206158080000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DL815-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.119
+    total_display_area: 0.211
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.21125481600000073
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DL818-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.275
+    total_display_area: 0.529
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.41987990400000247
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DL819-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.51
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9854446399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB951-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.25
+    total_display_area: 1.66
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -9.19820416000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB952-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 19.35
+    total_display_area: 2.14
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.114063359999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB959-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 20.03
+    total_display_area: 2.5
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.330502399999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB950-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 14.96
+    total_display_area: 1.3
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -6.866512000000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CB509-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.36
+    total_display_area: 2.55
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 56.61219999999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DP289-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.36
+    total_display_area: 2.55
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 56.61219999999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar Chilled Display
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.36
+    total_display_area: 2.55
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 56.61219999999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CB507-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.12
+    total_display_area: 1.336
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 28.749355263999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DP288-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.12
+    total_display_area: 1.336
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 28.749355263999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar display chiller
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.12
+    total_display_area: 1.336
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 28.749355263999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G211-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.82
+    total_display_area: 1.17
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.921055679999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. G619-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.82
+    total_display_area: 1.17
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.921055679999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar display chiller
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.82
+    total_display_area: 1.17
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.921055679999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CW198-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.85
+    total_display_area: 0.948
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.775575551999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL001-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.922
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.870840639999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL007-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.922
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.870840639999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar back bar cooler
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.922
+    total_display_area: 0.37
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.870840639999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL002-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.625
+    total_display_area: 0.51
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.784698240000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL008-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.625
+    total_display_area: 0.51
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.784698240000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar back bar cooler
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.625
+    total_display_area: 0.51
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.784698240000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL004-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.233
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.17190688
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL009-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.233
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.17190688
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar back bar cooler
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.233
+    total_display_area: 0.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.17190688
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL010-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.835
+    total_display_area: 0.47
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.037390079999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL011-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.726
+    total_display_area: 0.34
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.59325824
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL012-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.475
+    total_display_area: 0.47
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.089281279999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL013-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.83
+    total_display_area: 0.69
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.443536959999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL014-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.922
+    total_display_area: 0.71
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.7415728
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CD086-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.9
+    total_display_area: 0.219
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.6553866559999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar Glass Door Refrigerator
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.9
+    total_display_area: 0.219
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.6553866559999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CD087-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.36177744
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar Glass Door Refrigerator
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.36177744
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CD088-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.17
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.265581535999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar Glass Door Refrigerator
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.17
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.265581535999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CD984-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.54
+    total_display_area: 1.016
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8429091840000025
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Polar Upright Display Cabinet
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.54
+    total_display_area: 1.016
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8429091840000025
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL003-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.682
+    total_display_area: 0.407
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.6988585279999984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GL006-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.655
+    total_display_area: 0.61
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.6874630399999986
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. DB109-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.775
+    total_display_area: 0.058
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6206158080000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CS586-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.046
+    total_display_area: 0.456
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.024068223999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GD881-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.09
+    total_display_area: 1.952
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 40.45222924799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TGA15
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.654
+    total_display_area: 1.474
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8811320959999966
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M029
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.03
+    total_display_area: 0.0759
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.8583724384000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M026
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.325
+    total_display_area: 0.0759
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.7203388384
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M030
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.794
+    total_display_area: 0.5016
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.0528157184
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M028
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.55
+    total_display_area: 0.43
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.987306271999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-GDC ECO LED HotCtry (1401-159-000)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.754
+    total_display_area: 0.07
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.21914399999999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-QSR GDC ECO LED HotCtry(1401-161-000)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.754
+    total_display_area: 0.07
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.21914399999999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-QSR GDC ECO LED HotCtry(1401-161-000); RB-GDC ECO LED HotCtry (1401-159-000)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.754
+    total_display_area: 0.07
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.21914399999999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M034-1513-020
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.114
+    total_display_area: 0.0678
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3333889728000006
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M034
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.577
+    total_display_area: 0.0678
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.23568206719999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M041
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.628
+    total_display_area: 0.72
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.727883519999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-AC ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.738
+    total_display_area: 0.051
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.7109031360000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.261
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.8193063679999993
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-MC ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.675
+    total_display_area: 0.079
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.04023483840000018
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC OUTD. ECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.405
+    total_display_area: 0.296
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.1338176383999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC OUTD. ECO CCR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.405
+    total_display_area: 0.296
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.1338176383999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SCT ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.648
+    total_display_area: 0.042
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.7030139520000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-GDCT ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.765
+    total_display_area: 0.179
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.0838591040000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 ECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.534
+    total_display_area: 0.183
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.7044749119999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 ECO CCR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.534
+    total_display_area: 0.183
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.7044749119999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 ECO CCR Unbr
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.534
+    total_display_area: 0.183
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.7044749119999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 ECO Unbr
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.534
+    total_display_area: 0.183
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.7044749119999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 OUTD.ECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.347
+    total_display_area: 0.207
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9310969279999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 OUTD.ECO ***
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.347
+    total_display_area: 0.207
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9310969279999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC 106 OUTD.ECO CCR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.347
+    total_display_area: 0.207
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9310969279999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SC ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 0.664
+    total_display_area: 0.044
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.6930794240000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8039934079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO *** ****
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8039934079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO CCR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8039934079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO CCR Unbr
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8039934079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-SMC ECO Unbr
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.8039934079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-RC ECO LED
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.5489097920000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-RC ECO LED ***
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.5489097920000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RB-RC ECO LED CCR
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.924
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.5489097920000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC70
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.397
+    total_display_area: 0.152
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.2864587392
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1L-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1L-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1L-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1R-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1R-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1R-SD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG1R-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.23
+    total_display_area: 0.28
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2538501120000003
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2H-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2H-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2H-SD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2H-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2S-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2S-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG2S-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.47
+    total_display_area: 0.39
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.242801056
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3H-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3H-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3H-SD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3H-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3S-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3S-S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SG3S-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.24
+    total_display_area: 0.56
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.326768640000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Cold 450T
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.32
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.024544127999999894
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Beverage Coolers
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.25
+    total_display_area: 0.27
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.950847008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GSP1H-840
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.25
+    total_display_area: 0.27
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.950847008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GSP1H-865
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.25
+    total_display_area: 0.27
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.950847008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GSP1H-900
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.25
+    total_display_area: 0.27
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.950847008
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GSP2H
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.65
+    total_display_area: 0.37
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.227726047999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GSP3H
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.29
+    total_display_area: 0.55
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.759861920000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENV1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.8
+    total_display_area: 0.263
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.7493242848
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENV1L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.8
+    total_display_area: 0.263
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.7493242848
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENV1R
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.8
+    total_display_area: 0.263
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.7493242848
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENV2H
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.1
+    total_display_area: 0.368
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.3721336319999993
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ENV3H
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.33
+    total_display_area: 0.552
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.993214848
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1L
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1L-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1L-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1R
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1R-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT1R-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.12
+    total_display_area: 0.579
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.215908895999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.07
+    total_display_area: 0.795
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.64017168
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT2-B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.07
+    total_display_area: 0.795
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.64017168
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGT2-SS
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.07
+    total_display_area: 0.795
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.64017168
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CR 350
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.431
+    total_display_area: 0.51
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.4476923839999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RS-S2009T
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.235
+    total_display_area: 1.81
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 17.282280223999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RS-ST005
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.67
+    total_display_area: 0.374
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.9671450240000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RS-S1001C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.254
+    total_display_area: 0.656
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.446686335999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RS-S2003
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.714
+    total_display_area: 1.018
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.374579648000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. RS-ST006
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.313
+    total_display_area: 0.464
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.217023423999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *AC-050SWX
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.049
+    total_display_area: 0.11
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.052594560000000054
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SDM-0658
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.7
+    total_display_area: 0.605
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.49234351999999704
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPU-0683SCH
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.11
+    total_display_area: 0.739
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.936107935999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPU-1253SCH
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.52
+    total_display_area: 1.21
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.243656639999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PE-0403
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.92
+    total_display_area: 0.506
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.887441344
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPC-120
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.4
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.6857641280000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPC-1206C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.4
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.6857641280000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPC-1207C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.4
+    total_display_area: 0.253
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.6857641280000015
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPR-1327D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.19
+    total_display_area: 1.179
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.407348895999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPR-0687D
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.48
+    total_display_area: 0.59
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.2118934400000043
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PU-1053
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.123
+    total_display_area: 0.99
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.519398399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPU-1253
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.0
+    total_display_area: 1.21
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.997295039999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPU-0683
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.844
+    total_display_area: 0.739
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.791418655999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PE-0603
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.7
+    total_display_area: 0.66
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.89502784
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PE-1003
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.45
+    total_display_area: 0.916
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.193539583999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PE-0253
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.428
+    total_display_area: 0.329
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.152221536
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. *PE/V-0365
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.2
+    total_display_area: 0.379
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.452129504000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPE-0305FL
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.904
+    total_display_area: 0.31
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.2228777599999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SPE-0075
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.65
+    total_display_area: 0.156
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.3997186560000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SK135
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.958
+    total_display_area: 0.276
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.101444864
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SBB-4G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.945
+    total_display_area: 1.125
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.016882400000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SBB-3G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.906
+    total_display_area: 0.838
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.271500608000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SBB-2G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.822
+    total_display_area: 0.553
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3379471680000012
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB900-2RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.112
+    total_display_area: 0.854
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.419934144000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB900-3RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.237
+    total_display_area: 1.199
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.071111136
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB1200-2RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 11.559
+    total_display_area: 1.094
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.7676426239999965
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB1200-3RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.649
+    total_display_area: 1.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.624641759999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB1500-2RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 13.998
+    total_display_area: 1.312
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.7155134719999983
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB1500-3RD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 16.128
+    total_display_area: 1.806
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 4.062053184000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB6-1G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.79
+    total_display_area: 0.287
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.017823712000001282
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB9-2G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.944
+    total_display_area: 0.402
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.1303176319999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SB13-3G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.659
+    total_display_area: 0.588
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.13031763199999732
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-20
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.782
+    total_display_area: 0.53
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.932612128000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-20B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.782
+    total_display_area: 0.53
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.932612128000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-35
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.181
+    total_display_area: 0.739
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.830895894399999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-35B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.181
+    total_display_area: 0.739
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.830895894399999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-49
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.969
+    total_display_area: 1.088
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -11.285740684799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-49B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.969
+    total_display_area: 1.088
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -11.285740684799999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-72
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.689
+    total_display_area: 1.618
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -32.5687137728
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-72B
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 24.689
+    total_display_area: 1.618
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -32.5687137728
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SRT25-1G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.121
+    total_display_area: 0.527
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.996512419200001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SRT45-2G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.318
+    total_display_area: 1.032
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.753133107200004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SRT65-3G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 16.386
+    total_display_area: 1.519
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.729202582400005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGR9-1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.691
+    total_display_area: 0.224
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.3065573504
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGR12-2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.492
+    total_display_area: 0.324
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -6.864174464
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGR15-2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.638
+    total_display_area: 0.471
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.968249056000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGR18-3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.777
+    total_display_area: 0.601
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.611774816
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BME1200N-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.57
+    total_display_area: 1.185
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.549663024
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BME1200N-AC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.57
+    total_display_area: 1.185
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 18.549663024
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BME600N-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.29
+    total_display_area: 0.702
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.477245420799997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BME600N-AC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.29
+    total_display_area: 0.702
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.477245420799997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME1000N-3C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.72
+    total_display_area: 1.084
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.641271513599996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME1000N-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.72
+    total_display_area: 1.084
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.641271513599996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME1000N-AC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.72
+    total_display_area: 1.084
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 15.641271513599996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME650N-3C
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.75
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.5408264
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME650N-A
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.75
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.5408264
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. TME650N-AC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.75
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.5408264
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GD500H(HUS-C500)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.25
+    total_display_area: 0.59
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.225908159999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. GD1000H(HUS-C1000)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.38
+    total_display_area: 1.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 24.35128128
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BG1360(EPF3721)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.035
+    total_display_area: 0.262
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.364179712000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. BG1795(EPF3731)
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.624
+    total_display_area: 0.393
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.216146848
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HD1140
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HD1140G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HD1140S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SD1140
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SD1140G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SD1140S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Staycold Sliding and Hinged Door
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.806
+    total_display_area: 1.261
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.009621343999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HR200G S/S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.9
+    total_display_area: 0.219
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.6553866559999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC248
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.268
+    total_display_area: 0.288
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3861588480000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC248G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.268
+    total_display_area: 0.288
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3861588480000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC248SD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.268
+    total_display_area: 0.288
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3861588480000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC248SG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.268
+    total_display_area: 0.288
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -1.3861588480000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC316
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.51
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9854446399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC316G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.51
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9854446399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC316SG
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.51
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9854446399999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-540GE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.92
+    total_display_area: 0.63
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -2.3638332800000006
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-1000GE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.49
+    total_display_area: 0.94
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.008874240000005
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-570GTE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.898
+    total_display_area: 0.626
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.352838463999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-1000GTE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.048
+    total_display_area: 1.06
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.44948928
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HR400G S/S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.67
+    total_display_area: 0.535
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 7.36177744
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HR600G S/S
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.17
+    total_display_area: 0.689
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.265581535999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SC148G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 2.119
+    total_display_area: 0.211
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -0.21125481600000073
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-208
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.2
+    total_display_area: 0.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9869055999999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-208HC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.2
+    total_display_area: 0.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9869055999999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-208SC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.2
+    total_display_area: 0.4
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.9869055999999992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-330
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.71
+    total_display_area: 0.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8101836799999984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-330HC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.71
+    total_display_area: 0.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8101836799999984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LG-330SC
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.71
+    total_display_area: 0.62
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.8101836799999984
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM25-1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.185
+    total_display_area: 0.523
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -3.2488828479999983
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. SGM-5
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.93
+    total_display_area: 0.231
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.935999456
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KGR9-1
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 4.1
+    total_display_area: 0.243
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.092614368
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KGR12-2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.56
+    total_display_area: 0.343
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -6.524355167999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KGR15-2
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.3
+    total_display_area: 0.485
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -4.661923360000001
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KGR18-3
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.345
+    total_display_area: 0.567
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -5.391234592000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR25-1G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.51
+    total_display_area: 0.617
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.3876198079999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR25-2G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.51
+    total_display_area: 0.574
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.16888697599999827
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR45-2G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.65
+    total_display_area: 1.209
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.069704415999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR45-4G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.65
+    total_display_area: 1.1
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 2.9803583999999987
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR65-3G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.89
+    total_display_area: 1.813
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 13.721628511999993
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. KR65-6G
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.89
+    total_display_area: 1.649
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 9.073438175999994
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. CDS420FRIDGE
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.98
+    total_display_area: 0.63
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -14.226828480000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. M031
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 1.704
+    total_display_area: 0.27
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.624295328
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTK1GDCB
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 3.898
+    total_display_area: 0.626
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.352838463999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HTS2GDCB
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.09
+    total_display_area: 1.166
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 3.5653267839999954
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HQS3GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.968
+    total_display_area: 1.77
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 14.162254047999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HQS2GDCB
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.1
+    total_display_area: 1.19
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 8.357567775999996
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HQS1GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 5.49
+    total_display_area: 0.719
+    product_type: vc4_b_m1
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 1.542861417599998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HPS2GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 9.58
+    total_display_area: 1.19
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.735728959999998
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HRS2GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 7.151
+    total_display_area: 0.942
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.804101887999999
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HQ14GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 8.516
+    total_display_area: 0.567
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.812802912000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HDS1GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 6.55
+    total_display_area: 0.704
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 0.8146312959999985
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HDS2GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.09
+    total_display_area: 1.45
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.614631999999995
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HRS3GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 10.59
+    total_display_area: 1.32
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 6.469130880000002
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. HPS3GD
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 12.36
+    total_display_area: 1.76
+    product_type: vc4_b_m2
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 13.768087040000001

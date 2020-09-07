@@ -1,0 +1,150 @@
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Strateo HD4 250
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 50.643
+    total_display_area: 5.16
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.747168192
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. XC0302816
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 50.643
+    total_display_area: 5.16
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 12.747168192
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Strateo Lift HD4 250
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 52.99
+    total_display_area: 5.14
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.266468607999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. XC0310616
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 52.99
+    total_display_area: 5.14
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 5.266468607999997
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Strateo HD4 375
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 75.84
+    total_display_area: 7.74
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 19.484531328000017
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. XC0302818
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 75.84
+    total_display_area: 7.74
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 19.484531328000017
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. Burley TL4-3 250 Roll in
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 52.34
+    total_display_area: 5.29
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.837866688000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. U44LS25
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 52.34
+    total_display_area: 5.29
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.837866688000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. XC0392516
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 52.34
+    total_display_area: 5.29
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 11.837866688000004
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. O5DMH12
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 72.356
+    total_display_area: 6.3871
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -12.475178346879963
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. O5DMH8
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 48.461
+    total_display_area: 4.2581
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -8.96928341568
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. ON5DMHX6
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 37.742
+    total_display_area: 3.0542
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -15.147899477759992
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LEHO 250/22.T8.A56.LL
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 58.66
+    total_display_area: 5.15
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -10.989341119999967
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LEHO 375/22.T8.A56.LL
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 78.96
+    total_display_area: 7.73
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 10.056664256000044
+- name: Test electricity savings for F1, for 2020 emergency rule change
+    for model no. LEHO C 250/22.T8.A26
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    total_energy_consumption: 64.79
+    total_display_area: 5.15
+    product_type: rs_1_lit_shelves
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: -28.900710719999996

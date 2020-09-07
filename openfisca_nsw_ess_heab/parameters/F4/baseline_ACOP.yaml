@@ -6,91 +6,125 @@ product_class_one:
  values:
    2020-01-01:
      value: 3.10
+   2021-04-01:
+     value: 3.10
 product_class_two:
  values:
    2020-01-01:
      value: 2.50
+   2021-04-01:
+     value: 3.10
 product_class_three:
  values:
    2020-01-01:
+     value: 3.10
+   2021-04-01:
      value: 3.10
 product_class_four:
  values:
    2020-01-01:
      value: 2.50
+   2021-04-01:
+     value: 3.10
 product_class_five:
  values:
    2020-01-01:
+     value: 3.10
+   2021-04-01:
      value: 3.10
 product_class_six:
  values:
    2020-01-01:
      value: 3.10
+   2021-04-01:
+     value: 3.10
 product_class_seven:
  values:
    2020-01-01:
      value: 2.90
+   2021-04-01:
+     value: 3.10
 product_class_eight:
  values:
    2020-01-01:
      value: 3.66
+   2021-04-01:
+     value: 3.10
 product_class_nine:
  values:
    2020-01-01:
      value: 3.22
+   2021-04-01:
+     value: 3.10
 product_class_ten:
  values:
    2020-01-01:
+     value: 3.10
+   2021-04-01:
      value: 3.10
 product_class_eleven:
  values:
    2020-01-01:
      value: 3.10
+   2021-04-01:
+     value: 3.10
 product_class_twelve:
  values:
    2020-01-01:
      value: 2.90
+   2021-04-01:
+     value: 3.10
 product_class_thirteen:
  values:
    2020-01-01:
      value: 3.66
+   2021-04-01:
+     value: 3.10
 product_class_fourteen:
  values:
    2020-01-01:
      value: 3.22
+   2021-04-01:
+     value: 3.10
 product_class_fifteen:
  values:
    2020-01-01:
+     value: 3.10
+   2021-04-01:
      value: 3.10
 product_class_sixteen:
  values:
    2020-01-01:
      value: 3.10
+   2021-04-01:
+     value: 3.10
 product_class_seventeen:
  values:
    2020-01-01:
      value: 2.90
+   2021-04-01:
+     value: 3.10
 product_class_eighteen:
  values:
    2020-01-01:
      value: 3.66
+   2021-04-01:
+     value: 3.10
 product_class_nineteen:
  values:
    2020-01-01:
      value: 3.22
+   2021-04-01:
+     value: 3.10
 product_class_twenty:
  values:
    2020-01-01:
+     value: 3.10
+   2021-04-01:
      value: 3.10
 product_class_twenty_one:
  values:
    2020-01-01:
      value: 2.90
-product_class_twenty_two:
- values:
-   2020-01-01:
-     value: 3.50
-product_class_twenty_three:
- values:
-   2020-01-01:
-     value: 3.20
+   2021-04-01:
+     value: 3.10

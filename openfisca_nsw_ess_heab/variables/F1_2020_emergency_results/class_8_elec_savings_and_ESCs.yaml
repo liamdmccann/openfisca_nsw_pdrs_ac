@@ -1,0 +1,26 @@
+- name: test electricity savings for JCMLT-900-3-H-SC 2012 GEMS Registry.
+    Product class 8. Product type VF4 (b) - Glass Door (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vf4_b_l1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 56.808
+    total_display_area: 3.1166
+  output:
+    F1_emergency_deemed_equipment_electricity_savings: 52.02
+- name: test electricity savings for JCMLT-900-3-H-SC 2012 GEMS Registry.
+    Product class 8. Product type VF4 (b) - Glass Door (MEPS).
+  period: 2020
+  absolute_error_margin: 0.01
+  input:
+    product_type: vf4_b_l1
+    duty_class: light_duty
+    is_low_sales_volume_product: False
+    is_oversize_product: False
+    total_energy_consumption: 56.808
+    total_display_area: 3.1166
+  output:
+    F1_emergency_ESCs: 55

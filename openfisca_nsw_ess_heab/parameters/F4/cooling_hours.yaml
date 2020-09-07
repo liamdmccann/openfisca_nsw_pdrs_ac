@@ -1,6 +1,21 @@
 description: Coefficient to be applied when a gym is present at the
   NABERS rated apartment building.
 reference: NABERS Reverse Calculator for Apartments, v. 1.1, October 2019.
-values:
-  2020-01-01:
-    value: 628
+hot_zone:
+  values:
+    2020-01-01:
+      value: 628
+    2021-04-01:
+      value: 1754
+average_zone:
+  values:
+    2020-01-01:
+      value: 628
+    2021-04-01:
+      value: 801
+cold_zone:
+  values:
+    2020-01-01:
+      value: 628
+    2021-04-01:
+      value: 530
