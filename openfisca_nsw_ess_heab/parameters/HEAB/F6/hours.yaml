@@ -1,0 +1,16 @@
+description: Table F5.2 - average power variable, dependent on the control system
+    used.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.
+BCA_class_2:
+  division_A:
+    values:
+      2021-04-01:
+        value: 8000
+  division_C:
+    values:
+      2021-04-01:
+        value: 8000
+  not_division_A_or_C:
+    values:
+      2021-04-01:
+        value: 8000

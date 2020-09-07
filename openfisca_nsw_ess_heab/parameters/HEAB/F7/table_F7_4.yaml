@@ -1,0 +1,23 @@
+description: Values from Table F7.4 - Asset Life for High Efficiency Motors.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.
+default_load_utilisation_factor:
+  0_73_to_2_6_kW:
+    values:
+      2020-01-01:
+        value: 12
+  2_6_to_9_2_kW:
+    values:
+      2020-01-01:
+        value: 15
+  9_2_to_41_kW:
+    values:
+      2020-01-01:
+        value: 20
+  41_to_100_kW:
+    values:
+      2020-01-01:
+        value: 22
+  100_to_185_kW:
+    values:
+      2020-01-01:
+        value: 25
