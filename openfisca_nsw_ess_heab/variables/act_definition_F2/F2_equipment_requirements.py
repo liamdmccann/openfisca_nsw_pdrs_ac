@@ -41,14 +41,12 @@ class F2_IPLV_10_percent_higher_than_baseline(Variable):
                            cooling_capacity >= 500 and cooling_capacity <= 699,
                            cooling_capacity >= 700 and cooling_capacity <= 999,
                            cooling_capacity >= 1000 and cooling_capacity <= 1499,
-                           cooling_capacity > 1500
-                          ],
+                           cooling_capacity > 1500],
                           ['350_to_499_kWR',
                            '500_to_699_kWR',
                            '700_to_999_kWR',
                            '1000_to_1499_kWR',
-                           'greater_than_1500_kWR']
-                           )
+                           'greater_than_1500_kWR'])
         baseline = parameters(period).HEAB.F2.F2_1[LCP_type][capacity]
         percentage_increase = ((IPLV - baseline) * 100)  # i'm sure there's a more efficient way to write this
         return percentage_increase > 10

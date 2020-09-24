@@ -11,7 +11,7 @@ class F2_LCP_is_installed(Variable):
     label = 'Has the LCP been installed?'  # note no definition of what installed means
 
 
-class installation_requirements_are_met(Variable):
+class F2_installation_requirements_are_met(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY

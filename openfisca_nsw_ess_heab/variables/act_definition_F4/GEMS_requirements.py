@@ -23,7 +23,7 @@ class GEMS_MEPS_requirement(Variable):
                     (cooling_capacity > MEPS_value))
 
 
-class ACProductClass(Enum):
+class F4ProductClass(Enum):
     product_class_one = 'AC is an air to air unitary air conditioner, which' \
                         ' is wall-mounted, unitary, and double ducted, and' \
                         ' which has a standard cooling full capacity, or' \
@@ -142,10 +142,10 @@ class ACProductClass(Enum):
                                  ' equal to 39kW, and under or equal to 65kW.'
 
 
-class product_class(Variable):
+class F4_product_class(Variable):
     value_type = Enum
-    possible_values = ACProductClass
-    default_value = ACProductClass.product_class_one
+    possible_values = F4ProductClass
+    default_value = F4ProductClass.product_class_one
     entity = Building
     definition_period = ETERNITY
     label = 'returns the product class from the defined list of products in' \

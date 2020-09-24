@@ -1,16 +1,1534 @@
 description: Table F5.2 - average power variable, dependent on the control system
     used.
 reference: Energy Savings Scheme Rule, beginning 30 March 2020.
-BCA_class_2:
-  division_A:
-    values:
-      2021-04-01:
-        value: 8000
-  division_C:
-    values:
-      2021-04-01:
-        value: 8000
-  not_division_A_or_C:
-    values:
-      2021-04-01:
-        value: 8000
+hours:
+  BCA_class_1a:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0
+  BCA_class_1b:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0
+  BCA_class_2:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_B:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_C:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_D:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_E:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_F:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_G:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_H:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_I:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_J:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_K:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_L:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_M:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_N:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_O:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_P:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_R:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_S:
+      values:
+        2020-01-01:
+          value: 6300
+    Residential:
+      values:
+        2020-01-01:
+          value: 6300
+    Unknown:
+      values:
+        2020-01-01:
+          value: 6300
+  BCA_class_3:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_B:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_C:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_D:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_E:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_F:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_G:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_H:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_I:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_J:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_K:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_L:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_M:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_N:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_O:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_P:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_R:
+      values:
+        2020-01-01:
+          value: 6300
+    Division_S:
+      values:
+        2020-01-01:
+          value: 6300
+    Residential:
+      values:
+        2020-01-01:
+          value: 6300
+    Unknown:
+      values:
+        2020-01-01:
+          value: 6300
+  BCA_class_4:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0
+  BCA_Class_5:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_B:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_C:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_D:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_E:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_F:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_G:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_H:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_I:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_J:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_K:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_L:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_M:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_N:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_O:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_P:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_R:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_S:
+      values:
+        2020-01-01:
+          value: 2800
+    Residential:
+      values:
+        2020-01-01:
+          value: 2800
+    Unknown:
+      values:
+        2020-01-01:
+          value: 2800
+  BCA_Class_6_shop:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_B:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_C:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_D:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_E:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_F:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_G:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_H:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_I:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_J:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_K:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_L:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_M:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_N:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_O:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_P:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_R:
+      values:
+        2020-01-01:
+          value: 4000
+    Division_S:
+      values:
+        2020-01-01:
+          value: 4000
+    Residential:
+      values:
+        2020-01-01:
+          value: 4000
+    Unknown:
+      values:
+        2020-01-01:
+          value: 4000
+  BCA_Class_6_cafe_or_rest:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_B:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_C:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_D:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_E:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_F:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_G:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_H:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_I:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_J:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_K:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_L:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_M:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_N:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_O:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_P:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_R:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_S:
+      values:
+        2020-01-01:
+          value: 5200
+    Residential:
+      values:
+        2020-01-01:
+          value: 5200
+    Unknown:
+      values:
+        2020-01-01:
+          value: 5200
+  BCA_Class_7a:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_B:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_C:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_D:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_E:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_F:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_G:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_H:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_I:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_J:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_K:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_L:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_M:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_N:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_O:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_P:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_R:
+      values:
+        2020-01-01:
+          value: 6900
+    Division_S:
+      values:
+        2020-01-01:
+          value: 6900
+    Residential:
+      values:
+        2020-01-01:
+          value: 6900
+    Unknown:
+      values:
+        2020-01-01:
+          value: 6900
+  BCA_Class_7b:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_B:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_C:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_D:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_E:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_F:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_G:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_H:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_I:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_J:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_K:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_L:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_M:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_N:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_O:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_P:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_R:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_S:
+      values:
+        2020-01-01:
+          value: 5100
+    Residential:
+      values:
+        2020-01-01:
+          value: 5100
+    Unknown:
+      values:
+        2020-01-01:
+          value: 5100
+  BCA_Class_8:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_B:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_C:
+      values:
+        2020-01-01:
+          value: 5100
+    Division_D:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_E:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_F:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_G:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_H:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_I:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_J:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_K:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_L:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_M:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_N:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_O:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_P:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_R:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_S:
+      values:
+        2020-01-01:
+          value: 2800
+    Residential:
+      values:
+        2020-01-01:
+          value: 2800
+    Unknown:
+      values:
+        2020-01-01:
+          value: 2800
+  BCA_Class_9a_clinic:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_B:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_C:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_D:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_E:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_F:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_G:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_H:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_I:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_J:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_K:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_L:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_M:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_N:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_O:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_P:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_R:
+      values:
+        2020-01-01:
+          value: 2800
+    Division_S:
+      values:
+        2020-01-01:
+          value: 2800
+    Residential:
+      values:
+        2020-01-01:
+          value: 2800
+    Unknown:
+      values:
+        2020-01-01:
+          value: 2800
+  BCA_Class_9a_hospital:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_B:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_C:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_D:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_E:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_F:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_G:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_H:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_I:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_J:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_K:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_L:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_M:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_N:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_O:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_P:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_R:
+      values:
+        2020-01-01:
+          value: 8760
+    Division_S:
+      values:
+        2020-01-01:
+          value: 8760
+    Residential:
+      values:
+        2020-01-01:
+          value: 8760
+    Unknown:
+      values:
+        2020-01-01:
+          value: 8760
+  BCA_Class_9b_schools:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_B:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_C:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_D:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_E:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_F:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_G:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_H:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_I:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_J:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_K:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_L:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_M:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_N:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_O:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_P:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_R:
+      values:
+        2020-01-01:
+          value: 2000
+    Division_S:
+      values:
+        2020-01-01:
+          value: 2000
+    Residential:
+      values:
+        2020-01-01:
+          value: 2000
+    Unknown:
+      values:
+        2020-01-01:
+          value: 2000
+  BCA_Class_9b_theatres:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_B:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_C:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_D:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_E:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_F:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_G:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_H:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_I:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_J:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_K:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_L:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_M:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_N:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_O:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_P:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_R:
+      values:
+        2020-01-01:
+          value: 5200
+    Division_S:
+      values:
+        2020-01-01:
+          value: 5200
+    Residential:
+      values:
+        2020-01-01:
+          value: 5200
+    Unknown:
+      values:
+        2020-01-01:
+          value: 5200
+  BCA_Class_10a:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0
+  BCA_Class_10b:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0
+  BCA_Class_10c:
+    Division_A:
+      values:
+        2020-01-01:
+          value: 0
+    Division_B:
+      values:
+        2020-01-01:
+          value: 0
+    Division_C:
+      values:
+        2020-01-01:
+          value: 0
+    Division_D:
+      values:
+        2020-01-01:
+          value: 0
+    Division_E:
+      values:
+        2020-01-01:
+          value: 0
+    Division_F:
+      values:
+        2020-01-01:
+          value: 0
+    Division_G:
+      values:
+        2020-01-01:
+          value: 0
+    Division_H:
+      values:
+        2020-01-01:
+          value: 0
+    Division_I:
+      values:
+        2020-01-01:
+          value: 0
+    Division_J:
+      values:
+        2020-01-01:
+          value: 0
+    Division_K:
+      values:
+        2020-01-01:
+          value: 0
+    Division_L:
+      values:
+        2020-01-01:
+          value: 0
+    Division_M:
+      values:
+        2020-01-01:
+          value: 0
+    Division_N:
+      values:
+        2020-01-01:
+          value: 0
+    Division_O:
+      values:
+        2020-01-01:
+          value: 0
+    Division_P:
+      values:
+        2020-01-01:
+          value: 0
+    Division_Q:
+      values:
+        2020-01-01:
+          value: 0
+    Division_R:
+      values:
+        2020-01-01:
+          value: 0
+    Division_S:
+      values:
+        2020-01-01:
+          value: 0
+    Residential:
+      values:
+        2020-01-01:
+          value: 0
+    Unknown:
+      values:
+        2020-01-01:
+          value: 0

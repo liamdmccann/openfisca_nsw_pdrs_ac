@@ -40,7 +40,6 @@ class F1_2_annual_energy_consumption_below_baseline_EEI(Variable):
     def formula(buildings, period, parameters):
         annual_energy_consumption = buildings('F1_2_annual_energy_consumption', period)
         product_class = buildings('F1_product_class', period)
-        F1ProductClass = product_class.possible_values
         EEI = parameters(period).HEAB.F1.F1_2_baseline_EEIs.EEI[product_class]
         return annual_energy_consumption < EEI
 

@@ -1,555 +1,554 @@
-description: Values from Table F7.1. 
-reference:
-Energy Savings Scheme Rule, beginning 30 March 2020.
+description: Values from Table F7.1.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.
 default_load_utilisation_factor:
   Division A Agriculture, Forestry and Fishing:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.14
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.27
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.2
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.2
   Division B Mining:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.36
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.41
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
   Division C Manufacturing:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.27
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.27
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.24
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
   Division D Electricity, Gas, Water and Waste Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.32
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.24
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.28
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.12
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
   Division E Construction:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.24
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.15
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.15
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.14
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.2
   Division F Wholesale Trade:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.2
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.14
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.07
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
   Division G Retail Trade:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.07
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.07
   Division H Accommodation and Food Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.24
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.14
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
   Division I Transport, Postal and Warehousing:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.08
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.13
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.16
   Division J Information Media and Telecommunications:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.1
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division K Financial and Insurance Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division L Rental, Hiring and Real Estate Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division M Professional, Scientific and Technical Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.17
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.07
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.08
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.08
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division N Administrative and Support Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division O Public Administration and Safety:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division P Education and Training:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division Q Health Care and Social Assistance:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.08
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.11
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division R Arts and Recreation Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.09
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
   Division S Other Services:
     refrigeration_and_freezing:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.07
     water_or_liquid_pumping:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.05
     air_compression:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     air_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.06
     process_drives:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.04
     milling_mixing_or_grinding:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03
     material_handling:
       values:
-        2020-01-01: 
+        2020-01-01:
           value: 0.03

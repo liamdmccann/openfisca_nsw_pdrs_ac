@@ -25,11 +25,8 @@ class annual_energy_consumption(Variable):
             ' Cabinet?'
 
     def formula(buildings, period, parameters):
-        duty_class = buildings('duty_class', period)
         is_RDC = buildings('is_RDC', period)
         is_RSC = buildings('is_RSC', period)
-        is_chiller = buildings('is_chiller', period)
-        is_freezer = buildings('is_freezer', period)
         is_ice_cream_freezer_cabinet = buildings('is_ice_cream_freezer_cabinet', period)
         is_scooping_cabinet = buildings('is_scooping_cabinet', period)
         is_remote = buildings('is_remote_cabinet', period)
@@ -47,7 +44,7 @@ class annual_energy_consumption(Variable):
                                             (is_RDC * is_remote * (is_low_sales_volume + is_oversize)),
                                             (is_RDC * is_integral * (is_low_sales_volume + is_oversize)),
                                             (is_RSC * is_low_sales_volume)],
-                                            [(daily_energy_consumption * 365),
+                                           [(daily_energy_consumption * 365),
                                             (daily_energy_consumption * 365),
                                             (daily_energy_consumption * 365),
                                             (daily_energy_consumption * adjustment_factor * 365),
@@ -84,11 +81,8 @@ class adjustment_factor(Variable):
             ' Energy Consumption?'
 
     def formula(buildings, period, parameters):
-        duty_class = buildings('duty_class', period)
         is_RDC = buildings('is_RDC', period)
         is_RSC = buildings('is_RSC', period)
-        is_chiller = buildings('is_chiller', period)
-        is_freezer = buildings('is_freezer', period)
         is_remote = buildings('is_remote_cabinet', period)
         is_integral = buildings('is_integral_cabinet', period)
         is_low_sales_volume = buildings('is_low_sales_volume_product', period)
@@ -102,7 +96,7 @@ class adjustment_factor(Variable):
                                     (is_RDC * is_integral * (is_low_sales_volume + is_oversize)),
                                     (is_RSC * is_low_sales_volume * is_heavy_duty),
                                     (is_RSC * is_low_sales_volume * (is_light_duty + is_normal_duty))],
-                                    [1.2, 1.1, 1.1304, 1.1304, 1.15, 1.1875])
+                                   [1.2, 1.1, 1.1304, 1.1304, 1.15, 1.1875])
         condition_adjustment_factor = ((adjustment_factor == 1.2) + (adjustment_factor == 1.1)
                                     + (adjustment_factor == 1.1304) + (adjustment_factor == 1.15)
                                     + (adjustment_factor == 1.1875))
@@ -118,11 +112,8 @@ class reference_annual_energy_consumption(Variable):
 
     def formula(buildings, period, parameters):
         product_class = buildings('product_class', period)
-        duty_class = buildings('duty_class', period)
         is_RDC = buildings('is_RDC', period)
         is_RSC = buildings('is_RSC', period)
-        is_chiller = buildings('is_chiller', period)
-        is_freezer = buildings('is_freezer', period)
         is_ice_cream_freezer_cabinet = buildings('is_ice_cream_freezer_cabinet', period)
         is_scooping_cabinet = buildings('is_scooping_cabinet', period)
         is_remote = buildings('is_remote_cabinet', period)
@@ -131,26 +122,25 @@ class reference_annual_energy_consumption(Variable):
         is_oversize = buildings('is_oversize_product', period)
         coefficient_M = parameters(period).F1_2019.coefficients.M[product_class]
         coefficient_N = parameters(period).F1_2019.coefficients.N[product_class]
-        adjustment_factor = buildings('adjustment_factor', period)
         net_cabinet_volume = buildings('net_cabinet_volume', period)
         daily_energy_consumption = buildings('total_energy_consumption', period)
         total_display_area = buildings('total_display_area', period)
         direct_energy_consumption = buildings('direct_energy_consumption', period)
         refrigeration_energy_consumption = buildings('refrigeration_energy_consumption', period)
         reference_annual_energy_consumption = select([(is_RDC + ((not(is_low_sales_volume)) * (not(is_oversize)))),
-                                            (is_scooping_cabinet),
-                                            (is_ice_cream_freezer_cabinet),
-                                            (is_RSC + (not(is_low_sales_volume))),
-                                            (is_RDC * is_remote * (is_low_sales_volume + is_oversize)),
-                                            (is_RDC * is_integral * (is_low_sales_volume + is_oversize)),
-                                            (is_RSC * is_low_sales_volume)],
-                                            [((coefficient_M + (coefficient_N * total_display_area)) * 365),
-                                            ((coefficient_M + (coefficient_N * total_display_area)) * 365),
-                                            ((coefficient_M + (coefficient_N * net_cabinet_volume)) * 365),
-                                            ((coefficient_M * net_cabinet_volume) * coefficient_N),
-                                            ((direct_energy_consumption + refrigeration_energy_consumption) * 365),
-                                            (daily_energy_consumption * 365),
-                                            (daily_energy_consumption * 365)])
+                                                      (is_scooping_cabinet),
+                                                      (is_ice_cream_freezer_cabinet),
+                                                      (is_RSC + (not(is_low_sales_volume))),
+                                                      (is_RDC * is_remote * (is_low_sales_volume + is_oversize)),
+                                                      (is_RDC * is_integral * (is_low_sales_volume + is_oversize)),
+                                                      (is_RSC * is_low_sales_volume)],
+                                                     [((coefficient_M + (coefficient_N * total_display_area)) * 365),
+                                                      ((coefficient_M + (coefficient_N * total_display_area)) * 365),
+                                                      ((coefficient_M + (coefficient_N * net_cabinet_volume)) * 365),
+                                                      ((coefficient_M * net_cabinet_volume) * coefficient_N),
+                                                      ((direct_energy_consumption + refrigeration_energy_consumption) * 365),
+                                                      (daily_energy_consumption * 365),
+                                                      (daily_energy_consumption * 365)])
         return reference_annual_energy_consumption
 
 
@@ -185,7 +175,7 @@ class ProductClass(Enum):
     SFV = 'Product is an RSC - freezer (SFV), and is registered in Product' \
           ' Class 10 of the 2019 GEMS Determination.'
     IRV_4 = 'Product is an RDC - chiller (IRV-4), and is registered in Product' \
-          ' Class 11 of the 2019 GEMS Determination.'
+            ' Class 11 of the 2019 GEMS Determination.'
     RRH = 'Product is an RDC - chiller (RRH), and is registered in Product' \
           ' Class 12 of the 2019 GEMS Determination.'
     RFH = 'Product is an RDC - chiller (RFH), and is registered in Product' \
@@ -193,7 +183,7 @@ class ProductClass(Enum):
     RRV = 'Product is an RDC - chiller (RRV), and is registered in Product' \
           ' Class 14 of the 2019 GEMS Determination.'
     RRV_2 = 'Product is an RDC - chiller (RRV-2), and is registered in Product' \
-          ' Class 14 of the 2019 GEMS Determination.'
+            ' Class 14 of the 2019 GEMS Determination.'
     RFV = 'Product is an RDC - chiller (RRV-2), and is registered in Product' \
           ' Class 15 of the 2019 GEMS Determination.'
 
@@ -277,7 +267,6 @@ class is_scooping_cabinet(Variable):
         return is_scooping_cabinet
 
 
-
 class is_chiller(Variable):
     value_type = bool
     entity = Building
@@ -306,9 +295,6 @@ class is_freezer(Variable):
                      + (product_class == ProductClass.SFV) + (product_class == ProductClass.RFH)
                      + (product_class == ProductClass.RFV))
         return is_freezer
-
-
-
 
 
 class is_integral_cabinet(Variable):

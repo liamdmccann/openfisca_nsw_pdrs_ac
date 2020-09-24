@@ -4,27 +4,35 @@ from openfisca_core.model_api import *
 from openfisca_nsw_base.entities import *
 
 
-class F5_is_electronically_communtated_motor(Variable):
+class F6_is_electronically_communtated_motor(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
     label = 'Is the product an electronically communtated (brushless DC) motor?'
 
 
-class F5_nominal_input_power_less_than_500W(Variable):
+class F6_impeller_is_fitted(Variable):
+    value_type = bool
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Does the product have an impeller fitted?'
+
+
+class F6_nominal_input_power_less_than_500W(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
     label = 'Is the nominal input power of the new End User Equipment less than' \
-            ' or equal to 500W?'
+            ' or equal to 500W, with the impeller fitted?'
 
     def formula(buildings, period, parameters):
         equipment_input_power = buildings('motor_nominal_input_power', period)
         condition_less_than_500W = (equipment_input_power <= 500)
-        return condition_less_than_500W
+        impeller_is_fitted = buildings('F6_impeller_is_fitted', period)
+        return condition_less_than_500W * impeller_is_fitted
 
 
-class output_power_greater_than_existing_fan(Variable):
+class F6_output_power_greater_than_existing_fan(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -38,7 +46,7 @@ class output_power_greater_than_existing_fan(Variable):
         return condition_new_power_higher_than_existing
 
 
-class airflow_volume_greater_than_existing_fan(Variable):
+class F6_airflow_volume_greater_than_existing_fan(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -52,7 +60,7 @@ class airflow_volume_greater_than_existing_fan(Variable):
         return condition_new_airflow_volume_higher_than_existing
 
 
-class output_power_or_airflow_greater_than_existing_fan(Variable):
+class F6_output_power_or_airflow_greater_than_existing_fan(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -65,7 +73,7 @@ class output_power_or_airflow_greater_than_existing_fan(Variable):
         return output_power_greater + airflow_greater
 
 
-class meets_other_scheme_administrator_requirements(Variable):
+class F6_meets_other_scheme_administrator_requirements(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -75,17 +83,17 @@ class meets_other_scheme_administrator_requirements(Variable):
     # what does complying with this Determination mean?
 
 
-class F5_meets_equipment_requirements(Variable):
+class F6_meets_equipment_requirements(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
     label = 'Does the equipment meet the Equipment Requirements of Activity' \
-            ' Definition F4?'
+            ' Definition F6?'
 
     def formula(buildings, period, parameters):
-        is_electronically_communtated_motor = buildings('F5_is_electronically_communtated_motor', period)
-        input_less_than_500W = buildings('F5_nominal_input_power_less_than_500W', period)
-        higher_output_or_airflow = buildings('output_power_or_airflow_greater_than_existing_fan', period)
-        meets_other_requirements = buildings('meets_other_scheme_administrator_requirements', period)
+        is_electronically_communtated_motor = buildings('F6_is_electronically_communtated_motor', period)
+        input_less_than_500W = buildings('F6_nominal_input_power_less_than_500W', period)
+        higher_output_or_airflow = buildings('F6_output_power_or_airflow_greater_than_existing_fan', period)
+        meets_other_requirements = buildings('F6_meets_other_scheme_administrator_requirements', period)
         return (is_electronically_communtated_motor * input_less_than_500W
         * higher_output_or_airflow * meets_other_requirements)

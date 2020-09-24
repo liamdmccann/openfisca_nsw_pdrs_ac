@@ -4,43 +4,43 @@ from openfisca_core.model_api import *
 from openfisca_nsw_base.entities import *
 
 
-class F5_motor_is_installed_into_refrigerated_cabinet(Variable):
+class F6_motor_is_part_of_ducted_fan(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
-    label = 'Has the motor been installed into a refrigerated cabinet?'
+    label = 'Is the motor part of a ducted fan?'
 
 
-class F5_motor_is_installed_into_reach_in_freezer(Variable):
+class F6_motor_is_part_of_partition_fan(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
-    label = 'Has the motor been installed into a reach in freezer?'
+    label = 'Is the motor part of a partition fan?'
 
 
-class F5_motor_is_installed_into_cold_room_evaporator_in_use(Variable):
+class F6_fan_is_part_of_air_handling_system(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
-    label = 'Has the motor been installed into a cold room evaporator unit,' \
-            ' which is in use?'
+    label = 'Is the fan that the motor is being installed in part of an air' \
+            ' handling system?'
 
 
-class F5_unit_in_RC_freezer_or_cold_room(Variable):
+class F6_ducted_or_partition_fan_part_of_air_handling_system(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
-    label = 'Has the motor been installed into a refrigerated cabinet, reach in' \
-            ' freezer, or a cold room evaporator unit which is in use?'
+    label = 'Is the motor part of a ducted fan or partition fan, in an air' \
+            ' handling system?'
 
     def formula(buildings, period, parameters):
-        installed_in_RC = buildings('F5_motor_is_installed_into_refrigerated_cabinet', period)
-        installed_in_reach_in_freezer = buildings('F5_motor_is_installed_into_reach_in_freezer', period)
-        installed_in_cold_room = buildings('F5_motor_is_installed_into_cold_room_evaporator_in_use', period)
-        return (installed_in_RC + installed_in_reach_in_freezer + installed_in_cold_room)
+        part_of_ducted_fan = buildings('F6_motor_is_part_of_ducted_fan', period)
+        part_of_partition_fan = buildings('F6_motor_is_part_of_partition_fan', period)
+        part_of_air_handling_system = buildings('F6_fan_is_part_of_air_handling_system', period)
+        return ((part_of_ducted_fan + part_of_partition_fan) * part_of_air_handling_system)
 
 
-class F5_unit_replaces_equivalent_shaded_pole_motor_unit(Variable):
+class F6_unit_replaces_equivalent_shaded_pole_motor_unit(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -48,7 +48,7 @@ class F5_unit_replaces_equivalent_shaded_pole_motor_unit(Variable):
             ' motor unit?'
 
 
-class F5_unit_replaces_permanent_split_capacitor_motor(Variable):
+class F6_unit_replaces_permanent_split_capacitor_motor(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -56,7 +56,7 @@ class F5_unit_replaces_permanent_split_capacitor_motor(Variable):
             ' capacitor motor?'
 
 
-class F5_replaces_equivalent_shaded_or_permanent_split_unit(Variable):
+class F6_replaces_equivalent_shaded_or_permanent_split_unit(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -64,19 +64,19 @@ class F5_replaces_equivalent_shaded_or_permanent_split_unit(Variable):
             ' or a permanent split capacitor motor?'
 
     def formula(buildings, period, parameters):
-        replaces_shaded_pole_motor_unit = buildings('F5_unit_replaces_equivalent_shaded_pole_motor_unit', period)
-        replaces_permanent_split_capacitor_motor = buildings('F5_unit_replaces_permanent_split_capacitor_motor', period)
+        replaces_shaded_pole_motor_unit = buildings('F6_unit_replaces_equivalent_shaded_pole_motor_unit', period)
+        replaces_permanent_split_capacitor_motor = buildings('F6_unit_replaces_permanent_split_capacitor_motor', period)
         return (replaces_shaded_pole_motor_unit + replaces_permanent_split_capacitor_motor)
 
 
-class F5_unit_installed_to_manufacturer_guidelines(Variable):
+class F6_unit_installed_to_manufacturer_guidelines(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
     label = 'Has the unit been installed according to manufacturer guidelines?'
 
 
-class F5_unit_installed_to_administrator_requirements(Variable):
+class F6_unit_installed_to_administrator_requirements(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -84,7 +84,7 @@ class F5_unit_installed_to_administrator_requirements(Variable):
             ' requirements set out by the Scheme Administrator?'
 
 
-class F5_meets_installation_requirements(Variable):
+class F6_meets_installation_requirements(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -92,9 +92,9 @@ class F5_meets_installation_requirements(Variable):
             ' Activity Definition F5?'
 
     def formula(buildings, period, parameters):
-        installed_in_RC_freezer_or_cold_room = buildings('F5_unit_in_RC_freezer_or_cold_room', period)
-        replaces_shaded_or_split_unit = buildings('F5_replaces_equivalent_shaded_or_permanent_split_unit', period)
-        installed_according_to_manufacturer_guidelines = buildings('F5_unit_installed_to_administrator_requirements', period)
-        installed_according_to_administrator_requirements = buildings('F5_unit_installed_to_administrator_requirements', period)
+        is_part_of_air_handling_system = buildings('F6_ducted_or_partition_fan_part_of_air_handling_system', period)
+        replaces_shaded_or_split_unit = buildings('F6_replaces_equivalent_shaded_or_permanent_split_unit', period)
+        installed_according_to_manufacturer_guidelines = buildings('F6_unit_installed_to_administrator_requirements', period)
+        installed_according_to_administrator_requirements = buildings('F6_unit_installed_to_administrator_requirements', period)
         return (installed_in_RC_freezer_or_cold_room * replaces_shaded_or_split_unit
         * installed_according_to_manufacturer_guidelines * installed_according_to_administrator_requirements)

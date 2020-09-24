@@ -126,36 +126,3 @@ class weather_zone(Variable):
     definition_period = ETERNITY
     label = 'What is the weather zone in which the AC for activity definition '\
             ' F4 is installed?'
-
-
-class F4ProductClass(Enum):
-    product_class_one = 'Product is in Product Class 1.'
-    product_class_two = 'Product is in Product Class 2.'
-    product_class_three = 'Product is in Product Class 3.'
-    product_class_four = 'Product is in Product Class 4.'
-    product_class_five = 'Product is in Product Class 5.'
-    product_class_six = 'Product is in Product Class 6.'
-    product_class_seven = 'Product is in Product Class 7.'
-    product_class_eight = 'Product is in Product Class 8.'
-    product_class_nine = 'Product is in Product Class 9.'
-    product_class_ten = 'Product is in Product Class 10.'
-    product_class_eleven = 'Product is in Product Class 11.'
-    product_class_twelve = 'Product is in Product Class 12.'
-    product_class_thirteen = 'Product is in Product Class 13.'
-    product_class_fourteen = 'Product is in Product Class 14.'
-    product_class_fifteen = 'Product is in Product Class 15.'
-    product_class_sixteen = 'Product is in Product Class 16.'
-    product_class_seveteen = 'Product is in Product Class 17.'
-    product_class_eighteen = 'Product is in Product Class 18.'
-    product_class_nineteen = 'Product is in Product Class 19.'
-    product_class_twenty = 'Product is in Product Class 20.'
-    product_class_twenty_one = 'Product is in Product Class 21.'
-
-
-class F4_product_class(Variable):
-    value_type = Enum
-    possible_values = F4ProductClass
-    default_value = F4ProductClass.product_class_one
-    entity = Building
-    definition_period = ETERNITY
-    label = 'What is the product class for the new End User Equipment?'

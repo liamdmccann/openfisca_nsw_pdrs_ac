@@ -1,8 +1,0 @@
-- name: Test eligibility for activity definition F1.
-  period: 2020
-  input:
-    total_energy_consumption: 2871
-    total_display_area: 402
-    product_type: rs_11
-  output:
-    F1_emergency_deemed_equipment_electricity_savings: 302

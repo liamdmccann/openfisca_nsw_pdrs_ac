@@ -9,7 +9,7 @@ class F5_electricity_savings(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'What is the electricity savings for the activity conducted within' \
-            ' Activity Definition F3?'
+            ' Activity Definition F5?'
 
     def formula(buildings, period, parameters):
         input_power = buildings('F5_input_power', period)
@@ -26,7 +26,7 @@ class F5_electricity_savings(Variable):
         hours = parameters(period).HEAB.F5.hours
         lifetime = parameters(period).HEAB.F5.lifetime
         MWh_conversion = parameters(period).general_ESS.MWh_conversion
-        electricity_savings = ((input_power * (coefficient_a - average_power) + b)
+        electricity_savings = ((input_power * (coefficient_a - average_power) + coefficient_b)
                               * (1 + (1 / coefficient_of_performance))
                               * hours * lifetime / MWh_conversion)
         return electricity_savings
@@ -69,3 +69,11 @@ class F5_refrigerator_type(Variable):
     definition_period = ETERNITY
     label = 'What is the refrigerator type that the new End User Equipment is' \
             ' being installed in, in Activity Definition F5?'
+
+
+class F5_input_power(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'What is the nominal input power of new End User Equipment at full' \
+            ' throttle, with the impeller fitted?'

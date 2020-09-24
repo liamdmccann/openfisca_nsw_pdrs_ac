@@ -13,6 +13,7 @@ class F1_1_is_installed(Variable):
     def formula(buildings, period, parameters):
         in_intended_place_of_use = buildings('F1_1_is_in_intended_place_of_use', period)
         is_operating = buildings('F1_1_is_operating', period)
+        return in_intended_place_of_use * is_operating
 
 
 class F1_1_is_in_intended_place_of_use(Variable):

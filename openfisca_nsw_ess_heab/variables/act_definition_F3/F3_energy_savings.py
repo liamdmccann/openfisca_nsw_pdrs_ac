@@ -17,19 +17,18 @@ class F3_electricity_savings(Variable):
         capacity = select([cooling_capacity < 19.05,
                            cooling_capacity >= 19.05 and cooling_capacity < 39.5,
                            cooling_capacity >= 39.5 and cooling_capacity < 70.0,
-                           cooling_capacity >= 70.0
-                          ],
+                           cooling_capacity >= 70.0],
                           ['less_than_19_05_kW',
                            '19_05_kW_to_39_50_kW',
                            '39_50_kW_to_70_kW',
-                           'more_than_70_kW']
-                           )
+                           'more_than_70_kW'])
         baseline = parameters(period).HEAB.F3.F3_1[capacity]
         EFLH = parameters(period).HEAB.F3.hours
         lifetime = parameters(period).HEAB.F3.lifetime
         MWh_conversion = parameters(period).general_ESS.MWh_conversion
-        energy_savings = ((((cooling_capacity / baseline) - (cooling_capacity / IPLV))
+        energy_savings = ((((cooling_capacity / baseline) - (cooling_capacity / EER))
                          * EFLH * lifetime) / MWh_conversion)
+        return energy_savings
 
 
 class F3_CCAC_cooling_capacity(Variable):

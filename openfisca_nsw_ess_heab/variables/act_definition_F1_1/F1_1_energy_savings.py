@@ -3,6 +3,7 @@ from openfisca_core.model_api import *
 # Import the Entities specifically defined for this tax and benefit system
 from openfisca_nsw_base.entities import *
 
+
 class F1_1_electricity_savings(Variable):
     value_type = float
     entity = Building
@@ -12,7 +13,6 @@ class F1_1_electricity_savings(Variable):
 
     def formula(buildings, period, parameters):
         product_class = buildings('F1_product_class', period)
-        F1ProductClass = product_class.possible_values
         baseline_EEI = parameters(period).HEAB.F1.F1_1_baseline_EEIs.EEI[product_class]
         total_electricity_consumption = buildings('F1_1_daily_total_electricity_consumption', period)
         total_display_area = buildings('F1_1_total_display_area', period)

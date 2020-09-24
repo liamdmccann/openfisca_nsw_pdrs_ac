@@ -12,6 +12,7 @@ class F4_product_is_installed(Variable):
     # probably should link in w. 5.3 requirements, if needed. What does it mean \
     # to be installed?
 
+
 class activity_is_performed_by_qualified_licence_holder(Variable):
     value_type = bool
     entity = Building

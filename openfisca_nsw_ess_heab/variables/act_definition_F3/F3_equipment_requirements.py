@@ -45,19 +45,17 @@ class F3_EER_20_percent_higher_than_baseline(Variable):
         capacity = select([cooling_capacity < 19.05,
                            cooling_capacity >= 19.05 and cooling_capacity < 39.5,
                            cooling_capacity >= 39.5 and cooling_capacity < 70.0,
-                           cooling_capacity >= 70.0
-                          ],
+                           cooling_capacity >= 70.0],
                           ['less_than_19_05_kW',
                            '19_05_kW_to_39_50_kW',
                            '39_50_kW_to_70_kW',
-                           'more_than_70_kW']
-                           )
+                           'more_than_70_kW'])
         baseline = parameters(period).HEAB.F3.F3_1[capacity]
-        percentage_increase = ((IPLV - baseline) * 100)  # i'm sure there's a more efficient way to write this
+        percentage_increase = ((EER - baseline) * 100)  # i'm sure there's a more efficient way to write this
         return percentage_increase > 20
 
 
-class F2_meets_equipment_requirements(Variable):
+class F3_meets_equipment_requirements(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
@@ -69,4 +67,4 @@ class F2_meets_equipment_requirements(Variable):
         registered_in_GEMS = buildings('F3_is_registered_in_GEMS', period)
         complies_with_GEMS_2012 = buildings('F3_complies_with_GEMS_2012_CCAC', period)
         EER_higher_than_baseline = buildings('F3_EER_20_percent_higher_than_baseline', period)
-        return (registered_in_GEMS * complies_with_GEMS_2012 * EER_higher_than_baseline)
+        return (is_CCAC * registered_in_GEMS * complies_with_GEMS_2012 * EER_higher_than_baseline)

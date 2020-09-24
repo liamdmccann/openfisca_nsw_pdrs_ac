@@ -11,6 +11,7 @@ class F1_3_is_installed(Variable):
     label = 'Is the End User Equipment installed?'
     # no formula for what it means to be installed like F1.1 and F1.2?
 
+
 class F1_3_installation_is_conducted_by_trades_person(Variable):
     value_type = bool
     entity = Building
@@ -33,6 +34,7 @@ class F1_3_installing_tradesperson_has_fair_trading_license(Variable):
     label = 'Does the tradesperson installing the RDC have a NSW Fair Trading' \
             ' License?'
     # do they need a fair trading license?
+
 
 class F1_3_tradesperson_has_undertaken_air_conditioning_work_with_refrigeration_class_license(Variable):
     value_type = bool
@@ -84,7 +86,6 @@ class F1_3_meets_installation_requirements(Variable):
         tradesperson_has_undertaken_refrigeration_work_with_refrigeration_license = buildings('F1_3_tradesperson_has_undertaken_refrigeration_work_with_refrigeration_class_license', period)
         has_electricial_work = buildings('F1_3_electricial_work_is_being_undertaken', period)
         electrical_work_undertaken_by_qualified_person = buildings('F1_3_electricial_work_is_being_undertaken_by_suitably_qualified_person', period)
-        return (is_installed * (installation_conducted_by_tradesperson * tradesperson_has_refrigerant_handling_license)
+        return ((is_installed * (installation_conducted_by_tradesperson * tradesperson_has_refrigerant_handling_license)
         * ((tradesperson_has_fair_trading_license * tradesperson_has_undertaken_AC_work_with_refrigeration_license
-        + tradesperson_has_undertaken_refrigeration_work_with_refrigeration_license) + (not(tradesperson_has_fair_trading_license)))
-        * ((has_electricial_work * electrical_work_undertaken_by_qualified_person) + (not(has_electricial_work))))
+        + tradesperson_has_undertaken_refrigeration_work_with_refrigeration_license) + (not(tradesperson_has_fair_trading_license))) * ((has_electricial_work * electrical_work_undertaken_by_qualified_person) + (not(has_electricial_work)))))

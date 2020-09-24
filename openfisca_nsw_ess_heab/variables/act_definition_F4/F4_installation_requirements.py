@@ -13,7 +13,7 @@ class is_installed_in_residential_building(Variable):
             ' Definition F4.'  # you could also ask them for the building type using an Enum if you want to get more sophisticated
 
 
-class installation_requirements_are_met(Variable):
+class F4_installation_requirements_are_met(Variable):
     value_type = bool
     entity = Building
     definition_period = ETERNITY
