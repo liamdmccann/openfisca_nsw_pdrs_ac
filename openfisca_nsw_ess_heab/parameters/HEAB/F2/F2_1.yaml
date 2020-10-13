@@ -1,6 +1,6 @@
 description: Table F2.1 - baseline IPLV values.
 reference: Energy Savings Scheme Rule, beginning 30 March 2020.
-EEI:
+IPLV:
   air_cooled:
     350_to_499_kWR:
       values:

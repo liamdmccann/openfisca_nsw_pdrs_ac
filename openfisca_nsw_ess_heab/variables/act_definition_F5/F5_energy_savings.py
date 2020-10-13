@@ -23,13 +23,12 @@ class F5_electricity_savings(Variable):
         average_power = parameters(period).HEAB.F5.average_power[control_system]
         refrigerator_type = buildings('F5_refrigerator_type', period)
         coefficient_of_performance = parameters(period).HEAB.F5.system_type_COP[refrigerator_type]
-        hours = parameters(period).HEAB.F5.hours
+        hours = parameters(period).HEAB.F5.hours[refrigerator_type]
         lifetime = parameters(period).HEAB.F5.lifetime
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
-        electricity_savings = ((input_power * (coefficient_a - average_power) + coefficient_b)
-                              * (1 + (1 / coefficient_of_performance))
-                              * hours * lifetime / MWh_conversion)
-        return electricity_savings
+        MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
+        return ((input_power * (coefficient_a - average_power) + coefficient_b)
+               * (1 + (1 / coefficient_of_performance))
+               * hours * lifetime / MWh_conversion)
 
 
 class F5ControlSystem(Enum):

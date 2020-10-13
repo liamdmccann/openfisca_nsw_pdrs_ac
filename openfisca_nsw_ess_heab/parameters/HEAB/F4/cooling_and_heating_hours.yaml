@@ -13,7 +13,7 @@ cooling_hours:
   cold_zone:
     values:
       2021-04-01:
-        value: 649
+        value: 530
 heating_hours:
   hot_zone:
     values:

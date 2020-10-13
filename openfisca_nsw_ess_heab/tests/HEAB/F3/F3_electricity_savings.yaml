@@ -1,0 +1,8 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F3_EER: 20
+    F3_CCAC_cooling_capacity: 35.70
+  output:
+    F3_electricity_savings: 25.626085756800002

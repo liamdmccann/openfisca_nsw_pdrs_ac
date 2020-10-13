@@ -1,0 +1,24 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  input:
+    F8_existing_equipment_installation_date: 2001-01-31
+  output:
+    F8_existing_equipment_more_than_10_years_old: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  input:
+    F8_existing_equipment_installation_date: 2011-01-31
+  output:
+    F8_existing_equipment_more_than_10_years_old: False
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  input:
+    F8_existing_equipment_installation_date: 2010-01-31
+  output:
+    F8_existing_equipment_more_than_10_years_old: False
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  input:
+    F8_existing_equipment_installation_date: 2009-01-31
+  output:
+    F8_existing_equipment_more_than_10_years_old: True

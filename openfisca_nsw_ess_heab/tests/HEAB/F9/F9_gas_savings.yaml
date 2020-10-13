@@ -1,0 +1,10 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_equipment_nameplate_capacity: 20
+    F9_existing_equipment_nameplate_capacity: 60
+    F9_existing_equipment_installation_date: 2002-02-15
+    F9_existing_equipment_burner_replacement_date: 2009-01-29
+  output:
+    F9_gas_savings: 25.626085756800002

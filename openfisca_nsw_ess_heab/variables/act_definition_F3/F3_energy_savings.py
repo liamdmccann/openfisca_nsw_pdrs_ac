@@ -25,7 +25,7 @@ class F3_electricity_savings(Variable):
         baseline = parameters(period).HEAB.F3.F3_1[capacity]
         EFLH = parameters(period).HEAB.F3.hours
         lifetime = parameters(period).HEAB.F3.lifetime
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
+        MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
         energy_savings = ((((cooling_capacity / baseline) - (cooling_capacity / EER))
                          * EFLH * lifetime) / MWh_conversion)
         return energy_savings

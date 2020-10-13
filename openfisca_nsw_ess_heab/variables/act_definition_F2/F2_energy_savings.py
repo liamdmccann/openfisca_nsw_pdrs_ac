@@ -25,10 +25,10 @@ class F2_electricity_savings(Variable):
                            '700_to_999_kWR',
                            '1000_to_1499_kWR',
                            'greater_than_1500_kWR'])
-        baseline = parameters(period).HEAB.F2.F2_1[LCP_type][capacity]
+        baseline = parameters(period).HEAB.F2.F2_1.IPLV[LCP_type][capacity]
         EFLH = parameters(period).HEAB.F2.equivalent_full_load_hours
         lifetime = parameters(period).HEAB.F2.lifetime
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
+        MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
         energy_savings = ((((cooling_capacity / baseline) - (cooling_capacity / IPLV))
                          * EFLH * lifetime) / MWh_conversion)
         return energy_savings

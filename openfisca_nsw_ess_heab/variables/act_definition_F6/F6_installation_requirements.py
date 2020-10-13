@@ -96,5 +96,5 @@ class F6_meets_installation_requirements(Variable):
         replaces_shaded_or_split_unit = buildings('F6_replaces_equivalent_shaded_or_permanent_split_unit', period)
         installed_according_to_manufacturer_guidelines = buildings('F6_unit_installed_to_administrator_requirements', period)
         installed_according_to_administrator_requirements = buildings('F6_unit_installed_to_administrator_requirements', period)
-        return (installed_in_RC_freezer_or_cold_room * replaces_shaded_or_split_unit
+        return (is_part_of_air_handling_system * replaces_shaded_or_split_unit
         * installed_according_to_manufacturer_guidelines * installed_according_to_administrator_requirements)

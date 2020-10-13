@@ -326,19 +326,3 @@ class is_remote_cabinet(Variable):
                     + (product_class == ProductClass.RRV) + (product_class == ProductClass.RRV_2)
                     + (product_class == ProductClass.RFV))
         return is_remote
-
-
-class DutyClass(Enum):
-    light_duty = 'cabinet is a light duty cabinet.'
-    normal_duty = 'cabinet is a normal duty cabinet.'
-    heavy_duty = 'cabinet is a heavy duty cabinet.'
-
-
-class duty_class(Variable):
-    value_type = Enum
-    entity = Building
-    possible_values = DutyClass
-    default_value = DutyClass.normal_duty
-    definition_period = ETERNITY
-    label = 'What is the duty class of the Refrigerated Cabinet, as tested in' \
-            ' accordance with EN 16825?'

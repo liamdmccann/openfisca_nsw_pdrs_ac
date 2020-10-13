@@ -21,8 +21,8 @@ class F1_1_electricity_savings(Variable):
         days_in_year = parameters(period).general_ESS.days_in_year
         less_than_three_point_three_TDA = where(total_display_area < 3.3,
         "tda_less_than_three_point_three", "tda_more_than_three_point_three")
-        lifetime = parameters(period).HEAB.F1.F1_lifetime.lifetime[product_class][less_than_three_point_three_TDA]
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
+        lifetime = parameters(period).HEAB.F1.F1_1_lifetime[product_class][less_than_three_point_three_TDA]
+        MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
         return ((baseline_EEI * ((m_coefficient + (n_coefficient
         * total_display_area)) / 100) - total_electricity_consumption)
         * days_in_year * lifetime / MWh_conversion)

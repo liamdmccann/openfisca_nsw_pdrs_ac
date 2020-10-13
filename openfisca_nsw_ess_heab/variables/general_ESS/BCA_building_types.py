@@ -2,7 +2,6 @@
 from openfisca_core.model_api import *
 # Import the Entities specifically defined for this tax and benefit system
 from openfisca_nsw_base.entities import *
-import numpy as np
 
 
 class BCABuildingClass(Enum):
@@ -17,8 +16,8 @@ class BCABuildingClass(Enum):
     BCA_Class_5 = 'An office building used for professional or commercial' \
                   ' purposes, excluding buildings in Class 6, 7, 8 or 9.'
     BCA_Class_6_shop = 'A shop, shopping centre or other building used for the' \
-                        ' sale of good by retail,' \
-                        ' or supply of services direct to the public.'
+                       ' sale of good by retail,' \
+                       ' or supply of services direct to the public.'
     BCA_Class_6_cafe_or_rest = 'A cafe or restaurant.'
     BCA_Class_7a = 'A building which is a car park.'
     BCA_Class_7b = 'A building which is for storage or display of goods or' \
@@ -27,13 +26,13 @@ class BCABuildingClass(Enum):
                   ' for for the production of godd or produce is carried on for' \
                   ' trade, sale or gain.'
     BCA_Class_9a_clinic = 'A clinic, including those parts of the' \
-                   ' building set aside as a laboratory.'
+                          ' building set aside as a laboratory.'
     BCA_Class_9a_hospital = 'A clinic, including those parts of the' \
-                   ' building set aside as a laboratory.'
+                            ' building set aside as a laboratory.'
     BCA_Class_9b_schools = 'A school.'
     BCA_Class_9b_theatres = 'An assembly building, including a trade workshop, laboratory' \
-                   ' or the like, in a primary or secondary school - but excluding' \
-                   ' other parts of the building that are of another class.'
+                            ' or the like, in a primary or secondary school - but excluding' \
+                            ' other parts of the building that are of another class.'
     BCA_Class_10a = 'A private garage, carport, shed or the like.'
     BCA_Class_10b = 'A structure being a fence, mast, antenna, retaining or' \
                     ' free standing wall, swimming pool or the like.'

@@ -17,23 +17,23 @@ class F4_electricity_savings(Variable):
         reference_heating_annual_energy_use = buildings('F4_reference_heating_annual_energy_use', period)
         heating_annual_energy_use = buildings('F4_heating_annual_energy_use', period)
         lifetime = parameters(period).HEAB.F4.lifetime
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
+        kWh_to_MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
         return (((reference_cooling_annual_energy_use - cooling_annual_energy_use)
-        + (reference_heating_annual_energy_use - heating_annual_energy_use)) * lifetime / MWh_conversion)
+               + (reference_heating_annual_energy_use - heating_annual_energy_use)) * lifetime / kWh_to_MWh_conversion)
 
 
 class F4_reference_cooling_annual_energy_use(Variable):
     value_type = float
     entity = Building
     definition_period = ETERNITY
-    label = 'What is the reference cooling annual energy use for the AC, as' \
+    label = 'What are the cooling energy savings for the air conditioner, as' \
             ' defined in Table F4.4?'
 
     def formula(buildings, period, parameters):
         cooling_capacity = buildings('cooling_capacity', period)
+        product_class = buildings('F4_product_class', period)
         weather_zone = buildings('weather_zone', period)
         cooling_hours = parameters(period).HEAB.F4.cooling_and_heating_hours.cooling_hours[weather_zone]
-        product_class = buildings('F4_product_class', period)
         baseline_cooling_AEER = parameters(period).HEAB.F4.baseline_AEER_and_ACOP.AEER[product_class]
         return cooling_capacity * cooling_hours / baseline_cooling_AEER
 
@@ -54,9 +54,9 @@ class F4_reference_heating_annual_energy_use(Variable):
 
     def formula(buildings, period, parameters):
         heating_capacity = buildings('heating_capacity', period)
+        product_class = buildings('F4_product_class', period)
         weather_zone = buildings('weather_zone', period)
         heating_hours = parameters(period).HEAB.F4.cooling_and_heating_hours.heating_hours[weather_zone]
-        product_class = buildings('F4_product_class', period)
         baseline_heating_ACOP = parameters(period).HEAB.F4.baseline_AEER_and_ACOP.ACOP[product_class]
         return heating_capacity * heating_hours / baseline_heating_ACOP
 

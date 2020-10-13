@@ -3,4 +3,4 @@ description: Table F3.2 - lifetime for CCAC installations within Activity
 reference: Energy Savings Scheme Rule, beginning 30 March 2020.
 values:
   2021-04-01:
-    value: 10
+    value: 10.0

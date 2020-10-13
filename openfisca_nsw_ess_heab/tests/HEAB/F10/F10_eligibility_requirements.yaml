@@ -1,0 +1,26 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F10_existing_end_user_equipment_is_gas_fired_steam_boiler: True
+    F10_existing_end_user_equipment_is_hot_water_boiler: False
+    F10_existing_end_user_equipment_is_water_heater: False
+    BCA_building_class: BCA_Class_8
+    F10_replaces_existing_end_user_equipment: False
+    F10_has_digital_burner_control_system: False
+    F10_digital_burner_control_system_will_be_installed: True
+  output:
+    F10_meets_eligibility_requirements: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F10_existing_end_user_equipment_is_gas_fired_steam_boiler: True
+    F10_existing_end_user_equipment_is_hot_water_boiler: False
+    F10_existing_end_user_equipment_is_water_heater: False
+    BCA_building_class: BCA_Class_8
+    F10_replaces_existing_end_user_equipment: True
+    F10_has_digital_burner_control_system: False
+    F10_digital_burner_control_system_will_be_installed: True
+  output:
+    F10_meets_eligibility_requirements: False

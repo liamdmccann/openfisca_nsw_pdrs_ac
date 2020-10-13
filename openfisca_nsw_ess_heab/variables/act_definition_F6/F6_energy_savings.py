@@ -21,13 +21,12 @@ class F6_electricity_savings(Variable):
         coefficient_b = parameters(period).HEAB.F6.nominal_input_power.coefficient_b[nominal_input_power]
         control_system = buildings('F6_control_system', period)
         average_power = parameters(period).HEAB.F6.average_power[control_system]
-        building_class = buildings('BCA_building_class')
-        business_classification = buildings('business_classification')
+        building_class = buildings('BCA_building_class', period)
+        business_classification = buildings('business_classification', period)
         hours = parameters(period).HEAB.F6.hours[building_class][business_classification]
         lifetime = parameters(period).HEAB.F6.lifetime
-        MWh_conversion = parameters(period).general_ESS.MWh_conversion
+        MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
         electricity_savings = ((input_power * (coefficient_a - average_power) + coefficient_b)
-                              * (1 + (1 / coefficient_of_performance))
                               * hours * lifetime / MWh_conversion)
         return electricity_savings
 

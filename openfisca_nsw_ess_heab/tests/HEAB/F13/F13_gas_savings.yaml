@@ -1,0 +1,8 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F13_current_equipment_capacity: 200
+    F13_operating_pressure: 8.4
+  output:
+    F13_gas_savings: 25.626085756800002
