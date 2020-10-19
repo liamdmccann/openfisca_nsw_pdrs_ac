@@ -2,17 +2,6 @@
 from openfisca_core.model_api import *
 # Import the Entities specifically defined for this tax and benefit system
 from openfisca_nsw_base.entities import *
-import time
-import numpy as np
-import datetime
-from datetime import datetime as py_datetime
-
-# note because this activity definition requires calculation based off years, \
-# you need to import the above libraries to make it work
-
-epoch = time.gmtime(0).tm_year
-today_date_and_time = np.datetime64(datetime.datetime.now())
-today = today_date_and_time.astype('datetime64[D]')
 
 
 class F10_existing_end_user_equipment_is_gas_fired_steam_boiler(Variable):
@@ -106,6 +95,6 @@ class F10_meets_eligibility_requirements(Variable):
         replaces_existing_end_user_equipment = buildings('F10_replaces_existing_end_user_equipment', period)
         has_digital_burner_control_system = buildings('F10_has_digital_burner_control_system', period)
         digital_burner_control_system_will_be_installed = buildings('F10_digital_burner_control_system_will_be_installed', period)
-        return ((is_gas_fired_steam_boiler + is_hot_water_boiler + is_water_heater) * is_not_residential *
-                (not(replaces_existing_end_user_equipment)) *
-                (has_digital_burner_control_system + digital_burner_control_system_will_be_installed))
+        return ((is_gas_fired_steam_boiler + is_hot_water_boiler + is_water_heater) * is_not_residential
+                * (not(replaces_existing_end_user_equipment))
+                * (has_digital_burner_control_system + digital_burner_control_system_will_be_installed))

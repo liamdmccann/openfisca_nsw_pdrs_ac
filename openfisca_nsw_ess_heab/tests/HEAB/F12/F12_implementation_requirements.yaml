@@ -1,0 +1,44 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F12_exhaust_temperature: 125
+    F12_existing_equipment_type: steam_boiler
+    F12_installed_in_accordance_with_manufacturer_guidelines: True
+    F12_installed_in_accordance_with_relevant_standards_and_legislation: True
+    F12_installed_in_accordance_with_scheme_administrator_requirements: True
+  output:
+    F12_meets_implementation_requirements: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F12_exhaust_temperature: 190
+    F12_existing_equipment_type: steam_boiler
+    F12_installed_in_accordance_with_manufacturer_guidelines: True
+    F12_installed_in_accordance_with_relevant_standards_and_legislation: True
+    F12_installed_in_accordance_with_scheme_administrator_requirements: True
+  output:
+    F12_meets_implementation_requirements: False
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F12_exhaust_temperature: 75.2
+    F12_existing_equipment_type: hot_water_boiler
+    F12_installed_in_accordance_with_manufacturer_guidelines: True
+    F12_installed_in_accordance_with_relevant_standards_and_legislation: True
+    F12_installed_in_accordance_with_scheme_administrator_requirements: True
+  output:
+    F12_meets_implementation_requirements: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F12_exhaust_temperature: 125
+    F12_existing_equipment_type: hot_water_boiler
+    F12_installed_in_accordance_with_manufacturer_guidelines: True
+    F12_installed_in_accordance_with_relevant_standards_and_legislation: True
+    F12_installed_in_accordance_with_scheme_administrator_requirements: True
+  output:
+    F12_meets_implementation_requirements: False

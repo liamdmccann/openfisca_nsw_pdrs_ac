@@ -44,6 +44,7 @@ class F8_has_linkageless_burner(Variable):
         over_1000kW_and_has_linkageless_burner = where(condition_nameplate_capacity_over_1000kW,
                                                        has_linkageless_burner,
                                                        True)
+        return over_1000kW_and_has_linkageless_burner
         # if the capacity is under 1000kW, it doesn't matter if it has a linkageless \
         # burner - this will always be true
 
@@ -64,6 +65,7 @@ class F8_has_linkageless_burner_and_oxygen_trim_system(Variable):
         over_2000kW_and_has_trim_system = where(condition_nameplate_capacity_over_2000kW,
                                                 has_oxygen_trim_system * has_linkageless_burner,
                                                 True)
+        return over_2000kW_and_has_trim_system
         # if the capacity is under 2000kW, it doesn't matter if it has an oxygen \
         # trim system - this will always be true
 

@@ -1,0 +1,36 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_equipment_nameplate_capacity: 590
+    F9_replacement_equipment_has_oxygen_trim_system: False
+    F9_replacement_equipment_has_linkageless_burner_minimum_4_1: False
+  output:
+    F9_has_linkageless_burner: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_equipment_nameplate_capacity: 2590
+    F9_replacement_equipment_has_oxygen_trim_system: False
+    F9_replacement_equipment_has_linkageless_burner_minimum_4_1: False
+  output:
+    F9_has_linkageless_burner: False
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_equipment_nameplate_capacity: 2590
+    F9_replacement_equipment_has_oxygen_trim_system: True
+    F9_replacement_equipment_has_linkageless_burner_minimum_4_1: True
+  output:
+    F9_has_linkageless_burner: True
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_equipment_nameplate_capacity: 2590
+    F9_replacement_equipment_has_oxygen_trim_system: False
+    F9_replacement_equipment_has_linkageless_burner_minimum_4_1: True
+  output:
+    F9_has_linkageless_burner: True

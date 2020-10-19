@@ -5,7 +5,6 @@ from openfisca_nsw_base.entities import *
 import time
 import numpy as np
 import datetime
-from datetime import datetime as py_datetime
 
 # note because this activity definition requires calculation based off years, \
 # you need to import the above libraries to make it work
@@ -66,7 +65,6 @@ class F8_existing_equipment_more_than_10_years_old(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'Is the existing end use equipment more than 10 years old?'
-
 
     def formula(buildings, period, parameters):
         existing_equipment_installation_date = buildings('F8_existing_equipment_installation_date', period)

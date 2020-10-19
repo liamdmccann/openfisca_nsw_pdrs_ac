@@ -5,7 +5,6 @@ from openfisca_nsw_base.entities import *
 import time
 import numpy as np
 import datetime
-from datetime import datetime as py_datetime
 
 # note because this activity definition requires calculation based off years, \
 # you need to import the above libraries to make it work
@@ -13,6 +12,8 @@ from datetime import datetime as py_datetime
 epoch = time.gmtime(0).tm_year
 today_date_and_time = np.datetime64(datetime.datetime.now())
 today = today_date_and_time.astype('datetime64[D]')
+
+# variables used to calculate age of equipment.
 
 
 class F11_existing_end_user_equipment_is_gas_fired_burner(Variable):

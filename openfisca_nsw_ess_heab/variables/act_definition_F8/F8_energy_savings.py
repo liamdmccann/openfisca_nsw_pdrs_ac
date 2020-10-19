@@ -5,7 +5,6 @@ from openfisca_nsw_base.entities import *
 import time
 import numpy as np
 import datetime
-from datetime import datetime as py_datetime
 
 
 epoch = time.gmtime(0).tm_year
@@ -14,6 +13,7 @@ today = today_date_and_time.astype('datetime64[D]')
 
 # note because this activity definition requires calculation based off years, \
 # you need to import the above libraries to make it work
+
 
 class F8_gas_savings(Variable):
     value_type = float
@@ -92,7 +92,7 @@ class F8_replacement_equipment_has_oxygen_trim_system(Variable):
     label = 'Does the new equipment have an oxygen trim system?'
 
 
-class fuel_to_fluid_efficiency_at_high_fire_conditions(Variable):
+class F8_fuel_to_fluid_efficiency_at_high_fire_conditions(Variable):
     value_type = float
     entity = Building
     definition_period = ETERNITY

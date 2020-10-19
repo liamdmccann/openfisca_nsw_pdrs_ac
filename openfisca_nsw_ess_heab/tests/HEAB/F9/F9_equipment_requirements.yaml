@@ -1,0 +1,15 @@
+- name: Test electricity savings for proposed Activity Definition F2.
+  period: 2022
+  absolute_error_margin: 0.0001
+  input:
+    F9_replacement_end_user_equipment_is_single_gas_fired_steam_boiler: True
+    F9_replacement_end_user_equipment_is_multiple_gas_fired_steam_boilers: False
+    F9_replacement_is_gas_fired_storage_water_heater: False
+    F9_replacement_is_gas_fired_instantaneous_water_heater: False
+    F9_replacement_equipment_nameplate_capacity: 590
+    F9_replacement_equipment_has_linkageless_burner_minimum_4_1: False
+    F9_replacement_equipment_has_oxygen_trim_system: False
+    F9_fuel_to_fluid_efficiency_at_high_fire_conditions: 92.5
+    F9_meets_relevant_standards_and_legislation: True
+  output:
+    F9_has_linkageless_burner_and_oxygen_trim_system: True

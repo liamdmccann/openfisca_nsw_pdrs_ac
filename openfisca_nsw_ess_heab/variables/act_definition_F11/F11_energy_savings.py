@@ -13,7 +13,6 @@ class F11_gas_savings(Variable):
 
     def formula(buildings, period, parameters):
         current_capacity = buildings('F11_current_equipment_capacity', period)
-        existing_equipment_type = buildings('F11_existing_equipment_type', period)
         default_efficiency_improvement = parameters(period).HEAB.F11.table_F11_1.default_efficiency_improvement
         load_utilisation_factor = parameters(period).HEAB.F11.table_F11_2.load_utilisation_factor
         lifetime = parameters(period).HEAB.F11.table_F11_3.lifetime
@@ -29,6 +28,13 @@ class F11_current_equipment_capacity(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'What is the nameplate capacity for the existing equipment, in kW?'
+
+
+class F11_replacement_equipment_capacity(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'What is the nameplate capacity for the replacement equipment, in kW?'
 
 
 class F11EquipmentType(Enum):

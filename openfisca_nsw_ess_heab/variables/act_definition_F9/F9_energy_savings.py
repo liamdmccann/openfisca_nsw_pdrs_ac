@@ -5,7 +5,6 @@ from openfisca_nsw_base.entities import *
 import time
 import numpy as np
 import datetime
-from datetime import datetime as py_datetime
 
 
 epoch = time.gmtime(0).tm_year
@@ -14,6 +13,7 @@ today = today_date_and_time.astype('datetime64[D]')
 
 # note because this activity definition requires calculation based off years, \
 # you need to import the above libraries to make it work
+
 
 class F9_gas_savings(Variable):
     value_type = float
@@ -75,3 +75,12 @@ class F9_replacement_equipment_nameplate_capacity(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'What is the nameplate capacity for the new equipment, in kW?'
+
+
+class F9_fuel_to_fluid_efficiency_at_high_fire_conditions(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'What is the fuel to fluid efficiency of the the replacement end '\
+            ' user equipment, at high fire conditions, as a percentage?'
+    # there's probably a formula for this we could code in?

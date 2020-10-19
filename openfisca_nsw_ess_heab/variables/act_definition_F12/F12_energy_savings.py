@@ -35,6 +35,7 @@ class F12EquipmentType(Enum):
     steam_boiler = 'Trim system is installed on a steam boiler.'
     hot_water_boiler = 'Trim system is installed on a hot water boiler.'
     water_heater = 'Trim system is installed on a water heater.'
+    condensing_steam_boiler = 'Trim system is installed on a condensing steam boiler.'
 
 
 class F12_existing_equipment_type(Variable):
@@ -44,3 +45,11 @@ class F12_existing_equipment_type(Variable):
     entity = Building
     definition_period = ETERNITY
     label = 'What is the type of existing equipment that the trim system is being installed on?'
+
+
+class F12_exhaust_temperature(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'What is the exhaust temperature of the End User Equipment, while' \
+            ' at high-firing, in degrees C?'

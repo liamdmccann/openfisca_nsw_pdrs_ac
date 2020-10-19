@@ -19,14 +19,13 @@ class F14_gas_savings(Variable):
                                    operating_pressure >= 10 and operating_pressure < 12,
                                    operating_pressure >= 12 and operating_pressure < 15,
                                    operating_pressure > 15],
-                                   ['eight_bars',
-                                    'eight_bars',
-                                    'ten_bars',
-                                    'twelve_bars',
-                                    'fifteen_bars'])  # note that if less than 8 bars, \
-                                                      # use 8 bars. if between a \
-                                                      # tier of bars (i.e. 9.5 bars) use \
-                                                      # the lower bar.
+                                  ['eight_bars',
+                                   'eight_bars',
+                                   'ten_bars',
+                                   'twelve_bars',
+                                   'fifteen_bars'])
+        # note that if less than 8 bars, use 8 bars. if between a tier of bars \
+        # (i.e. 9.5 bars) use the lower bar.
         default_efficiency_improvement = parameters(period).HEAB.F14.table_F14_1.default_efficiency_improvement[bars_of_pressure]
         load_utilisation_factor = parameters(period).HEAB.F14.table_F14_2.load_utilisation_factor
         lifetime = parameters(period).HEAB.F14.table_F14_3.lifetime

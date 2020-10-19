@@ -2,17 +2,6 @@
 from openfisca_core.model_api import *
 # Import the Entities specifically defined for this tax and benefit system
 from openfisca_nsw_base.entities import *
-import time
-import numpy as np
-import datetime
-from datetime import datetime as py_datetime
-
-# note because this activity definition requires calculation based off years, \
-# you need to import the above libraries to make it work
-
-epoch = time.gmtime(0).tm_year
-today_date_and_time = np.datetime64(datetime.datetime.now())
-today = today_date_and_time.astype('datetime64[D]')
 
 
 class F12_existing_end_user_equipment_installed_on_gas_fired_steam_boiler(Variable):
@@ -132,8 +121,8 @@ class F12_meets_eligibility_requirements(Variable):
         is_condensing_hot_water_boiler = buildings('F12_existing_hot_water_boiler_is_condensing_boiler', period)
         is_condensing_heater = buildings('F12_existing_water_heater_is_condensing_heater', period)
         has_heating_feedwater_stream = buildings('F12_is_heating_feedwater_stream', period)
-
+        has_heat_rejection_stream = buildings('F12_has_heat_rejection_stream', period)
         return ((installed_on_gas_fired_steam_boiler + installed_on_water_boiler + installed_on_water_heater)
                 * is_not_residential * (not(replaces_existing_equipment))
-                * ((not(is_condensing_steam_boiler)) * (not(is_condensing_hot_water_boiler)) * (not(F12_existing_water_heater_is_condensing_heater)))
+                * ((not(is_condensing_steam_boiler)) * (not(is_condensing_hot_water_boiler)) * (not(is_condensing_heater)))
                 * (has_heating_feedwater_stream + ((not(has_heating_feedwater_stream)) * has_heat_rejection_stream)))

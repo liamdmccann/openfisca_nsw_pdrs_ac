@@ -22,21 +22,21 @@ class F7_electricity_savings(Variable):
                              rated_output >= 9.2 and rated_output < 41,
                              rated_output >= 41 and rated_output < 100,
                              rated_output >= 100 and rated_output < 185],
-                             ['0_73_to_2_6_kW',
-                              '2_6_to_9_2_kW',
-                              '9_2_to_41_kW',
-                              '41_to_100_kW',
-                              '100_to_185_kW'])
+                            ['0_73_to_2_6_kW',
+                             '2_6_to_9_2_kW',
+                             '9_2_to_41_kW',
+                             '41_to_100_kW',
+                             '100_to_185_kW'])
         business_classification_is_unknown = (business_classification == BusinessClassification.Unknown)
         end_use_service_is_unknown = (end_use_service == EndUseService.unknown)
-        condition_where_business_or_service_is_unknown = where((business_classification_is_unknown + end_use_service_is_unknown),
-                                                                (load_utilisation_factor == parameters(period).HEAB.F7.table_F7_2.default_load_utilisation_factor[motor_size]),
-                                                                (load_utilisation_factor == parameters(period).HEAB.F7.table_F7_1.default_load_utilisation_factor[business_classification][end_use_service]))
+        load_utilisation_factor = where((business_classification_is_unknown + end_use_service_is_unknown),
+                                        (load_utilisation_factor == parameters(period).HEAB.F7.table_F7_2.default_load_utilisation_factor[motor_size]),
+                                        (load_utilisation_factor == parameters(period).HEAB.F7.table_F7_1.default_load_utilisation_factor[business_classification][end_use_service]))
         new_efficiency = buildings('F7_new_product_efficiency', period)
         baseline_efficiency = buildings('F7_baseline_efficiency', period)
-        condition_no_baseline_efficiency = where(baseline_efficiency == 0,
-                                                 (baseline_efficiency == parameters(period).HEAB.F7.table_F7_3.baseline_efficiency[motor_size][frequency][number_of_poles]),
-                                                 baseline_efficiency)
+        baseline_efficiency = where(baseline_efficiency == 0,
+                                    baseline_efficiency == parameters(period).HEAB.F7.table_F7_3.baseline_efficiency[motor_size][frequency][number_of_poles],
+                                    baseline_efficiency)
         asset_life = parameters(period).HEAB.F7.table_F7_4.asset_life[motor_size]
         hours_in_year = parameters(period).general_ESS.hours_in_year
         MWh_conversion = parameters(period).general_ESS.unit_conversion_factors['kWh_to_MWh']
