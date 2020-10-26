@@ -1,9 +1,0 @@
-- name: Test electricity savings for proposed Activity Definition F2.
-  period: 2022
-  absolute_error_margin: 0.0001
-  input:
-    F5_input_power: 20
-    F5_control_system: temperature_dependent_speed_control
-    F5_refrigerator_type: cool_room
-  output:
-    F5_electricity_savings: 25.626085756800002

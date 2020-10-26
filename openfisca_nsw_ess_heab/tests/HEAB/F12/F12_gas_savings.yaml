@@ -1,8 +1,0 @@
-- name: Test electricity savings for proposed Activity Definition F2.
-  period: 2022
-  absolute_error_margin: 0.0001
-  input:
-    F12_current_equipment_capacity: 200
-    F12_existing_equipment_type: water_heater
-  output:
-    F12_gas_savings: 25.626085756800002

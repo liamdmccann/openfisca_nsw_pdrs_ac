@@ -1,9 +1,0 @@
-- name: Test electricity savings for proposed Activity Definition F2.
-  period: 2022
-  absolute_error_margin: 0.0001
-  input:
-    F14_end_user_equipment_is_blowdown_flash_steam_heat_recovery_system: True
-    F14_injects_flash_steam_from_blowdown_to_feed_water: True
-    F14_uses_sub_surface_sparge_line: True
-  output:
-    F14_meets_equipment_requirements: True

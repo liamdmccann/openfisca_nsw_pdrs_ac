@@ -1,9 +1,0 @@
-- name: Test electricity savings for proposed Activity Definition F2.
-  period: 2022
-  absolute_error_margin: 0.0001
-  input:
-    F2_integrated_part_load_value: 5.12
-    F2_LCP_type: air_cooled
-    F2_cooling_capacity: 462
-  output:
-    F2_electricity_savings: 25.626085756800002
