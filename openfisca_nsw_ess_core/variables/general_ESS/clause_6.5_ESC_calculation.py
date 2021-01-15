@@ -14,8 +14,22 @@ class number_of_certificates(Variable):
             ' As defined in Clause 6.5 of the ESS Rule 2009.'
 
     def formula(buildings, period, parameters):
-        elec_savings = buildings('F4_electricity_savings', period)
+        elec_savings = buildings('electricity_savings', period)
         elec_cert_conversion_factor = parameters(period).general_ESS.electricity_certificate_conversion_factor
         gas_savings = buildings('gas_savings', period)
         gas_cert_conversion_factor = parameters(period).general_ESS.gas_certificate_conversion_factor
         return np.floor((elec_savings * elec_cert_conversion_factor) + (gas_savings * gas_cert_conversion_factor))
+
+
+class electricity_savings(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'Electricity savings created from implementation.'
+
+
+class gas_savings(Variable):
+    value_type = float
+    entity = Building
+    definition_period = ETERNITY
+    label = 'gas savings created from implementation.'

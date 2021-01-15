@@ -1,0 +1,8 @@
+- name: "Test"
+  period: 2021
+  absolute_error_margin: 0.5
+  input:
+    start_with_a_num: 5
+    get_another_num: 8
+  output:
+    add_them_up: 13
