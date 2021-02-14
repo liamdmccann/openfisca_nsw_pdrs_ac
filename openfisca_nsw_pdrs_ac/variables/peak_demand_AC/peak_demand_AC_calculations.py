@@ -34,6 +34,13 @@ class baseline_power_input(Variable):
         return baseline_power_input
 
 
+class power_input(Variable):
+    value_type = float  # check if this is a float - think it's correct
+    entity = Building
+    definition_period = ETERNITY
+    label = 'What is the power input of the air conditioner?'
+
+
 class ACProductClass(Enum):
     product_class_one = 'AC is in product class one.'
     product_class_two = 'AC is in product class two.'
@@ -63,7 +70,7 @@ class AC_product_class(Variable):
     entity = Building
     possible_values = ACProductClass
     default_value = ACProductClass.product_class_one
-    period = ETERNITY
+    definition_period = ETERNITY
     label = 'What is the product class for the installed air conditioner?'
 
 
@@ -77,6 +84,6 @@ class new_or_replacement(Variable):
     entity = Building
     possible_values = NewOrReplacement
     default_value = NewOrReplacement.new_AC
-    period = ETERNITY
+    definition_period = ETERNITY
     label = 'Is the installed air conditioner a new air conditioner or' \
             ' a replacement air conditioner?'

@@ -1,8 +1,16 @@
 - name: "Test"
-  period: 2021
+  period: 2022
   absolute_error_margin: 0.5
   input:
     AC_product_class: product_class_one
     new_or_replacement: new_AC
   output:
     baseline_power_input: 25
+- name: "Test"
+  period: 2022
+  absolute_error_margin: 0.5
+  input:
+    AC_product_class: product_class_one
+    new_or_replacement: new_AC
+  output:
+    peak_demand_savings: 2.0
