@@ -1,0 +1,5 @@
+description: Forward creation period for peak demand savings, in years.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.  # placeholder
+values:
+  2021-04-01:
+    value: 10

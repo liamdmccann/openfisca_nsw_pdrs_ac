@@ -1,0 +1,192 @@
+description: Baseline power input used to calculate peak demand savings, split by
+  first product class and then by whether new or replacement AC.
+reference: Energy Savings Scheme Rule, beginning 30 March 2020.  # placeholder
+product_class_one:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_two:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.40
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.43
+product_class_three:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_four:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.40
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.43
+product_class_five:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_six:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_seven:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_eight:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.27
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.30
+product_class_nine:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.31
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+product_class_ten:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_eleven:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_twelve:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_thirteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.27
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.30
+product_class_fourteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.31
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+product_class_fifteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_sixteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_seventeen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_eighteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.27
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.30
+product_class_nineteen:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.31
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+product_class_twenty:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.32
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36
+product_class_twenty_one:
+  new_AC:
+    values:
+      2021-04-01:
+        value: 0.34
+  replacement_AC:
+    values:
+      2021-04-01:
+        value: 0.36

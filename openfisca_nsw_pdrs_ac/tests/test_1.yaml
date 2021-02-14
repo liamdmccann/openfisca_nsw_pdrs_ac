@@ -2,7 +2,7 @@
   period: 2021
   absolute_error_margin: 0.5
   input:
-    electricity_savings: 20
-    gas_savings: 10
+    AC_product_class: product_class_one
+    new_or_replacement: new_AC
   output:
-    number_of_certificates: 25
+    baseline_power_input: 25
